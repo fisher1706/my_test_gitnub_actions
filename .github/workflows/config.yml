@@ -1,0 +1,29 @@
+name: Regression
+
+on:
+  workflow_dispatch
+#  push:
+#    branches: [ "master" ]
+#  pull_request:
+#    branches: [ "master" ]
+
+jobs:
+  regression-qa:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run_tests_by_docker-compose
+        run: |
+          docker-compose up regression-qa
+
+  regression-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run_tests_by_docker-compose
+        run: |
+          docker-compose up regression-dev
