@@ -2,14 +2,14 @@ version: '3.8'
 
 services:
   regression-qa:
-    image: python:3.10-slim
+    image: python:3.10-alpine
     build:
       context: .
       dockerfile: Dockerfile
     command: /bin/sh -c "pytest --environment=qa tests/* --disable-warnings --alluredir=allure-results"
 
   regression-dev:
-    image: python:3.10-slim
+    image: python:3.10-alpine
     build:
       context: .
       dockerfile: Dockerfile

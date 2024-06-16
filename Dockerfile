@@ -1,28 +1,34 @@
-FROM python:3.10-slim
+FROM python:3.10-alpine
 
-RUN apt-get update && apt-get install -y \
+RUN apk update && apk upgrade && apk add bash
+RUN apk add --no-cache chromium chromium-chromedriver tzdata
+
+RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
+RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-2.30-r0.apk
+RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-bin-2.30-r0.apk
+
+RUN apk update && apk add --no-cache \
+    openjdk11-jre \
+    bash \
     wget \
-    unzip \
-    curl \
-    gnupg \
-    && rm -rf /var/lib/apt/lists/*
+    graphviz \
+    libc6-compat
 
-RUN curl -sSL https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
-    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
+ENV ALLURE_VERSION=2.14.0
 
-RUN apt-get update && apt-get install -y google-chrome-stable
+RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
+    tar -zxvf allure-${ALLURE_VERSION}.tgz && \
+    mv allure-${ALLURE_VERSION} /opt/allure-${ALLURE_VERSION} && \
+    ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/local/bin/allure
 
-RUN CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE) && \
-    wget -q "https://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip" && \
-    unzip chromedriver_linux64.zip && \
-    mv chromedriver /usr/local/bin/ && \
-    rm chromedriver_linux64.zip
+RUN allure --version
+
+WORKDIR ./usr/workspace
+
+VOLUME /allure-results
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /app
+RUN pip install --no-cache-dir --verbose -r requirements.txt
 
-WORKDIR /app
-
-ENV PATH="/usr/bin/google-chrome:${PATH}"
+COPY . .
