@@ -1,12 +1,12 @@
 {
-  "uid" : "bf59ce7e0983aec1",
-  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u0443\\u0437\\u043d\\u0435\\u0446\\u043e\\u0432\\u0430 \\u0413\\u043b\\u0430\\u0444\\u0438\\u0440\\u0430 \\u0411\\u043e\\u0433\\u0434\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'alekse20@example.org', 'phone': '+380632215531'}-8889]",
-  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_user_with_wrong_code_awdev_t506",
-  "historyId" : "ddc8b6618a39f1ad43000b5a132a2063",
+  "uid" : "aa6efe7e6319c799",
+  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0415\\u0432\\u0444\\u0440\\u043e\\u0441\\u0438\\u043d\\u0438\\u044f \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\u043e\\u0432\\u043d\\u0430 \\u041b\\u044b\\u0442\\u043a\\u0438\\u043d\\u0430', 'email': 'osip95@example.org', 'phone': '+380637285973'}-1111]",
+  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_new_user_awdev_t506",
+  "historyId" : "ea123cb109d037a9a9b91b12b9f04a43",
   "time" : {
-    "start" : 1718551186694,
-    "stop" : 1718551195547,
-    "duration" : 8853
+    "start" : 1718551167834,
+    "stop" : 1718551184853,
+    "duration" : 17019
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,53 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1718551186693,
-      "stop" : 1718551186694,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  }, {
-    "name" : "set_driver",
-    "time" : {
-      "start" : 1718551186296,
-      "stop" : 1718551186693,
-      "duration" : 397
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1718551109847,
-      "stop" : 1718551109927,
-      "duration" : 80
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1718551109928,
-      "stop" : 1718551109928,
+      "start" : 1718551167833,
+      "stop" : 1718551167833,
       "duration" : 0
     },
     "status" : "passed",
@@ -69,13 +24,28 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718551124788,
+      "stop" : 1718551124867,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551109928,
-      "stop" : 1718551109929,
+      "start" : 1718551124868,
+      "stop" : 1718551124869,
       "duration" : 1
     },
     "status" : "passed",
@@ -84,211 +54,14 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  } ],
-  "testStage" : {
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Registration new user with wrong code AWDEV-T506",
-      "time" : {
-        "start" : 1718551186695,
-        "stop" : 1718551195547,
-        "duration" : 8852
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
-        "time" : {
-          "start" : 1718551186695,
-          "stop" : 1718551191767,
-          "duration" : 5072
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
-        "time" : {
-          "start" : 1718551191767,
-          "stop" : 1718551191771,
-          "duration" : 4
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
-        "time" : {
-          "start" : 1718551191771,
-          "stop" : 1718551191830,
-          "duration" : 59
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Click ('xpath', '//form[1]//a')",
-        "time" : {
-          "start" : 1718551191830,
-          "stop" : 1718551192923,
-          "duration" : 1093
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'К'",
-        "time" : {
-          "start" : 1718551192923,
-          "stop" : 1718551193028,
-          "duration" : 105
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '632215531'",
-        "time" : {
-          "start" : 1718551193028,
-          "stop" : 1718551193137,
-          "duration" : 109
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'alekse20@example.org'",
-        "time" : {
-          "start" : 1718551193138,
-          "stop" : 1718551193258,
-          "duration" : 120
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
-        "time" : {
-          "start" : 1718551193258,
-          "stop" : 1718551193325,
-          "duration" : 67
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '8889'",
-        "time" : {
-          "start" : 1718551193325,
-          "stop" : 1718551194460,
-          "duration" : 1135
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
-        "time" : {
-          "start" : 1718551194460,
-          "stop" : 1718551194506,
-          "duration" : 46
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "Get WebElement of '('xpath', \"(//div[@class='field code-auth validate-error-with-message']/p)[1]\")'",
-        "time" : {
-          "start" : 1718551194506,
-          "stop" : 1718551195547,
-          "duration" : 1041
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "user",
-        "value" : "{'name': 'Кузнецова Глафира Богдановна', 'email': 'alekse20@example.org', 'phone': '+380632215531'}"
-      }, {
-        "name" : "code",
-        "value" : "8889"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 11
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 12
-  },
-  "afterStages" : [ {
-    "name" : "set_driver::0",
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551195548,
-      "stop" : 1718551195618,
-      "duration" : 70
+      "start" : 1718551124868,
+      "stop" : 1718551124868,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -296,8 +69,235 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1718551167413,
+      "stop" : 1718551167833,
+      "duration" : 420
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Registration new user AWDEV-T506",
+      "time" : {
+        "start" : 1718551167834,
+        "stop" : 1718551184853,
+        "duration" : 17019
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
+        "time" : {
+          "start" : 1718551167834,
+          "stop" : 1718551172274,
+          "duration" : 4440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
+        "time" : {
+          "start" : 1718551172275,
+          "stop" : 1718551172278,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
+        "time" : {
+          "start" : 1718551172278,
+          "stop" : 1718551172338,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', '//form[1]//a')",
+        "time" : {
+          "start" : 1718551172339,
+          "stop" : 1718551173433,
+          "duration" : 1094
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'Е'",
+        "time" : {
+          "start" : 1718551173434,
+          "stop" : 1718551173544,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '637285973'",
+        "time" : {
+          "start" : 1718551173544,
+          "stop" : 1718551173654,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'osip95@example.org'",
+        "time" : {
+          "start" : 1718551173654,
+          "stop" : 1718551173773,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
+        "time" : {
+          "start" : 1718551173774,
+          "stop" : 1718551173828,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '1111'",
+        "time" : {
+          "start" : 1718551173828,
+          "stop" : 1718551174969,
+          "duration" : 1141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
+        "time" : {
+          "start" : 1718551174969,
+          "stop" : 1718551175017,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//button[@class='register__success-content-btn']\")",
+        "time" : {
+          "start" : 1718551175017,
+          "stop" : 1718551183609,
+          "duration" : 8592
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "{'name': 'Евфросиния Константиновна Лыткина', 'email': 'osip95@example.org', 'phone': '+380637285973'}"
+      }, {
+        "name" : "code",
+        "value" : "1111"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "set_driver::0",
+    "time" : {
+      "start" : 1718551184854,
+      "stop" : 1718551184927,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -310,7 +310,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "86c42d9a4710"
+    "value" : "7d251a2f707c"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -329,10 +329,10 @@
   } ],
   "parameters" : [ {
     "name" : "code",
-    "value" : "8889"
+    "value" : "1111"
   }, {
     "name" : "user",
-    "value" : "{'name': 'Кузнецова Глафира Богдановна', 'email': 'alekse20@example.org', 'phone': '+380632215531'}"
+    "value" : "{'name': 'Евфросиния Константиновна Лыткина', 'email': 'osip95@example.org', 'phone': '+380637285973'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -343,6 +343,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bf59ce7e0983aec1.json",
-  "parameterValues" : [ "8889", "{'name': 'Кузнецова Глафира Богдановна', 'email': 'alekse20@example.org', 'phone': '+380632215531'}" ]
+  "source" : "aa6efe7e6319c799.json",
+  "parameterValues" : [ "1111", "{'name': 'Евфросиния Константиновна Лыткина', 'email': 'osip95@example.org', 'phone': '+380637285973'}" ]
 }
