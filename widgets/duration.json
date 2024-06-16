@@ -1,160 +1,160 @@
 [ {
-  "uid" : "6ea050b364c592f5",
-  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0421\\u0438\\u043d\\u043a\\u043b\\u0438\\u0442\\u0438\\u043a\\u0438\\u044f \\u0420\\u0443\\u0441\\u043b\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430 \\u041b\\u044b\\u0442\\u043a\\u0438\\u043d\\u0430', 'email': 'vorlova@example.com', 'phone': '+380633897835'}-1111]",
-  "time" : {
-    "start" : 1718549949471,
-    "stop" : 1718549965793,
-    "duration" : 16322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "787f0ab7526ad5a",
-  "name" : "Check negative authentication by api",
-  "time" : {
-    "start" : 1718549904845,
-    "stop" : 1718549905494,
-    "duration" : 649
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61ce56735c8e9875",
-  "name" : "Test try authorization new user AWDEV-T491",
-  "time" : {
-    "start" : 1718549926732,
-    "stop" : 1718549933891,
-    "duration" : 7159
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "84db97be996b1647",
-  "name" : "Test Authorization authorized user AWDEV-T491",
-  "time" : {
-    "start" : 1718549916502,
-    "stop" : 1718549926240,
-    "duration" : 9738
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a30886f3579b5e77",
-  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u042f\\u043d\\u0443\\u0430\\u0440\\u0438\\u0439 \\u042f\\u043a\\u0443\\u0431\\u043e\\u0432\\u0438\\u0447 \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d', 'email': 'svetlana_19@example.com', 'phone': '+380630269993'}-8889]",
-  "time" : {
-    "start" : 1718549979510,
-    "stop" : 1718549987916,
-    "duration" : 8406
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e55ffa18b3214932",
-  "name" : "Check positive registration by api",
-  "time" : {
-    "start" : 1718549906722,
-    "stop" : 1718549907304,
-    "duration" : 582
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "908c7ff7a03baf5f",
+  "uid" : "6c3f8e6ebcf2e502",
   "name" : "Check negative registration by api",
   "time" : {
-    "start" : 1718549907916,
-    "stop" : 1718549908507,
-    "duration" : 591
+    "start" : 1718551113014,
+    "stop" : 1718551113644,
+    "duration" : 630
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "34e036fd2030fe7d",
-  "name" : "Check code registration by authentication api negative",
-  "time" : {
-    "start" : 1718549906112,
-    "stop" : 1718549906720,
-    "duration" : 608
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "263f2349bb9ab86f",
-  "name" : "Check code registration by authentication api positive",
-  "time" : {
-    "start" : 1718549905496,
-    "stop" : 1718549906110,
-    "duration" : 614
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "196bbc9ce15020dc",
-  "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-  "time" : {
-    "start" : 1718549966284,
-    "stop" : 1718549972550,
-    "duration" : 6266
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4e7cb8b94e052cd",
-  "name" : "Check negative registration by api",
-  "time" : {
-    "start" : 1718549907306,
-    "stop" : 1718549907914,
-    "duration" : 608
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8dcce17341bd4a48",
-  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'Rnzs2W0', 'email': 'wrjWgp1'}]",
-  "time" : {
-    "start" : 1718549973047,
-    "stop" : 1718549979024,
-    "duration" : 5977
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "226eb8057ce6a6fb",
-  "name" : "Check registration code by api positive",
-  "time" : {
-    "start" : 1718549908509,
-    "stop" : 1718549914916,
-    "duration" : 6407
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "493e2aba9df07220",
+  "uid" : "c25a1e116c42e7c8",
   "name" : "Test try authorization user with invalid credentials AWDEV-T491",
   "time" : {
-    "start" : 1718549934381,
-    "stop" : 1718549940120,
-    "duration" : 5739
+    "start" : 1718551139685,
+    "stop" : 1718551146050,
+    "duration" : 6365
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b27c5570093db531",
-  "name" : "Check registration code by api negative",
+  "uid" : "530eeb7992cdceca",
+  "name" : "Check negative authentication by api",
   "time" : {
-    "start" : 1718549914918,
-    "stop" : 1718549915646,
-    "duration" : 728
+    "start" : 1718551109929,
+    "stop" : 1718551110667,
+    "duration" : 738
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "75de523fa21969ed",
+  "uid" : "bf59ce7e0983aec1",
+  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u0443\\u0437\\u043d\\u0435\\u0446\\u043e\\u0432\\u0430 \\u0413\\u043b\\u0430\\u0444\\u0438\\u0440\\u0430 \\u0411\\u043e\\u0433\\u0434\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'alekse20@example.org', 'phone': '+380632215531'}-8889]",
+  "time" : {
+    "start" : 1718551186694,
+    "stop" : 1718551195547,
+    "duration" : 8853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92ab3f9a6e7ecb16",
+  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'kAt09xU', 'email': 'QbV62S8'}]",
+  "time" : {
+    "start" : 1718551179744,
+    "stop" : 1718551186220,
+    "duration" : 6476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eb7e9779dbf7bf4",
+  "name" : "Check registration code by api positive",
+  "time" : {
+    "start" : 1718551114279,
+    "stop" : 1718551120168,
+    "duration" : 5889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bbbe06099ef395e",
+  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0417\\u0438\\u043d\\u043e\\u0432\\u044c\\u0435\\u0432 \\u0413\\u043b\\u0435\\u0431 \\u0414\\u0430\\u043d\\u0438\\u0438\\u043b\\u043e\\u0432\\u0438\\u0447', 'email': 'birjukovmaksimiljan@example.net', 'phone': '+380639132285'}-1111]",
+  "time" : {
+    "start" : 1718551155596,
+    "stop" : 1718551172130,
+    "duration" : 16534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2c4b10b1cea71b",
   "name" : "Test try authorization with invalid code AWDEV-T491",
   "time" : {
-    "start" : 1718549940607,
-    "stop" : 1718549948982,
-    "duration" : 8375
+    "start" : 1718551146541,
+    "stop" : 1718551155126,
+    "duration" : 8585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5241275ddf8e698",
+  "name" : "Check negative registration by api",
+  "time" : {
+    "start" : 1718551113646,
+    "stop" : 1718551114277,
+    "duration" : 631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cdae94c354b4840",
+  "name" : "Check positive registration by api",
+  "time" : {
+    "start" : 1718551112023,
+    "stop" : 1718551113012,
+    "duration" : 989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32ffd8841201bdf0",
+  "name" : "Test Authorization authorized user AWDEV-T491",
+  "time" : {
+    "start" : 1718551121596,
+    "stop" : 1718551131553,
+    "duration" : 9957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58309908018a7742",
+  "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
+  "time" : {
+    "start" : 1718551172605,
+    "stop" : 1718551179263,
+    "duration" : 6658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ad03029785f7dfa",
+  "name" : "Check code registration by authentication api positive",
+  "time" : {
+    "start" : 1718551110670,
+    "stop" : 1718551111379,
+    "duration" : 709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f58c590e43864925",
+  "name" : "Check registration code by api negative",
+  "time" : {
+    "start" : 1718551120171,
+    "stop" : 1718551120926,
+    "duration" : 755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b52c3acde07e391b",
+  "name" : "Test try authorization new user AWDEV-T491",
+  "time" : {
+    "start" : 1718551132031,
+    "stop" : 1718551139202,
+    "duration" : 7171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfd9043c3ae77d15",
+  "name" : "Check code registration by authentication api negative",
+  "time" : {
+    "start" : 1718551111382,
+    "stop" : 1718551112021,
+    "duration" : 639
   },
   "status" : "passed",
   "severity" : "normal"
