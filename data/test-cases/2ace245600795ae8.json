@@ -1,22 +1,22 @@
 {
-  "uid" : "1fc20ff477df4e99",
-  "name" : "Check registration code by api positive",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_positive",
-  "historyId" : "edd0a5c2c8a0fab7b2981db9cf11ba9f",
+  "uid" : "2ace245600795ae8",
+  "name" : "Check negative registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
+  "historyId" : "76a587fcba93e27830d052d1e319529f",
   "time" : {
-    "start" : 1718551107260,
-    "stop" : 1718551113175,
-    "duration" : 5915
+    "start" : 1718551118605,
+    "stop" : 1718551119155,
+    "duration" : 550
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551103906,
-      "stop" : 1718551103981,
-      "duration" : 75
+      "start" : 1718551115671,
+      "stop" : 1718551115672,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103981,
+      "start" : 1718551115671,
+      "stop" : 1718551115671,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103982,
-      "duration" : 1
+      "start" : 1718551115593,
+      "stop" : 1718551115671,
+      "duration" : 78
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "eb83c0f22d57"
+    "value" : "8778d5f500cb"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380633143191', 'email': 'i9AKQ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'email': 'rg8Bg+lazebaoleg@gmail.com'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1fc20ff477df4e99.json",
-  "parameterValues" : [ "{'phone': '+380633143191', 'email': 'i9AKQ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "2ace245600795ae8.json",
+  "parameterValues" : [ "{'email': 'rg8Bg+lazebaoleg@gmail.com'}" ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "2f9d97de1a72ddd8",
-  "name" : "Check positive registration by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
-  "historyId" : "a0ecfc8ce2a0ddfc5cf4e653bbaeee54",
+  "uid" : "67431c05cd1b4a12",
+  "name" : "Check negative registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
+  "historyId" : "98d187cebf097e63ec2b9f761e75198a",
   "time" : {
-    "start" : 1718551105694,
-    "stop" : 1718551106119,
-    "duration" : 425
+    "start" : 1718551118064,
+    "stop" : 1718551118603,
+    "duration" : 539
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551103906,
-      "stop" : 1718551103981,
-      "duration" : 75
+      "start" : 1718551115671,
+      "stop" : 1718551115672,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103981,
+      "start" : 1718551115671,
+      "stop" : 1718551115671,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103982,
-      "duration" : 1
+      "start" : 1718551115593,
+      "stop" : 1718551115671,
+      "duration" : 78
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "eb83c0f22d57"
+    "value" : "8778d5f500cb"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'BS0pw+lazebaoleg@gmail.com', 'phone': '+380630093670'}"
+    "value" : "{'phone': '+380632813343'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2f9d97de1a72ddd8.json",
-  "parameterValues" : [ "{'email': 'BS0pw+lazebaoleg@gmail.com', 'phone': '+380630093670'}" ]
+  "source" : "67431c05cd1b4a12.json",
+  "parameterValues" : [ "{'phone': '+380632813343'}" ]
 }

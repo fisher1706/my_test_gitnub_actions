@@ -1,22 +1,22 @@
 {
-  "uid" : "bfeec0976f047edc",
+  "uid" : "b0c6984b00333956",
   "name" : "Check registration code by api negative",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_negative",
   "historyId" : "7c13d3013569dab410ebd2a05a526713",
   "time" : {
-    "start" : 1718551113177,
-    "stop" : 1718551114020,
-    "duration" : 843
+    "start" : 1718551125328,
+    "stop" : 1718551126127,
+    "duration" : 799
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551103906,
-      "stop" : 1718551103981,
-      "duration" : 75
+      "start" : 1718551115671,
+      "stop" : 1718551115672,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103981,
+      "start" : 1718551115671,
+      "stop" : 1718551115671,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718551103981,
-      "stop" : 1718551103982,
-      "duration" : 1
+      "start" : 1718551115593,
+      "stop" : 1718551115671,
+      "duration" : 78
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "eb83c0f22d57"
+    "value" : "8778d5f500cb"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -126,6 +126,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "bfeec0976f047edc.json",
+  "source" : "b0c6984b00333956.json",
   "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }
