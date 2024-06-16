@@ -1,12 +1,12 @@
 {
-  "uid" : "e853c6334b707938",
-  "name" : "Check registration code by api positive",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_positive",
-  "historyId" : "4a02e4f7464b50581fcfb854fd0d18aa",
+  "uid" : "ca64b7e7be39797d",
+  "name" : "Check positive registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
+  "historyId" : "03e7e49fd77198a3eabf608cc2a2ad11",
   "time" : {
-    "start" : 1718559012314,
-    "stop" : 1718559014605,
-    "duration" : 2291
+    "start" : 1718559016640,
+    "stop" : 1718559017265,
+    "duration" : 625
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007513,
+      "start" : 1718559014590,
+      "stop" : 1718559014591,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718559007430,
-      "stop" : 1718559007512,
-      "duration" : 82
+      "start" : 1718559014505,
+      "stop" : 1718559014589,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007512,
+      "start" : 1718559014590,
+      "stop" : 1718559014590,
       "duration" : 0
     },
     "status" : "passed",
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "4dd7426a66c7"
+    "value" : "553f73c93bc8"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380636146453', 'email': 'JgifZ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'email': '5JgeH+lazebaoleg@gmail.com', 'phone': '+380636695574'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e853c6334b707938.json",
-  "parameterValues" : [ "{'phone': '+380636146453', 'email': 'JgifZ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "ca64b7e7be39797d.json",
+  "parameterValues" : [ "{'email': '5JgeH+lazebaoleg@gmail.com', 'phone': '+380636695574'}" ]
 }

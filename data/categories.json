@@ -3,39 +3,39 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7ff2f8f6be3a <unknown>\n#1 0x7ff2f8c5545c <unknown>\n#2 0x7ff2f8ca15b5 <unknown>\n#3 0x7ff2f8ca1671 <unknown>\n#4 0x7ff2f8ce5f14 <unknown>\n#5 0x7ff2f8cc44dd <unknown>\n#6 0x7ff2f8ce32cc <unknown>\n#7 0x7ff2f8cc4253 <unknown>\n#8 0x7ff2f8c941c7 <unknown>\n#9 0x7ff2f8c94b3e <unknown>\n#10 0x7ff2f8f3227b <unknown>\n#11 0x7ff2f8f36327 <unknown>\n#12 0x7ff2f8f1edae <unknown>\n#13 0x7ff2f8f36df2 <unknown>\n#14 0x7ff2f8f0374f <unknown>\n#15 0x7ff2f8f5b128 <unknown>\n#16 0x7ff2f8f5b2fb <unknown>\n#17 0x7ff2f8f6af6c <unknown>\n#18 0x7ff2f97d9349 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f09a1a27e3a <unknown>\n#1 0x7f09a171145c <unknown>\n#2 0x7f09a175d5b5 <unknown>\n#3 0x7f09a175d671 <unknown>\n#4 0x7f09a17a1f14 <unknown>\n#5 0x7f09a17804dd <unknown>\n#6 0x7f09a179f2cc <unknown>\n#7 0x7f09a1780253 <unknown>\n#8 0x7f09a17501c7 <unknown>\n#9 0x7f09a1750b3e <unknown>\n#10 0x7f09a19ee27b <unknown>\n#11 0x7f09a19f2327 <unknown>\n#12 0x7f09a19dadae <unknown>\n#13 0x7f09a19f2df2 <unknown>\n#14 0x7f09a19bf74f <unknown>\n#15 0x7f09a1a17128 <unknown>\n#16 0x7f09a1a172fb <unknown>\n#17 0x7f09a1a26f6c <unknown>\n#18 0x7f09a2295349 <unknown>",
       "children" : [ {
         "name" : "Test Authorization authorized user AWDEV-T491",
-        "uid" : "977238600db05a24",
-        "parentUid" : "1baa86c21ea2caccb93e07714fcec17f",
+        "uid" : "4308f784684c4c0c",
+        "parentUid" : "cd3ae3689a3229a6ff4e8095a3e2c434",
         "status" : "broken",
         "time" : {
-          "start" : 1718559016099,
-          "stop" : 1718559042996,
-          "duration" : 26897
+          "start" : 1718559025773,
+          "stop" : 1718559052587,
+          "duration" : 26814
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
       } ],
-      "uid" : "1baa86c21ea2caccb93e07714fcec17f"
+      "uid" : "cd3ae3689a3229a6ff4e8095a3e2c434"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f8832371e3a <unknown>\n#1 0x7f883205b45c <unknown>\n#2 0x7f88320a75b5 <unknown>\n#3 0x7f88320a7671 <unknown>\n#4 0x7f88320ebf14 <unknown>\n#5 0x7f88320ca4dd <unknown>\n#6 0x7f88320e92cc <unknown>\n#7 0x7f88320ca253 <unknown>\n#8 0x7f883209a1c7 <unknown>\n#9 0x7f883209ab3e <unknown>\n#10 0x7f883233827b <unknown>\n#11 0x7f883233c327 <unknown>\n#12 0x7f8832324dae <unknown>\n#13 0x7f883233cdf2 <unknown>\n#14 0x7f883230974f <unknown>\n#15 0x7f8832361128 <unknown>\n#16 0x7f88323612fb <unknown>\n#17 0x7f8832370f6c <unknown>\n#18 0x7f8832bdf349 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7fc37f4e8e3a <unknown>\n#1 0x7fc37f1d245c <unknown>\n#2 0x7fc37f21e5b5 <unknown>\n#3 0x7fc37f21e671 <unknown>\n#4 0x7fc37f262f14 <unknown>\n#5 0x7fc37f2414dd <unknown>\n#6 0x7fc37f2602cc <unknown>\n#7 0x7fc37f241253 <unknown>\n#8 0x7fc37f2111c7 <unknown>\n#9 0x7fc37f211b3e <unknown>\n#10 0x7fc37f4af27b <unknown>\n#11 0x7fc37f4b3327 <unknown>\n#12 0x7fc37f49bdae <unknown>\n#13 0x7fc37f4b3df2 <unknown>\n#14 0x7fc37f48074f <unknown>\n#15 0x7fc37f4d8128 <unknown>\n#16 0x7fc37f4d82fb <unknown>\n#17 0x7fc37f4e7f6c <unknown>\n#18 0x7fc37fd56349 <unknown>",
       "children" : [ {
         "name" : "Test try authorization with invalid code AWDEV-T491",
-        "uid" : "4212c933f7bf158f",
-        "parentUid" : "4d7be987e86eae531a9d17644bae6ad8",
+        "uid" : "d139b25324c83763",
+        "parentUid" : "c9afd63d30eee9e78ac330a22ebc42ad",
         "status" : "broken",
         "time" : {
-          "start" : 1718559057575,
-          "stop" : 1718559084266,
-          "duration" : 26691
+          "start" : 1718559067358,
+          "stop" : 1718559093918,
+          "duration" : 26560
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
       } ],
-      "uid" : "4d7be987e86eae531a9d17644bae6ad8"
+      "uid" : "c9afd63d30eee9e78ac330a22ebc42ad"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

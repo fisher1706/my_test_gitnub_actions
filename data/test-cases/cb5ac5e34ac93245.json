@@ -1,12 +1,12 @@
 {
-  "uid" : "77942c8f4a922b13",
-  "name" : "Check negative authentication by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
-  "historyId" : "48416dfb965841bda4affaabcd2dac08",
+  "uid" : "cb5ac5e34ac93245",
+  "name" : "Check code registration by authentication api negative",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_code_registration_negative",
+  "historyId" : "b25bbf5bd060513dac59876bb8275235",
   "time" : {
-    "start" : 1718559007514,
-    "stop" : 1718559008529,
-    "duration" : 1015
+    "start" : 1718559015936,
+    "stop" : 1718559016637,
+    "duration" : 701
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007513,
+      "start" : 1718559014590,
+      "stop" : 1718559014591,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718559007430,
-      "stop" : 1718559007512,
-      "duration" : 82
+      "start" : 1718559014505,
+      "stop" : 1718559014589,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007512,
+      "start" : 1718559014590,
+      "stop" : 1718559014590,
       "duration" : 0
     },
     "status" : "passed",
@@ -69,7 +69,7 @@
     "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "4dd7426a66c7"
+    "value" : "553f73c93bc8"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': ''}"
+    "value" : "{'phone': '+380630587501', 'code': '9698'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -97,51 +97,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 5,
-        "unknown" : 0,
-        "total" : 5
-      },
-      "items" : [ {
-        "uid" : "cd6f9d543359dfee",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718551841168,
-          "stop" : 1718551841778,
-          "duration" : 610
-        }
-      }, {
-        "uid" : "285a75e1316bb512",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718551115673,
-          "stop" : 1718551116344,
-          "duration" : 671
-        }
-      }, {
-        "uid" : "787f0ab7526ad5a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718549904845,
-          "stop" : 1718549905494,
-          "duration" : 649
-        }
-      }, {
-        "uid" : "7956d1d57a965a80",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718549479468,
-          "stop" : 1718549480122,
-          "duration" : 654
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "77942c8f4a922b13.json",
-  "parameterValues" : [ "{'phone': ''}" ]
+  "source" : "cb5ac5e34ac93245.json",
+  "parameterValues" : [ "{'phone': '+380630587501', 'code': '9698'}" ]
 }

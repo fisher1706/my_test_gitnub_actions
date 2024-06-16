@@ -2,212 +2,212 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Check negative authentication by api",
-    "uid" : "77942c8f4a922b13",
+    "uid" : "2f4b0a3733962cb7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559007514,
-      "stop" : 1718559008529,
-      "duration" : 1015
+      "start" : 1718559014591,
+      "stop" : 1718559015228,
+      "duration" : 637
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'phone': ''}" ]
   }, {
     "name" : "Check code registration by authentication api positive",
-    "uid" : "8b3bf85ed3837f80",
+    "uid" : "afc094aae2e8e250",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559008531,
-      "stop" : 1718559009174,
-      "duration" : 643
+      "start" : 1718559015231,
+      "stop" : 1718559015934,
+      "duration" : 703
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'phone': '+380637988633', 'code': 8889}" ]
   }, {
     "name" : "Check code registration by authentication api negative",
-    "uid" : "ee46412706f7820d",
+    "uid" : "cb5ac5e34ac93245",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559009176,
-      "stop" : 1718559010076,
-      "duration" : 900
+      "start" : 1718559015936,
+      "stop" : 1718559016637,
+      "duration" : 701
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'phone': '+380637686711', 'code': '1254'}" ]
+    "parameters" : [ "{'phone': '+380630587501', 'code': '9698'}" ]
   }, {
     "name" : "Check positive registration by api",
-    "uid" : "bf0c82ad16269e41",
+    "uid" : "ca64b7e7be39797d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559010079,
-      "stop" : 1718559010783,
-      "duration" : 704
+      "start" : 1718559016640,
+      "stop" : 1718559017265,
+      "duration" : 625
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'email': '64qtP+lazebaoleg@gmail.com', 'phone': '+380631917747'}" ]
+    "parameters" : [ "{'email': '5JgeH+lazebaoleg@gmail.com', 'phone': '+380636695574'}" ]
   }, {
     "name" : "Check negative registration by api",
-    "uid" : "8b86df160785997b",
+    "uid" : "ebd4e05ed7a70ec6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559010785,
-      "stop" : 1718559011707,
-      "duration" : 922
+      "start" : 1718559017267,
+      "stop" : 1718559017867,
+      "duration" : 600
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'phone': '+380634498580'}" ]
+    "parameters" : [ "{'phone': '+380634986794'}" ]
   }, {
     "name" : "Check negative registration by api",
-    "uid" : "3f117930c2009178",
+    "uid" : "ceffae5f50f946ec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559011709,
-      "stop" : 1718559012312,
-      "duration" : 603
+      "start" : 1718559017870,
+      "stop" : 1718559018488,
+      "duration" : 618
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'email': 'XSSGA+lazebaoleg@gmail.com'}" ]
+    "parameters" : [ "{'email': 'Of0YR+lazebaoleg@gmail.com'}" ]
   }, {
     "name" : "Check registration code by api positive",
-    "uid" : "e853c6334b707938",
+    "uid" : "9648028951172573",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559012314,
-      "stop" : 1718559014605,
-      "duration" : 2291
+      "start" : 1718559018491,
+      "stop" : 1718559024207,
+      "duration" : 5716
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'phone': '+380636146453', 'email': 'JgifZ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+    "parameters" : [ "{'phone': '+380634835919', 'email': 'cSDRD+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
   }, {
     "name" : "Check registration code by api negative",
-    "uid" : "b2b31e3bd7422265",
+    "uid" : "6f7ca51d114ac4a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559014608,
-      "stop" : 1718559015374,
-      "duration" : 766
+      "start" : 1718559024209,
+      "stop" : 1718559025056,
+      "duration" : 847
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
   }, {
     "name" : "Test Authorization authorized user AWDEV-T491",
-    "uid" : "977238600db05a24",
+    "uid" : "4308f784684c4c0c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1718559016099,
-      "stop" : 1718559042996,
-      "duration" : 26897
+      "start" : 1718559025773,
+      "stop" : 1718559052587,
+      "duration" : 26814
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
   }, {
     "name" : "Test try authorization new user AWDEV-T491",
-    "uid" : "960a6cb9d2c675a2",
+    "uid" : "42bd956f4845547e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559043509,
-      "stop" : 1718559050788,
-      "duration" : 7279
+      "start" : 1718559053114,
+      "stop" : 1718559060480,
+      "duration" : 7366
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'phone': '+380639596572'}" ]
+    "parameters" : [ "{'phone': '+380630262355'}" ]
   }, {
     "name" : "Test try authorization user with invalid credentials AWDEV-T491",
-    "uid" : "fec968db5da55601",
+    "uid" : "de813726fe52d155",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559051254,
-      "stop" : 1718559057095,
-      "duration" : 5841
+      "start" : 1718559060967,
+      "stop" : 1718559066884,
+      "duration" : 5917
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'phone': 'RwxPphO'}" ]
+    "parameters" : [ "{'phone': 'ZcYrI1q'}" ]
   }, {
     "name" : "Test try authorization with invalid code AWDEV-T491",
-    "uid" : "4212c933f7bf158f",
+    "uid" : "d139b25324c83763",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1718559057575,
-      "stop" : 1718559084266,
-      "duration" : 26691
+      "start" : 1718559067358,
+      "stop" : 1718559093918,
+      "duration" : 26560
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
   }, {
-    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0413\\u0443\\u0449\\u0438\\u043d\\u0430 \\u041d\\u0438\\u043d\\u0430 \\u0424\\u0435\\u0434\\u043e\\u0440\\u043e\\u0432\\u043d\\u0430', 'email': 'agge1990@example.com', 'phone': '+380636318597'}-1111]",
-    "uid" : "84af4f27733de3e9",
+    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 \\u0413\\u0430\\u0432\\u0440\\u0438\\u043b\\u043e\\u0432\\u0438\\u0447 \\u0413\\u043e\\u0440\\u0431\\u0430\\u0447\\u0435\\u0432', 'email': 'serafim00@example.net', 'phone': '+380636225122'}-1111]",
+    "uid" : "3ae0b80c97a056cb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559084745,
-      "stop" : 1718559102039,
-      "duration" : 17294
+      "start" : 1718559094412,
+      "stop" : 1718559111858,
+      "duration" : 17446
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "1111", "{'name': 'Гущина Нина Федоровна', 'email': 'agge1990@example.com', 'phone': '+380636318597'}" ]
+    "parameters" : [ "1111", "{'name': 'Андрей Гаврилович Горбачев', 'email': 'serafim00@example.net', 'phone': '+380636225122'}" ]
   }, {
     "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-    "uid" : "1af803ce959f47b3",
+    "uid" : "8670d3eba7336c7a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559102521,
-      "stop" : 1718559108943,
-      "duration" : 6422
+      "start" : 1718559112340,
+      "stop" : 1718559118803,
+      "duration" : 6463
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
   }, {
-    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'mo4h5au', 'email': 'Vazv05n'}]",
-    "uid" : "8c002eb20a7fe8ac",
+    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'OXm7i0f', 'email': 'mC4ClKV'}]",
+    "uid" : "660af2ec588719a0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559109413,
-      "stop" : 1718559115528,
-      "duration" : 6115
+      "start" : 1718559119286,
+      "stop" : 1718559125729,
+      "duration" : 6443
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': 'mo4h5au', 'email': 'Vazv05n'}" ]
+    "parameters" : [ "{'name': 'Олег', 'phone': 'OXm7i0f', 'email': 'mC4ClKV'}" ]
   }, {
-    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0410\\u043d\\u0442\\u043e\\u043d\\u043e\\u0432\\u0430 \\u0412\\u0430\\u0440\\u0432\\u0430\\u0440\\u0430 \\u0420\\u043e\\u043c\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'emilija_52@example.org', 'phone': '+380631139452'}-8889]",
-    "uid" : "a7bbd805a3ff173a",
+    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0411\\u0438\\u0440\\u044e\\u043a\\u043e\\u0432\\u0430 \\u041a\\u043b\\u0430\\u0432\\u0434\\u0438\\u044f \\u0413\\u0435\\u043e\\u0440\\u0433\\u0438\\u0435\\u0432\\u043d\\u0430', 'email': 'koshelevapraskovja@example.net', 'phone': '+380638741268'}-8889]",
+    "uid" : "b9f59eab9faba749",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1718559115998,
-      "stop" : 1718559124437,
-      "duration" : 8439
+      "start" : 1718559126208,
+      "stop" : 1718559134783,
+      "duration" : 8575
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "8889", "{'name': 'Антонова Варвара Романовна', 'email': 'emilija_52@example.org', 'phone': '+380631139452'}" ]
+    "parameters" : [ "8889", "{'name': 'Бирюкова Клавдия Георгиевна', 'email': 'koshelevapraskovja@example.net', 'phone': '+380638741268'}" ]
   } ],
   "name" : "behaviors"
 }

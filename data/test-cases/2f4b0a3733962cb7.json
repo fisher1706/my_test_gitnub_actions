@@ -1,12 +1,12 @@
 {
-  "uid" : "b2b31e3bd7422265",
-  "name" : "Check registration code by api negative",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_negative",
-  "historyId" : "7c13d3013569dab410ebd2a05a526713",
+  "uid" : "2f4b0a3733962cb7",
+  "name" : "Check negative authentication by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
+  "historyId" : "48416dfb965841bda4affaabcd2dac08",
   "time" : {
-    "start" : 1718559014608,
-    "stop" : 1718559015374,
-    "duration" : 766
+    "start" : 1718559014591,
+    "stop" : 1718559015228,
+    "duration" : 637
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007513,
+      "start" : 1718559014590,
+      "stop" : 1718559014591,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718559007430,
-      "stop" : 1718559007512,
-      "duration" : 82
+      "start" : 1718559014505,
+      "stop" : 1718559014589,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718559007512,
-      "stop" : 1718559007512,
+      "start" : 1718559014590,
+      "stop" : 1718559014590,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,13 +63,13 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_registration"
+    "value" : "test_rest_api_authorization"
   }, {
     "name" : "subSuite",
-    "value" : "TestRegistration"
+    "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "4dd7426a66c7"
+    "value" : "553f73c93bc8"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -81,14 +81,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_registration"
+    "value" : "tests.api.test_rest_api_authorization"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'phone': ''}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -107,41 +107,41 @@
         "total" : 5
       },
       "items" : [ {
-        "uid" : "9558099fca3439c2",
+        "uid" : "cd6f9d543359dfee",
         "status" : "passed",
         "time" : {
-          "start" : 1718551850475,
-          "stop" : 1718551851420,
-          "duration" : 945
+          "start" : 1718551841168,
+          "stop" : 1718551841778,
+          "duration" : 610
         }
       }, {
-        "uid" : "b0c6984b00333956",
+        "uid" : "285a75e1316bb512",
         "status" : "passed",
         "time" : {
-          "start" : 1718551125328,
-          "stop" : 1718551126127,
-          "duration" : 799
+          "start" : 1718551115673,
+          "stop" : 1718551116344,
+          "duration" : 671
         }
       }, {
-        "uid" : "b27c5570093db531",
+        "uid" : "787f0ab7526ad5a",
         "status" : "passed",
         "time" : {
-          "start" : 1718549914918,
-          "stop" : 1718549915646,
-          "duration" : 728
+          "start" : 1718549904845,
+          "stop" : 1718549905494,
+          "duration" : 649
         }
       }, {
-        "uid" : "b7c9af241d941b6f",
+        "uid" : "7956d1d57a965a80",
         "status" : "passed",
         "time" : {
-          "start" : 1718549489373,
-          "stop" : 1718549490141,
-          "duration" : 768
+          "start" : 1718549479468,
+          "stop" : 1718549480122,
+          "duration" : 654
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "b2b31e3bd7422265.json",
-  "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "2f4b0a3733962cb7.json",
+  "parameterValues" : [ "{'phone': ''}" ]
 }
