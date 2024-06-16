@@ -16,7 +16,7 @@ jobs:
 
       - name: Run tests dev environment
         run: |
-          docker-compose up --exit-code-from regression-dev || tru
+          docker-compose up regression-dev
 
       - name: Generate Allure report
         run: |
@@ -46,7 +46,7 @@ jobs:
 
       - name: Run tests dev environment
         run: |
-          docker-compose up --exit-code-from regression-qa || tru
+          docker-compose up regression-qa
 
       - name: Generate Allure report
         run: |
