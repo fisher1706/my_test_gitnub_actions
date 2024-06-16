@@ -1,12 +1,12 @@
 {
-  "uid" : "38310053b55da82a",
-  "name" : "Check positive registration by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
-  "historyId" : "d63b61cedfb17201ee6f1b1d1c7a26e8",
+  "uid" : "1fc20ff477df4e99",
+  "name" : "Check registration code by api positive",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_positive",
+  "historyId" : "edd0a5c2c8a0fab7b2981db9cf11ba9f",
   "time" : {
-    "start" : 1718551126657,
-    "stop" : 1718551127248,
-    "duration" : 591
+    "start" : 1718551107260,
+    "stop" : 1718551113175,
+    "duration" : 5915
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,24 +14,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718551124788,
-      "stop" : 1718551124867,
-      "duration" : 79
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "set_env_settings",
-    "time" : {
-      "start" : 1718551124868,
-      "stop" : 1718551124869,
-      "duration" : 1
+      "start" : 1718551103906,
+      "stop" : 1718551103981,
+      "duration" : 75
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551124868,
-      "stop" : 1718551124868,
+      "start" : 1718551103981,
+      "stop" : 1718551103981,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "set_env_settings",
+    "time" : {
+      "start" : 1718551103981,
+      "stop" : 1718551103982,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "7d251a2f707c"
+    "value" : "eb83c0f22d57"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'HfVfN+lazebaoleg@gmail.com', 'phone': '+380636477819'}"
+    "value" : "{'phone': '+380633143191', 'email': 'i9AKQ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "38310053b55da82a.json",
-  "parameterValues" : [ "{'email': 'HfVfN+lazebaoleg@gmail.com', 'phone': '+380636477819'}" ]
+  "source" : "1fc20ff477df4e99.json",
+  "parameterValues" : [ "{'phone': '+380633143191', 'email': 'i9AKQ+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }

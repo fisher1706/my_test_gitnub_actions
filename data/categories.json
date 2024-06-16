@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7fe11fa23e3a <unknown>\n#1 0x7fe11f70d45c <unknown>\n#2 0x7fe11f7595b5 <unknown>\n#3 0x7fe11f759671 <unknown>\n#4 0x7fe11f79df14 <unknown>\n#5 0x7fe11f77c4dd <unknown>\n#6 0x7fe11f79b2cc <unknown>\n#7 0x7fe11f77c253 <unknown>\n#8 0x7fe11f74c1c7 <unknown>\n#9 0x7fe11f74cb3e <unknown>\n#10 0x7fe11f9ea27b <unknown>\n#11 0x7fe11f9ee327 <unknown>\n#12 0x7fe11f9d6dae <unknown>\n#13 0x7fe11f9eedf2 <unknown>\n#14 0x7fe11f9bb74f <unknown>\n#15 0x7fe11fa13128 <unknown>\n#16 0x7fe11fa132fb <unknown>\n#17 0x7fe11fa22f6c <unknown>\n#18 0x7fe120291349 <unknown>",
+      "children" : [ {
+        "name" : "Test Authorization authorized user AWDEV-T491",
+        "uid" : "3c5b3d3612263aef",
+        "parentUid" : "4130e054e848623601a118409be74a1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718551114738,
+          "stop" : 1718551140156,
+          "duration" : 25418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
+      } ],
+      "uid" : "4130e054e848623601a118409be74a1e"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7fc5f46eee3a <unknown>\n#1 0x7fc5f43d845c <unknown>\n#2 0x7fc5f44245b5 <unknown>\n#3 0x7fc5f4424671 <unknown>\n#4 0x7fc5f4468f14 <unknown>\n#5 0x7fc5f44474dd <unknown>\n#6 0x7fc5f44662cc <unknown>\n#7 0x7fc5f4447253 <unknown>\n#8 0x7fc5f44171c7 <unknown>\n#9 0x7fc5f4417b3e <unknown>\n#10 0x7fc5f46b527b <unknown>\n#11 0x7fc5f46b9327 <unknown>\n#12 0x7fc5f46a1dae <unknown>\n#13 0x7fc5f46b9df2 <unknown>\n#14 0x7fc5f468674f <unknown>\n#15 0x7fc5f46de128 <unknown>\n#16 0x7fc5f46de2fb <unknown>\n#17 0x7fc5f46edf6c <unknown>\n#18 0x7fc5f4f5c349 <unknown>",
+      "children" : [ {
+        "name" : "Test try authorization with invalid code AWDEV-T491",
+        "uid" : "33ece4ac1cf2da38",
+        "parentUid" : "58ba5ef9f8db070a9b002821f07257c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718551151796,
+          "stop" : 1718551176894,
+          "duration" : 25098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
+      } ],
+      "uid" : "58ba5ef9f8db070a9b002821f07257c7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
