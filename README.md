@@ -55,3 +55,8 @@ docker stop mock-server
 docker rm $(docker ps -aq)
 docker rmi $(docker images -q)
 ```
+
+# generate allure-report
+```shell
+allure generate allure-results --clean -o allure-report
+```

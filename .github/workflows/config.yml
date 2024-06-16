@@ -14,6 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Checkout (copy) gh-pages repository to GitHub runner
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
+
       - name: Run tests dev environment
         run: |
           docker-compose up regression-dev
@@ -22,9 +28,13 @@ jobs:
         run: |
           docker-compose run regression-dev /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
+      
+
       - name: Update Allure history
         run: |
           sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+
+      
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
