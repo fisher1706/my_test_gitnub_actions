@@ -10,11 +10,11 @@ from src.validate_response.validate_response_registration import ValidateRegistr
 
 
 class TestRegistration:
-    @allure.title("Check positive registration by api")
+    @allure.title("Check positive registration with full data by api")
     @pytest.mark.parametrize("data", [
         RegistrationUser.user_email_phone
     ], ids=str)
-    def test_registration_positive(self, set_env_settings, data):
+    def test_registration_with_full_data(self, set_env_settings, data):
         response = ValidateRegistration(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=Endpoints.REGISTRATION_ENDPOINT,
@@ -27,12 +27,12 @@ class TestRegistration:
             .validate(RegistrationPositive) \
             .check_response_registration_positive(data)
 
-    @allure.title("Check negative registration by api")
+    @allure.title("Check negative registration with phone and e-mail by api")
     @pytest.mark.parametrize("data", [
         RegistrationUser.user_phone,
         RegistrationUser.user_email
     ], ids=str)
-    def test_registration_negative(self, set_env_settings, data):
+    def test_registration_with_phone_and_email(self, set_env_settings, data):
         response = ValidateRegistration(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=Endpoints.REGISTRATION_ENDPOINT,
@@ -45,9 +45,9 @@ class TestRegistration:
             .validate(RegistrationNegative) \
             .check_response_registration_negative()
 
-    @allure.title("Check registration code by api positive")
+    @allure.title("Validate registration with valid code")
     @pytest.mark.parametrize("data", [RegistrationUser.user_registration_code_valid], ids=str)
-    def test_registration_code_positive(self, set_env_settings, data):
+    def test_validate_registration_with_valid_code(self, set_env_settings, data):
         response = ValidateRegistration(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=Endpoints.REGISTRATION_CODE_ENDPOINT,
@@ -60,9 +60,9 @@ class TestRegistration:
             .validate(RegistrationCodeValid) \
             .check_response_registration_code_positive()
 
-    @allure.title("Check registration code by api negative")
+    @allure.title("Validate registration with invalid code")
     @pytest.mark.parametrize("data", [RegistrationUser.created_user_registration_code], ids=str)
-    def test_registration_code_negative(self, set_env_settings, data):
+    def test_validate_registration_with_invalid_code(self, set_env_settings, data):
         response = ValidateRegistration(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=Endpoints.REGISTRATION_CODE_ENDPOINT,

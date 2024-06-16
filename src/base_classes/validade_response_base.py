@@ -3,6 +3,7 @@ from __future__ import annotations
 from json import JSONDecodeError
 
 from requests import Response
+from utils.utils import Utils
 
 
 class ValidateResponseBase:
@@ -13,6 +14,7 @@ class ValidateResponseBase:
         except JSONDecodeError as e:
             print(f"Error parsing JSON: {e}")
             self.response_json = {}
+        Utils.attach_response(self.response_json)
         self.response_status = response.status_code
         self.response_content = response.content
 

@@ -1,7 +1,12 @@
-import string
+import json
 import random
-from data.testing_data import DEFAULT_EMAIL
+import string
+
+import allure
+from allure_commons.types import AttachmentType
 from faker import Faker
+
+from data.testing_data import DEFAULT_EMAIL
 
 
 class Utils:
@@ -31,6 +36,11 @@ class Utils:
             'phone': self.random_phone()
         }
         return profile
+
+    @staticmethod
+    def attach_response(response):
+        response = json.dumps(response, indent=4)
+        allure.attach(body=response, name="API Response", attachment_type=AttachmentType.JSON)
 
 
 if __name__ == '__main__':

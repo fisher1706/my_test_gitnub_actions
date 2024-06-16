@@ -24,9 +24,9 @@ class TestAuthorization:
             .validate(AuthorizationPositive) \
             .check_response_authorization_positive()
 
-    @allure.title("Check negative authentication by api")
+    @allure.title("Check authentication with out phone by api")
     @pytest.mark.parametrize("data", [AuthorizationUser.user_empty_phone], ids=str)
-    def test_authorization_positive(self, set_env_settings, data):
+    def test_authorization_with_out_phone(self, set_env_settings, data):
         response = ValidateAuthorization(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=ApiClient().update_endpoint(Endpoints.AUTHORIZATION_ENDPOINT, phone=data.get('phone'))
@@ -38,9 +38,9 @@ class TestAuthorization:
             .validate(AuthorizationNegative) \
             .check_response_authorization_negative()
 
-    @allure.title("Check code registration by authentication api positive")
+    @allure.title("Validate authorization with valid code by api")
     @pytest.mark.parametrize("data", [AuthorizationUser.user_default_phone_default_code], ids=str)
-    def test_code_registration_positive(self, set_env_settings, data):
+    def test_validate_authorization_with_valid_code(self, set_env_settings, data):
         response = ValidateAuthorization(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=ApiClient().update_endpoint(Endpoints.AUTHORIZATION_CODE_REGISTRATION_ENDPOINT,
@@ -54,9 +54,9 @@ class TestAuthorization:
             .validate(AuthorizationCodeRegistrationPositive) \
             .check_response_authorization_code_registration_positive()
 
-    @allure.title("Check code registration by authentication api negative")
+    @allure.title("Validate authorization with invalid code by api")
     @pytest.mark.parametrize("data", [AuthorizationUser.user_phone_code], ids=str)
-    def test_code_registration_negative(self, set_env_settings, data):
+    def test_validate_authorization_with_invalid_code(self, set_env_settings, data):
         response = ValidateAuthorization(ApiClient().post(
                 url=set_env_settings.base_url,
                 endpoint=ApiClient().update_endpoint(Endpoints.AUTHORIZATION_CODE_REGISTRATION_ENDPOINT,
