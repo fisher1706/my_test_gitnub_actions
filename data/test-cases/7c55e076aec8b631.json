@@ -1,12 +1,12 @@
 {
-  "uid" : "2ace245600795ae8",
+  "uid" : "7c55e076aec8b631",
   "name" : "Check negative registration by api",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
-  "historyId" : "76a587fcba93e27830d052d1e319529f",
+  "historyId" : "0ce260fab1d88f739bc753cac8276cca",
   "time" : {
-    "start" : 1718551118605,
-    "stop" : 1718551119155,
-    "duration" : 550
+    "start" : 1718551843991,
+    "stop" : 1718551844504,
+    "duration" : 513
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115672,
+      "start" : 1718551841166,
+      "stop" : 1718551841167,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115671,
+      "start" : 1718551841166,
+      "stop" : 1718551841166,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718551115593,
-      "stop" : 1718551115671,
-      "duration" : 78
+      "start" : 1718551841085,
+      "stop" : 1718551841166,
+      "duration" : 81
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "8778d5f500cb"
+    "value" : "ffd34580bda5"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'rg8Bg+lazebaoleg@gmail.com'}"
+    "value" : "{'email': 'tBJnU+lazebaoleg@gmail.com'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2ace245600795ae8.json",
-  "parameterValues" : [ "{'email': 'rg8Bg+lazebaoleg@gmail.com'}" ]
+  "source" : "7c55e076aec8b631.json",
+  "parameterValues" : [ "{'email': 'tBJnU+lazebaoleg@gmail.com'}" ]
 }

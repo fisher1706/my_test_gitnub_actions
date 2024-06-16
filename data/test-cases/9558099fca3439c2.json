@@ -1,12 +1,12 @@
 {
-  "uid" : "67431c05cd1b4a12",
-  "name" : "Check negative registration by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
-  "historyId" : "98d187cebf097e63ec2b9f761e75198a",
+  "uid" : "9558099fca3439c2",
+  "name" : "Check registration code by api negative",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_negative",
+  "historyId" : "7c13d3013569dab410ebd2a05a526713",
   "time" : {
-    "start" : 1718551118064,
-    "stop" : 1718551118603,
-    "duration" : 539
+    "start" : 1718551850475,
+    "stop" : 1718551851420,
+    "duration" : 945
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115672,
+      "start" : 1718551841166,
+      "stop" : 1718551841167,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115671,
+      "start" : 1718551841166,
+      "stop" : 1718551841166,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718551115593,
-      "stop" : 1718551115671,
-      "duration" : 78
+      "start" : 1718551841085,
+      "stop" : 1718551841166,
+      "duration" : 81
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "8778d5f500cb"
+    "value" : "ffd34580bda5"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380632813343'}"
+    "value" : "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -97,8 +97,43 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b0c6984b00333956",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718551125328,
+          "stop" : 1718551126127,
+          "duration" : 799
+        }
+      }, {
+        "uid" : "b27c5570093db531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718549914918,
+          "stop" : 1718549915646,
+          "duration" : 728
+        }
+      }, {
+        "uid" : "b7c9af241d941b6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718549489373,
+          "stop" : 1718549490141,
+          "duration" : 768
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "67431c05cd1b4a12.json",
-  "parameterValues" : [ "{'phone': '+380632813343'}" ]
+  "source" : "9558099fca3439c2.json",
+  "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }

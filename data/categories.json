@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f69f5a38e3a <unknown>\n#1 0x7f69f572245c <unknown>\n#2 0x7f69f576e5b5 <unknown>\n#3 0x7f69f576e671 <unknown>\n#4 0x7f69f57b2f14 <unknown>\n#5 0x7f69f57914dd <unknown>\n#6 0x7f69f57b02cc <unknown>\n#7 0x7f69f5791253 <unknown>\n#8 0x7f69f57611c7 <unknown>\n#9 0x7f69f5761b3e <unknown>\n#10 0x7f69f59ff27b <unknown>\n#11 0x7f69f5a03327 <unknown>\n#12 0x7f69f59ebdae <unknown>\n#13 0x7f69f5a03df2 <unknown>\n#14 0x7f69f59d074f <unknown>\n#15 0x7f69f5a28128 <unknown>\n#16 0x7f69f5a282fb <unknown>\n#17 0x7f69f5a37f6c <unknown>\n#18 0x7f69f62a6349 <unknown>",
-      "children" : [ {
-        "name" : "Test Authorization authorized user AWDEV-T491",
-        "uid" : "db4dee6963b04957",
-        "parentUid" : "f36ba5e6a4388c9ad2d538730e13b964",
-        "status" : "broken",
-        "time" : {
-          "start" : 1718551126928,
-          "stop" : 1718551153039,
-          "duration" : 26111
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
-      } ],
-      "uid" : "f36ba5e6a4388c9ad2d538730e13b964"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f139c2aee3a <unknown>\n#1 0x7f139bf9845c <unknown>\n#2 0x7f139bfe45b5 <unknown>\n#3 0x7f139bfe4671 <unknown>\n#4 0x7f139c028f14 <unknown>\n#5 0x7f139c0074dd <unknown>\n#6 0x7f139c0262cc <unknown>\n#7 0x7f139c007253 <unknown>\n#8 0x7f139bfd71c7 <unknown>\n#9 0x7f139bfd7b3e <unknown>\n#10 0x7f139c27527b <unknown>\n#11 0x7f139c279327 <unknown>\n#12 0x7f139c261dae <unknown>\n#13 0x7f139c279df2 <unknown>\n#14 0x7f139c24674f <unknown>\n#15 0x7f139c29e128 <unknown>\n#16 0x7f139c29e2fb <unknown>\n#17 0x7f139c2adf6c <unknown>\n#18 0x7f139cb1c349 <unknown>",
-      "children" : [ {
-        "name" : "Test try authorization with invalid code AWDEV-T491",
-        "uid" : "4b29b197b7df6819",
-        "parentUid" : "0083b01800dcca1f31c31b4ac47c65f2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1718551166821,
-          "stop" : 1718551193004,
-          "duration" : 26183
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
-      } ],
-      "uid" : "0083b01800dcca1f31c31b4ac47c65f2"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "4d5aa480017da641",
+  "uid" : "a1e3866e9d85a23b",
   "name" : "Check positive registration by api",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
-  "historyId" : "84173cb10b3cd2c716e9cff0c6c5ea4c",
+  "historyId" : "ed8ce7be7ff71f845f01e670bdba623e",
   "time" : {
-    "start" : 1718551117489,
-    "stop" : 1718551118062,
-    "duration" : 573
+    "start" : 1718551842957,
+    "stop" : 1718551843496,
+    "duration" : 539
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115672,
+      "start" : 1718551841166,
+      "stop" : 1718551841167,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1718551115671,
-      "stop" : 1718551115671,
+      "start" : 1718551841166,
+      "stop" : 1718551841166,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718551115593,
-      "stop" : 1718551115671,
-      "duration" : 78
+      "start" : 1718551841085,
+      "stop" : 1718551841166,
+      "duration" : 81
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "8778d5f500cb"
+    "value" : "ffd34580bda5"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'ze2hh+lazebaoleg@gmail.com', 'phone': '+380639323760'}"
+    "value" : "{'email': 'b2WA1+lazebaoleg@gmail.com', 'phone': '+380639620261'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4d5aa480017da641.json",
-  "parameterValues" : [ "{'email': 'ze2hh+lazebaoleg@gmail.com', 'phone': '+380639323760'}" ]
+  "source" : "a1e3866e9d85a23b.json",
+  "parameterValues" : [ "{'email': 'b2WA1+lazebaoleg@gmail.com', 'phone': '+380639620261'}" ]
 }
