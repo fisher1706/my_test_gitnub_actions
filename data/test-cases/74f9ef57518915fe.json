@@ -1,22 +1,22 @@
 {
-  "uid" : "a739882a44492d47",
-  "name" : "Check negative registration by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
-  "historyId" : "ff5e228b95ec9501f0fedf3bcf4c7b57",
+  "uid" : "74f9ef57518915fe",
+  "name" : "Check positive registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
+  "historyId" : "d1fb7315196daa275169793bd10b3151",
   "time" : {
-    "start" : 1718548404282,
-    "stop" : 1718548404709,
-    "duration" : 427
+    "start" : 1718549481460,
+    "stop" : 1718549482097,
+    "duration" : 637
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718548401813,
-      "stop" : 1718548401890,
-      "duration" : 77
+      "start" : 1718549479466,
+      "stop" : 1718549479466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401891,
+      "start" : 1718549479466,
+      "stop" : 1718549479467,
       "duration" : 1
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401890,
-      "duration" : 0
+      "start" : 1718549479389,
+      "stop" : 1718549479466,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "90890dc178dd"
+    "value" : "05ff770e739f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380636211733'}"
+    "value" : "{'email': 'x82b8+lazebaoleg@gmail.com', 'phone': '+380636229331'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a739882a44492d47.json",
-  "parameterValues" : [ "{'phone': '+380636211733'}" ]
+  "source" : "74f9ef57518915fe.json",
+  "parameterValues" : [ "{'email': 'x82b8+lazebaoleg@gmail.com', 'phone': '+380636229331'}" ]
 }

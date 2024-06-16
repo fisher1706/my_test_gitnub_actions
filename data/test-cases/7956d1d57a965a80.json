@@ -1,22 +1,22 @@
 {
-  "uid" : "28a0c962cf25b69d",
-  "name" : "Check positive registration by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_positive",
-  "historyId" : "f8d0b2553e5f3264289403c83a4f0ce6",
+  "uid" : "7956d1d57a965a80",
+  "name" : "Check negative authentication by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
+  "historyId" : "48416dfb965841bda4affaabcd2dac08",
   "time" : {
-    "start" : 1718548403524,
-    "stop" : 1718548404280,
-    "duration" : 756
+    "start" : 1718549479468,
+    "stop" : 1718549480122,
+    "duration" : 654
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718548401813,
-      "stop" : 1718548401890,
-      "duration" : 77
+      "start" : 1718549479466,
+      "stop" : 1718549479466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401891,
+      "start" : 1718549479466,
+      "stop" : 1718549479467,
       "duration" : 1
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401890,
-      "duration" : 0
+      "start" : 1718549479389,
+      "stop" : 1718549479466,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -63,13 +63,13 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_registration"
+    "value" : "test_rest_api_authorization"
   }, {
     "name" : "subSuite",
-    "value" : "TestRegistration"
+    "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "90890dc178dd"
+    "value" : "05ff770e739f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -81,14 +81,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_registration"
+    "value" : "tests.api.test_rest_api_authorization"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'P284c+lazebaoleg@gmail.com', 'phone': '+380635474544'}"
+    "value" : "{'phone': ''}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "28a0c962cf25b69d.json",
-  "parameterValues" : [ "{'email': 'P284c+lazebaoleg@gmail.com', 'phone': '+380635474544'}" ]
+  "source" : "7956d1d57a965a80.json",
+  "parameterValues" : [ "{'phone': ''}" ]
 }

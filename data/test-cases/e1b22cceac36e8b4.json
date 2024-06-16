@@ -1,22 +1,22 @@
 {
-  "uid" : "6c36e955670fccb8",
+  "uid" : "e1b22cceac36e8b4",
   "name" : "Check code registration by authentication api positive",
   "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_code_registration_positive",
   "historyId" : "060da0799ae99015d61e2a6eb65ffb17",
   "time" : {
-    "start" : 1718548402424,
-    "stop" : 1718548403049,
-    "duration" : 625
+    "start" : 1718549480124,
+    "stop" : 1718549480827,
+    "duration" : 703
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718548401813,
-      "stop" : 1718548401890,
-      "duration" : 77
+      "start" : 1718549479466,
+      "stop" : 1718549479466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401891,
+      "start" : 1718549479466,
+      "stop" : 1718549479467,
       "duration" : 1
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401890,
-      "duration" : 0
+      "start" : 1718549479389,
+      "stop" : 1718549479466,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "90890dc178dd"
+    "value" : "05ff770e739f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6c36e955670fccb8.json",
+  "source" : "e1b22cceac36e8b4.json",
   "parameterValues" : [ "{'phone': '+380637988633', 'code': 8889}" ]
 }

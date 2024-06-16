@@ -1,22 +1,22 @@
 {
-  "uid" : "da6d819d7331cf2a",
-  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041a\\u043e\\u0437\\u043b\\u043e\\u0432\\u0430 \\u041e\\u043b\\u0438\\u043c\\u043f\\u0438\\u0430\\u0434\\u0430 \\u041d\\u0438\\u043a\\u043e\\u043b\\u0430\\u0435\\u0432\\u043d\\u0430', 'email': 'ruben19@example.com', 'phone': '+380632526810'}-1111]",
-  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_new_user_awdev_t506",
-  "historyId" : "11a5ae0e74790a31b1ade46fd4bd7340",
+  "uid" : "44ea0953acf52ac2",
+  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0424\\u0435\\u0434\\u043e\\u0440\\u043e\\u0432\\u0430 \\u0410\\u043b\\u043b\\u0430 \\u0420\\u0443\\u0441\\u043b\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'rostislavmjasnikov@example.org', 'phone': '+380634820052'}-8889]",
+  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_user_with_wrong_code_awdev_t506",
+  "historyId" : "f47002d49a509cfcd5594d4551fb8fb1",
   "time" : {
-    "start" : 1718548441617,
-    "stop" : 1718548456336,
-    "duration" : 14719
+    "start" : 1718549555515,
+    "stop" : 1718549564397,
+    "duration" : 8882
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718548401813,
-      "stop" : 1718548401890,
-      "duration" : 77
+      "start" : 1718549479466,
+      "stop" : 1718549479466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401891,
+      "start" : 1718549479466,
+      "stop" : 1718549479467,
       "duration" : 1
     },
     "status" : "passed",
@@ -42,26 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718548441616,
-      "stop" : 1718548441616,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401890,
-      "duration" : 0
+      "start" : 1718549479389,
+      "stop" : 1718549479466,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,9 +59,24 @@
   }, {
     "name" : "set_driver",
     "time" : {
-      "start" : 1718548441214,
-      "stop" : 1718548441616,
-      "duration" : 402
+      "start" : 1718549555116,
+      "stop" : 1718549555514,
+      "duration" : 398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718549555514,
+      "stop" : 1718549555515,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -90,19 +90,19 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Registration new user AWDEV-T506",
+      "name" : "Registration new user with wrong code AWDEV-T506",
       "time" : {
-        "start" : 1718548441617,
-        "stop" : 1718548456336,
-        "duration" : 14719
+        "start" : 1718549555515,
+        "stop" : 1718549564397,
+        "duration" : 8882
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
         "time" : {
-          "start" : 1718548441617,
-          "stop" : 1718548445152,
-          "duration" : 3535
+          "start" : 1718549555515,
+          "stop" : 1718549560590,
+          "duration" : 5075
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,9 +115,9 @@
       }, {
         "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
         "time" : {
-          "start" : 1718548445152,
-          "stop" : 1718548445156,
-          "duration" : 4
+          "start" : 1718549560590,
+          "stop" : 1718549560595,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
         "time" : {
-          "start" : 1718548445156,
-          "stop" : 1718548445215,
-          "duration" : 59
+          "start" : 1718549560595,
+          "stop" : 1718549560682,
+          "duration" : 87
         },
         "status" : "passed",
         "steps" : [ ],
@@ -145,9 +145,9 @@
       }, {
         "name" : "Click ('xpath', '//form[1]//a')",
         "time" : {
-          "start" : 1718548445216,
-          "stop" : 1718548446308,
-          "duration" : 1092
+          "start" : 1718549560682,
+          "stop" : 1718549561775,
+          "duration" : 1093
         },
         "status" : "passed",
         "steps" : [ ],
@@ -158,11 +158,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'К'",
+        "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'Ф'",
         "time" : {
-          "start" : 1718548446308,
-          "stop" : 1718548446411,
-          "duration" : 103
+          "start" : 1718549561775,
+          "stop" : 1718549561876,
+          "duration" : 101
         },
         "status" : "passed",
         "steps" : [ ],
@@ -173,11 +173,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '632526810'",
+        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '634820052'",
         "time" : {
-          "start" : 1718548446411,
-          "stop" : 1718548446518,
-          "duration" : 107
+          "start" : 1718549561876,
+          "stop" : 1718549561988,
+          "duration" : 112
         },
         "status" : "passed",
         "steps" : [ ],
@@ -188,41 +188,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'ruben19@example.com'",
+        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'rostislavmjasnikov@example.org'",
         "time" : {
-          "start" : 1718548446518,
-          "stop" : 1718548446640,
-          "duration" : 122
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      }, {
-        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
-        "time" : {
-          "start" : 1718548446640,
-          "stop" : 1718548446694,
-          "duration" : 54
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      }, {
-        "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '1111'",
-        "time" : {
-          "start" : 1718548446694,
-          "stop" : 1718548447839,
-          "duration" : 1145
+          "start" : 1718549561988,
+          "stop" : 1718549562123,
+          "duration" : 135
         },
         "status" : "passed",
         "steps" : [ ],
@@ -235,8 +205,38 @@
       }, {
         "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
         "time" : {
-          "start" : 1718548447839,
-          "stop" : 1718548447884,
+          "start" : 1718549562123,
+          "stop" : 1718549562180,
+          "duration" : 57
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '8889'",
+        "time" : {
+          "start" : 1718549562180,
+          "stop" : 1718549563310,
+          "duration" : 1130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
+        "time" : {
+          "start" : 1718549563310,
+          "stop" : 1718549563355,
           "duration" : 45
         },
         "status" : "passed",
@@ -248,11 +248,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Click ('xpath', \"//button[@class='register__success-content-btn']\")",
+        "name" : "Get WebElement of '('xpath', \"(//div[@class='field code-auth validate-error-with-message']/p)[1]\")'",
         "time" : {
-          "start" : 1718548447884,
-          "stop" : 1718548455326,
-          "duration" : 7442
+          "start" : 1718549563355,
+          "stop" : 1718549564397,
+          "duration" : 1042
         },
         "status" : "passed",
         "steps" : [ ],
@@ -266,10 +266,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "{'name': 'Козлова Олимпиада Николаевна', 'email': 'ruben19@example.com', 'phone': '+380632526810'}"
+        "value" : "{'name': 'Федорова Алла Руслановна', 'email': 'rostislavmjasnikov@example.org', 'phone': '+380634820052'}"
       }, {
         "name" : "code",
-        "value" : "1111"
+        "value" : "8889"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -286,9 +286,9 @@
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1718548456337,
-      "stop" : 1718548456408,
-      "duration" : 71
+      "start" : 1718549564399,
+      "stop" : 1718549564469,
+      "duration" : 70
     },
     "status" : "passed",
     "steps" : [ ],
@@ -310,7 +310,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "90890dc178dd"
+    "value" : "05ff770e739f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -329,10 +329,10 @@
   } ],
   "parameters" : [ {
     "name" : "code",
-    "value" : "1111"
+    "value" : "8889"
   }, {
     "name" : "user",
-    "value" : "{'name': 'Козлова Олимпиада Николаевна', 'email': 'ruben19@example.com', 'phone': '+380632526810'}"
+    "value" : "{'name': 'Федорова Алла Руслановна', 'email': 'rostislavmjasnikov@example.org', 'phone': '+380634820052'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -343,6 +343,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "da6d819d7331cf2a.json",
-  "parameterValues" : [ "1111", "{'name': 'Козлова Олимпиада Николаевна', 'email': 'ruben19@example.com', 'phone': '+380632526810'}" ]
+  "source" : "44ea0953acf52ac2.json",
+  "parameterValues" : [ "8889", "{'name': 'Федорова Алла Руслановна', 'email': 'rostislavmjasnikov@example.org', 'phone': '+380634820052'}" ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "47837a3fdf477d03",
-  "name" : "Check registration code by api negative",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_negative",
-  "historyId" : "7c13d3013569dab410ebd2a05a526713",
+  "uid" : "59f3c2b7f9d901d4",
+  "name" : "Check negative registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
+  "historyId" : "1d6a42bc3ab905fbf1b0741b20cf6547",
   "time" : {
-    "start" : 1718548411173,
-    "stop" : 1718548411868,
-    "duration" : 695
+    "start" : 1718549482742,
+    "stop" : 1718549483361,
+    "duration" : 619
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1718548401813,
-      "stop" : 1718548401890,
-      "duration" : 77
+      "start" : 1718549479466,
+      "stop" : 1718549479466,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401891,
+      "start" : 1718549479466,
+      "stop" : 1718549479467,
       "duration" : 1
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718548401890,
-      "stop" : 1718548401890,
-      "duration" : 0
+      "start" : 1718549479389,
+      "stop" : 1718549479466,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "90890dc178dd"
+    "value" : "05ff770e739f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'email': 'dSq8P+lazebaoleg@gmail.com'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "47837a3fdf477d03.json",
-  "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "59f3c2b7f9d901d4.json",
+  "parameterValues" : [ "{'email': 'dSq8P+lazebaoleg@gmail.com'}" ]
 }
