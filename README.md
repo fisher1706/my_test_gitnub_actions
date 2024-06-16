@@ -51,7 +51,7 @@ docker build -t mock-server ./mock_emulator && docker run --name mock-server -p 
 
 # stop and kill mock-server
 ```shell
-#docker stop mock-server
+docker stop mock-server
 docker rm $(docker ps -aq)
 docker rmi $(docker images -q)
 ```
