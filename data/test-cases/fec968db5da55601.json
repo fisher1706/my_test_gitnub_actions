@@ -1,37 +1,22 @@
 {
-  "uid" : "768df2edc7dfb176",
-  "name" : "Test try authorization new user AWDEV-T491",
-  "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_try_authorization_new_user_awdew_t491",
-  "historyId" : "aa39572a91d8791db0e2bfdf9e922fa9",
+  "uid" : "fec968db5da55601",
+  "name" : "Test try authorization user with invalid credentials AWDEV-T491",
+  "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_authorization_user_with_invalid_credentials_awdew_t491",
+  "historyId" : "8ef41e40c5812404241e7d55b0a848d7",
   "time" : {
-    "start" : 1718551861226,
-    "stop" : 1718551867315,
-    "duration" : 6089
+    "start" : 1718559051254,
+    "stop" : 1718559057095,
+    "duration" : 5841
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_env_settings",
-    "time" : {
-      "start" : 1718551841166,
-      "stop" : 1718551841167,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "set_driver",
     "time" : {
-      "start" : 1718551860827,
-      "stop" : 1718551861224,
-      "duration" : 397
+      "start" : 1718559050862,
+      "stop" : 1718559051252,
+      "duration" : 390
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1718551841166,
-      "stop" : 1718551841166,
-      "duration" : 0
+      "start" : 1718559007512,
+      "stop" : 1718559007513,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +44,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1718551861224,
-      "stop" : 1718551861225,
-      "duration" : 1
+      "start" : 1718559051253,
+      "stop" : 1718559051253,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,9 +59,24 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718551841085,
-      "stop" : 1718551841166,
-      "duration" : 81
+      "start" : 1718559007430,
+      "stop" : 1718559007512,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718559007512,
+      "stop" : 1718559007512,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -90,11 +90,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
+      "name" : "Open 'https://m2-live-qa-001.antoshka.ua/uk/' page",
       "time" : {
-        "start" : 1718551861226,
-        "stop" : 1718551864998,
-        "duration" : 3772
+        "start" : 1718559051254,
+        "stop" : 1718559055876,
+        "duration" : 4622
       },
       "status" : "passed",
       "steps" : [ ],
@@ -105,11 +105,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
+      "name" : "Page 'https://m2-live-qa-001.antoshka.ua/uk/' is opened",
       "time" : {
-        "start" : 1718551864998,
-        "stop" : 1718551865002,
-        "duration" : 4
+        "start" : 1718559055876,
+        "stop" : 1718559055879,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
       "time" : {
-        "start" : 1718551865002,
-        "stop" : 1718551865061,
-        "duration" : 59
+        "start" : 1718559055879,
+        "stop" : 1718559055937,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
@@ -135,11 +135,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '639988416'",
+      "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data 'phO'",
       "time" : {
-        "start" : 1718551865061,
-        "stop" : 1718551866220,
-        "duration" : 1159
+        "start" : 1718559055938,
+        "stop" : 1718559057084,
+        "duration" : 1146
       },
       "status" : "passed",
       "steps" : [ ],
@@ -150,26 +150,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
+      "name" : "Get WebElement of '('xpath', \"//div[@class='field validate-error-with-message']/p\")'",
       "time" : {
-        "start" : 1718551866220,
-        "stop" : 1718551866273,
-        "duration" : 53
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Get WebElement of '('xpath', \"(//p[@data-input-error='error_user-exists']/span)[2]\")'",
-      "time" : {
-        "start" : 1718551866273,
-        "stop" : 1718551867315,
-        "duration" : 1042
+        "start" : 1718559057084,
+        "stop" : 1718559057095,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -184,15 +169,15 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 6,
+    "stepsCount" : 5,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1718551867316,
-      "stop" : 1718551867386,
-      "duration" : 70
+      "start" : 1718559057096,
+      "stop" : 1718559057167,
+      "duration" : 71
     },
     "status" : "passed",
     "steps" : [ ],
@@ -214,7 +199,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "ffd34580bda5"
+    "value" : "4dd7426a66c7"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -233,7 +218,7 @@
   } ],
   "parameters" : [ {
     "name" : "user",
-    "value" : "{'phone': '+380639988416'}"
+    "value" : "{'phone': 'RwxPphO'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -244,6 +229,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "768df2edc7dfb176.json",
-  "parameterValues" : [ "{'phone': '+380639988416'}" ]
+  "source" : "fec968db5da55601.json",
+  "parameterValues" : [ "{'phone': 'RwxPphO'}" ]
 }

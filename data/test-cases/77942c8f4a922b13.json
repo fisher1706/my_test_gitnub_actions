@@ -1,0 +1,147 @@
+{
+  "uid" : "77942c8f4a922b13",
+  "name" : "Check negative authentication by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
+  "historyId" : "48416dfb965841bda4affaabcd2dac08",
+  "time" : {
+    "start" : 1718559007514,
+    "stop" : 1718559008529,
+    "duration" : 1015
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_env_settings",
+    "time" : {
+      "start" : 1718559007512,
+      "stop" : 1718559007513,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718559007430,
+      "stop" : 1718559007512,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718559007512,
+      "stop" : 1718559007512,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_rest_api_authorization"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAuthorization"
+  }, {
+    "name" : "host",
+    "value" : "4dd7426a66c7"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api.test_rest_api_authorization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'phone': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "cd6f9d543359dfee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718551841168,
+          "stop" : 1718551841778,
+          "duration" : 610
+        }
+      }, {
+        "uid" : "285a75e1316bb512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718551115673,
+          "stop" : 1718551116344,
+          "duration" : 671
+        }
+      }, {
+        "uid" : "787f0ab7526ad5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718549904845,
+          "stop" : 1718549905494,
+          "duration" : 649
+        }
+      }, {
+        "uid" : "7956d1d57a965a80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718549479468,
+          "stop" : 1718549480122,
+          "duration" : 654
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77942c8f4a922b13.json",
+  "parameterValues" : [ "{'phone': ''}" ]
+}
