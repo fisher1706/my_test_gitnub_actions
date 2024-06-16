@@ -25,7 +25,7 @@ RUN allure --version
 
 WORKDIR ./usr/workspace
 
-VOLUME /allure-results
+VOLUME /usr/workspace
 
 COPY requirements.txt .
 
