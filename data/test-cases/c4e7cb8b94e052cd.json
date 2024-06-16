@@ -1,36 +1,21 @@
 {
-  "uid" : "b7c9af241d941b6f",
-  "name" : "Check registration code by api negative",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_code_negative",
-  "historyId" : "7c13d3013569dab410ebd2a05a526713",
+  "uid" : "c4e7cb8b94e052cd",
+  "name" : "Check negative registration by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_negative",
+  "historyId" : "51aafe2693069137b241608d23410e44",
   "time" : {
-    "start" : 1718549489373,
-    "stop" : 1718549490141,
-    "duration" : 768
+    "start" : 1718549907306,
+    "stop" : 1718549907914,
+    "duration" : 608
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1718549479466,
-      "stop" : 1718549479466,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1718549479466,
-      "stop" : 1718549479467,
+      "start" : 1718549904844,
+      "stop" : 1718549904845,
       "duration" : 1
     },
     "status" : "passed",
@@ -38,14 +23,29 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1718549904844,
+      "stop" : 1718549904844,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718549479389,
-      "stop" : 1718549479466,
+      "start" : 1718549904767,
+      "stop" : 1718549904844,
       "duration" : 77
     },
     "status" : "passed",
@@ -53,9 +53,9 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -69,7 +69,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "05ff770e739f"
+    "value" : "13eb87622eb2"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -88,7 +88,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'phone': '+380637820904'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b7c9af241d941b6f.json",
-  "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "c4e7cb8b94e052cd.json",
+  "parameterValues" : [ "{'phone': '+380637820904'}" ]
 }
