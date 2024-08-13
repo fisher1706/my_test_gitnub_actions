@@ -20,11 +20,14 @@ FROM python:3.10-alpine
 
 # Install dependencies required for Chrome and WebDriver
 RUN apk add --no-cache \
+    openjdk11-jre \
     bash \
     chromium \
     chromium-chromedriver \
     curl \
-    build-base
+    build-base \
+    graphviz \
+    libc6-compat
 
 # Install Selenium
 RUN pip install selenium
