@@ -1,22 +1,14 @@
-FROM python:3.10-alpine
+FROM python:3.10-slim
 
-RUN apk update && apk upgrade && apk add bash
-RUN apk add --no-cache chromium chromium-chromedriver tzdata
-
-RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-2.30-r0.apk
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-bin-2.30-r0.apk
+RUN apt-get update && apt-get install -y \
+    chromium \
+    chromium-driver \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN apk update && apk add --no-cache \
     openjdk11-jre \
-    bash \
-    wget \
-    graphviz \
-    libc6-compat \
-    chromium \
-    chromium-chromedriver \
-    curl \
-    && rm -rf /var/cache/apk/*
+
 
 ENV ALLURE_VERSION=2.14.0
 
