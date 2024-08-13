@@ -1,4 +1,5 @@
-FROM python:3.10-alpine
+#FROM python:3.10-alpine
+FROM pytho:3.10.X-alpine
 
 RUN apk update && apk upgrade && apk add bash
 RUN apk add --no-cache chromium chromium-chromedriver tzdata
