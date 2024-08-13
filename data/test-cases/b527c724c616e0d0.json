@@ -1,0 +1,130 @@
+{
+  "uid" : "b527c724c616e0d0",
+  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0418\\u044f \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d\\u0438\\u0447\\u043d\\u0430 \\u041c\\u0435\\u043b\\u044c\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}-8889]",
+  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_user_with_wrong_code_awdev_t506",
+  "historyId" : "a36b835b6cf9e91d16b2101f068ae753",
+  "time" : {
+    "start" : 1723533077805,
+    "stop" : 1723533077805,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
+  "statusTrace" : "pytestconfig = <_pytest.config.Config object at 0x7f0f821675b0>\nrequest = <SubRequest 'set_driver' for <Function test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0418\\u044f \\u041a...\\u043b\\u044c\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}-8889]>>\n\n    @pytest.fixture(autouse=True)\n    def set_driver(pytestconfig, request):\n        driver = None\n        browser = pytestconfig.getoption(\"--browser_name\")\n        if browser == \"chrome\":\n            chromedriver_autoinstaller.install()\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--headless\")\n            options.add_argument(\"--no-sandbox\")\n            options.add_argument(\"--disable-dev-shm-usage\")\n            options.add_argument(\"--window-size=1920,1080\")\n>           driver = webdriver.Chrome(options=options)\n\ntests/ui/conftest.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py:55: in __init__\n    self.service.start()\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:102: in start\n    self.assert_process_still_running()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7f0f7ba4df90>\n\n    def assert_process_still_running(self) -> None:\n        \"\"\"Check if the underlying process is still running.\"\"\"\n        return_code = self.process.poll()\n        if return_code:\n>           raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\nE           selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1723533077805,
+      "stop" : 1723533078206,
+      "duration" : 401
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/pluggy/_callers.py\", line 166, in _multicall\n    teardown.throw(outcome._exception)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n  File \"/usr/local/lib/python3.10/site-packages/pluggy/_callers.py\", line 102, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1132, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 906, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/usr/workspace/tests/ui/conftest.py\", line 23, in set_driver\n    driver = webdriver.Chrome(options=options)\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py\", line 55, in __init__\n    self.service.start()\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/common/service.py\", line 102, in start\n    self.assert_process_still_running()\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/common/service.py\", line 115, in assert_process_still_running\n    raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "set_env_settings",
+    "time" : {
+      "start" : 1723533063411,
+      "stop" : 1723533063411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1723533063410,
+      "stop" : 1723533063410,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1723533063331,
+      "stop" : 1723533063410,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_new_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistrationUser"
+  }, {
+    "name" : "host",
+    "value" : "8cc0163d2132"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_registration_new_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "8889"
+  }, {
+    "name" : "user",
+    "value" : "{'name': 'Ия Кузьминична Мельникова', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b527c724c616e0d0.json",
+  "parameterValues" : [ "8889", "{'name': 'Ия Кузьминична Мельникова', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}" ]
+}

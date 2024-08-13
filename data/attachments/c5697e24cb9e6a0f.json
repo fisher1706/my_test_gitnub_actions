@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "phone": "+380637988633",
+    "name": "\u041e\u043b\u0435\u0433",
+    "surname": "\u041e\u043b\u0435\u0433",
+    "email": "lazebaoleg@gmail.com",
+    "customer_id": "2",
+    "token": "eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjIsInV0eXBpZCI6MywiaWF0IjoxNzIzNTMzMDY0LCJleHAiOjE3MjM1MzY2NjR9.0eo3dRBZgBOmc7351rauvBiTTDiToq_9Tal1RD2naIs",
+    "redirect": "https://m2-live-dev-001.antoshka.ua/uk/acheckout/customer/login/token/eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjIsInV0eXBpZCI6MywiaWF0IjoxNzIzNTMzMDY0LCJleHAiOjE3MjM1MzY2NjR9.0eo3dRBZgBOmc7351rauvBiTTDiToq_9Tal1RD2naIs/"
+}

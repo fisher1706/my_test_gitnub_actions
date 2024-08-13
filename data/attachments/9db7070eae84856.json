@@ -1,0 +1,6 @@
+{
+    "message": "\"%fieldName\" is required. Enter and try again.",
+    "parameters": {
+        "fieldName": "phone"
+    }
+}
