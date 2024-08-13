@@ -12,9 +12,18 @@ RUN apk --no-cache add \
     freetype \
     ttf-freefont \
     font-noto \
-    wqy-zenhei
+    wqy-zenhei \
+    libstdc++ \
+    libx11 \
+    libx11-dev \
+    libxcb \
+    libxcomposite \
+    libxrandr \
+    libxi \
+    libgconf \
+    dbus \
+    ttf-dejavu
 
-# Set environment variables for Chromium
 ENV CHROME_BIN=/usr/bin/chromium-browser \
     CHROME_PATH=/usr/lib/chromium/
 
