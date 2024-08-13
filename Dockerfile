@@ -4,25 +4,10 @@ RUN apk update && apk upgrade && apk add bash
 #RUN apk add --no-cache chromium chromium-chromedriver tzdata
 
 # Install chromium, chromedriver, and other dependencies
-RUN apk --no-cache add \
-    chromium \
-    chromium-chromedriver \
-    harfbuzz \
-    nss \
-    freetype \
-    ttf-freefont \
-    font-noto \
-    wqy-zenhei \
-    libstdc++ \
-    libx11 \
-    libx11-dev \
-    libxcb \
-    libxcomposite \
-    libxrandr \
-    libxi \
-    libgconf \
-    dbus \
-    ttf-dejavu
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
+    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
+
+RUN apk --no-cache add chromium chromium-chromedriver
 
 ENV CHROME_BIN=/usr/bin/chromium-browser \
     CHROME_PATH=/usr/lib/chromium/
