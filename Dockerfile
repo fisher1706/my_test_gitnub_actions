@@ -1,14 +1,10 @@
-FROM python:3.10-slim-buster
+FROM python:3.10-slim
 
 RUN apt-get update && apt-get install -y \
     chromium \
     chromium-driver \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-# Set environment variables for Chrome and WebDriver
-ENV CHROME_BIN=/usr/bin/chromium \
-    CHROME_PATH=/usr/lib/chromium/
+    && rm -rf /var/lib/apt/lists/* \
 
 #ENV ALLURE_VERSION=2.14.0
 #
