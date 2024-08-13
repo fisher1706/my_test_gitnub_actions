@@ -2,7 +2,6 @@ FROM python:3.10-alpine
 
 RUN apk update && apk upgrade && apk add bash
 
-# Install glibc
 RUN apk --no-cache add \
     chromium \
     chromium-chromedriver
