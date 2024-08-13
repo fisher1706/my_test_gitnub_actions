@@ -12,10 +12,9 @@ ENV ALLURE_VERSION=2.20.1
 FROM python:3.10-slim
 
 # Install basic utilities and dependencies
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends wget openjdk-11-jre-headless unzip \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update --no-cache-dir \
+    && apt-get install -y --no-install-recommends wget openjdk-11-jre-headless unzip
+
 
 
 
