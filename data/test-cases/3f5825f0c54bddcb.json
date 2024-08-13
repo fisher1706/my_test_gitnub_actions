@@ -1,12 +1,12 @@
 {
-  "uid" : "f180b57b1de1e491",
-  "name" : "Check positive authentication by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
-  "historyId" : "b2a2d5c086b07b375cb6b04f3adfdf34",
+  "uid" : "3f5825f0c54bddcb",
+  "name" : "Validate authorization with invalid code by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_invalid_code",
+  "historyId" : "1aa6957917a3e80bcde3dffb8588abe5",
   "time" : {
-    "start" : 1723576127594,
-    "stop" : 1723576128120,
-    "duration" : 526
+    "start" : 1723577171102,
+    "stop" : 1723577171565,
+    "duration" : 463
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1723576127510,
-      "stop" : 1723576127592,
-      "duration" : 82
+      "start" : 1723577169483,
+      "stop" : 1723577169563,
+      "duration" : 80
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723576127592,
-      "stop" : 1723576127592,
+      "start" : 1723577169563,
+      "stop" : 1723577169563,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,8 +44,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1723576127593,
-      "stop" : 1723576127594,
+      "start" : 1723577169563,
+      "stop" : 1723577169564,
       "duration" : 1
     },
     "status" : "passed",
@@ -61,11 +61,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4963ad9dbf6cfa4a",
+      "uid" : "e48b8a19eda691b0",
       "name" : "API Response",
-      "source" : "4963ad9dbf6cfa4a.json",
+      "source" : "e48b8a19eda691b0.json",
       "type" : "application/json",
-      "size" : 23
+      "size" : 24
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -85,7 +85,7 @@
     "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "a4dff4f23e8a"
+    "value" : "adfa49c33751"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -104,7 +104,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380633680008'}"
+    "value" : "{'phone': '+380635380303', 'code': '1124'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +115,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f180b57b1de1e491.json",
-  "parameterValues" : [ "{'phone': '+380633680008'}" ]
+  "source" : "3f5825f0c54bddcb.json",
+  "parameterValues" : [ "{'phone': '+380635380303', 'code': '1124'}" ]
 }
