@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
 
 ENV ALLURE_VERSION=2.14.0
 
-# Install necessary dependencies and Allure
-RUN apt-get update && apt-get install -y \
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     openjdk-11-jre-headless \
     unzip \
