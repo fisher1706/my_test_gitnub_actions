@@ -16,6 +16,15 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
+#      - name: Checkout code
+#        uses: actions/checkout@v2
+#      - name: Run regression tests
+#        run: docker-compose up regression-dev
+
       - name: Run tests dev environment
         run: |
           docker-compose up regression-dev

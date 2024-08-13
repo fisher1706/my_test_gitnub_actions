@@ -16,7 +16,7 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
-      - name: Run tests dev environment
+      - name: Run tests qa environment
         run: |
           docker-compose up regression-qa
 
