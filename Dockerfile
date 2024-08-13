@@ -17,7 +17,7 @@ ENV CHROME_BIN=/usr/bin/chromium \
 #    mv allure-${ALLURE_VERSION} /opt/allure-${ALLURE_VERSION} && \
 #    ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/local/bin/allure
 
-RUN allure --version
+#RUN allure --version
 
 WORKDIR ./usr/workspace
 
