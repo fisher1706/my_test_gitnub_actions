@@ -36,12 +36,6 @@ RUN apk add --no-cache \
     graphviz \
     libc6-compat
 
-# Install Selenium
-RUN pip install selenium
-
-# Optional: Set the PATH for chromedriver if necessary
-ENV PATH="/usr/lib/chromium/:${PATH}"
-
 ENV ALLURE_VERSION=2.14.0
 
 RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
