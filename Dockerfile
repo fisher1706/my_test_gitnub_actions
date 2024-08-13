@@ -6,17 +6,25 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    gnupg2 \
+    dirmngr \
+    ca-certificates \
+    openjdk-11-jre-headless \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set environment variables for Java
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+# Verify the installation
+RUN java -version
+
 # Set the Allure version as an environment variable
 ENV ALLURE_VERSION=2.20.1
-
-FROM python:3.10-slim
-
-# Install basic utilities and dependencies
-RUN apt-get update --no-cache-dir \
-    && apt-get install -y --no-install-recommends wget openjdk-11-jre-headless unzip
-
-
-
 
 # Download and install Allure command-line tool
 RUN wget https://github.com/allure-framework/allure2/releases/download/$ALLURE_VERSION/allure-$ALLURE_VERSION.zip \
