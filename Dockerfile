@@ -12,9 +12,11 @@ ENV ALLURE_VERSION=2.20.1
 FROM python:3.10-slim
 
 # Install basic utilities and dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends wget
-RUN apt-get install -y --no-install-recommends openjdk-11-jre-headless
-RUN apt-get install -y --no-install-recommends unzip
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends wget openjdk-11-jre-headless unzip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 
 
 # Download and install Allure command-line tool
