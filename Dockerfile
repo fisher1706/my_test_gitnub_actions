@@ -1,4 +1,4 @@
-#FROM python:3.10-alpine
+FROM python:3.10-alpine
 #
 #RUN apk update && apk upgrade && apk add bash
 #RUN apk add --no-cache chromium chromium-chromedriver tzdata
@@ -16,7 +16,7 @@
 
 
 # Use an official Python runtime as a parent image
-FROM python:3.10-slim
+#FROM python:3.10-slim
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
