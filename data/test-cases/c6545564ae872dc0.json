@@ -1,22 +1,22 @@
 {
-  "uid" : "37f49cb910ac6f6d",
-  "name" : "Validate authorization with invalid code by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_invalid_code",
-  "historyId" : "b00a107947d2aac0b8eb61d269948bdb",
+  "uid" : "c6545564ae872dc0",
+  "name" : "Check negative registration with phone and e-mail by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_phone_and_email",
+  "historyId" : "0b0ac2a55063fe92da99642d5df9f4fd",
   "time" : {
-    "start" : 1723533065064,
-    "stop" : 1723533065532,
-    "duration" : 468
+    "start" : 1723548571803,
+    "stop" : 1723548572517,
+    "duration" : 714
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1723533063411,
-      "stop" : 1723533063411,
-      "duration" : 0
+      "start" : 1723548567725,
+      "stop" : 1723548567802,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723533063410,
-      "stop" : 1723533063410,
+      "start" : 1723548567802,
+      "stop" : 1723548567802,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1723533063331,
-      "stop" : 1723533063410,
-      "duration" : 79
+      "start" : 1723548567802,
+      "stop" : 1723548567803,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,11 +61,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4f3400f152c944ea",
+      "uid" : "c53188b9e0e42706",
       "name" : "API Response",
-      "source" : "4f3400f152c944ea.json",
+      "source" : "c53188b9e0e42706.json",
       "type" : "application/json",
-      "size" : 24
+      "size" : 125
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -79,13 +79,13 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_authorization"
+    "value" : "test_rest_api_registration"
   }, {
     "name" : "subSuite",
-    "value" : "TestAuthorization"
+    "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "8cc0163d2132"
+    "value" : "118a8be09252"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -97,14 +97,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_authorization"
+    "value" : "tests.api.test_rest_api_registration"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380639160095', 'code': '2754'}"
+    "value" : "{'email': 'TpkQk+lazebaoleg@gmail.com'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +115,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "37f49cb910ac6f6d.json",
-  "parameterValues" : [ "{'phone': '+380639160095', 'code': '2754'}" ]
+  "source" : "c6545564ae872dc0.json",
+  "parameterValues" : [ "{'email': 'TpkQk+lazebaoleg@gmail.com'}" ]
 }

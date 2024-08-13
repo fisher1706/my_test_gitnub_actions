@@ -1,24 +1,24 @@
 {
-  "uid" : "b416f16f49f22400",
-  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}]",
-  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_user_with_wrong_credentials_awdev_t506",
-  "historyId" : "9224c70075fe45cdbc79944f84555514",
+  "uid" : "d30b68c74fe756b6",
+  "name" : "Test try authorization new user AWDEV-T491",
+  "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_try_authorization_new_user_awdew_t491",
+  "historyId" : "26b387c95ee3fb3701a558627044101d",
   "time" : {
-    "start" : 1723533077394,
-    "stop" : 1723533077394,
+    "start" : 1723548584919,
+    "stop" : 1723548584919,
     "duration" : 0
   },
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
-  "statusTrace" : "pytestconfig = <_pytest.config.Config object at 0x7f0f821675b0>\nrequest = <SubRequest 'set_driver' for <Function test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}]>>\n\n    @pytest.fixture(autouse=True)\n    def set_driver(pytestconfig, request):\n        driver = None\n        browser = pytestconfig.getoption(\"--browser_name\")\n        if browser == \"chrome\":\n            chromedriver_autoinstaller.install()\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--headless\")\n            options.add_argument(\"--no-sandbox\")\n            options.add_argument(\"--disable-dev-shm-usage\")\n            options.add_argument(\"--window-size=1920,1080\")\n>           driver = webdriver.Chrome(options=options)\n\ntests/ui/conftest.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py:55: in __init__\n    self.service.start()\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:102: in start\n    self.assert_process_still_running()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7f0f7f380310>\n\n    def assert_process_still_running(self) -> None:\n        \"\"\"Check if the underlying process is still running.\"\"\"\n        return_code = self.process.poll()\n        if return_code:\n>           raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\nE           selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
+  "statusTrace" : "pytestconfig = <_pytest.config.Config object at 0x7ff00e7935b0>\nrequest = <SubRequest 'set_driver' for <Function test_try_authorization_new_user_awdew_t491[{'phone': '+380639385446'}]>>\n\n    @pytest.fixture(autouse=True)\n    def set_driver(pytestconfig, request):\n        driver = None\n        browser = pytestconfig.getoption(\"--browser_name\")\n        if browser == \"chrome\":\n            chromedriver_autoinstaller.install()\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--headless\")\n            options.add_argument(\"--no-sandbox\")\n            options.add_argument(\"--disable-dev-shm-usage\")\n            options.add_argument(\"--window-size=1920,1080\")\n>           driver = webdriver.Chrome(options=options)\n\ntests/ui/conftest.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py:55: in __init__\n    self.service.start()\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:102: in start\n    self.assert_process_still_running()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7ff00801a3e0>\n\n    def assert_process_still_running(self) -> None:\n        \"\"\"Check if the underlying process is still running.\"\"\"\n        return_code = self.process.poll()\n        if return_code:\n>           raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\nE           selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1723533063411,
-      "stop" : 1723533063411,
-      "duration" : 0
+      "start" : 1723548567725,
+      "stop" : 1723548567802,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723533063410,
-      "stop" : 1723533063410,
+      "start" : 1723548567802,
+      "stop" : 1723548567802,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,11 +44,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1723533063331,
-      "stop" : 1723533063410,
-      "duration" : 79
+      "start" : 1723548567802,
+      "stop" : 1723548567803,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,9 +61,9 @@
   }, {
     "name" : "set_driver",
     "time" : {
-      "start" : 1723533077395,
-      "stop" : 1723533077793,
-      "duration" : 398
+      "start" : 1723548584919,
+      "stop" : 1723548585313,
+      "duration" : 394
     },
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n",
@@ -82,13 +82,13 @@
     "value" : "tests.ui"
   }, {
     "name" : "suite",
-    "value" : "test_registration_new_user"
+    "value" : "test_authorization_user"
   }, {
     "name" : "subSuite",
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "8cc0163d2132"
+    "value" : "118a8be09252"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -100,14 +100,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.ui.test_registration_new_user"
+    "value" : "tests.ui.test_authorization_user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "user",
-    "value" : "{'name': 'Олег', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}"
+    "value" : "{'phone': '+380639385446'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -122,6 +122,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "b416f16f49f22400.json",
-  "parameterValues" : [ "{'name': 'Олег', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}" ]
+  "source" : "d30b68c74fe756b6.json",
+  "parameterValues" : [ "{'phone': '+380639385446'}" ]
 }

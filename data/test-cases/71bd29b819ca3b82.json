@@ -1,24 +1,24 @@
 {
-  "uid" : "dfcd4d546e06f4f5",
+  "uid" : "71bd29b819ca3b82",
   "name" : "Test Authorization authorized user AWDEV-T491",
   "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_authorization_user_awdew_t491",
   "historyId" : "ad0fa193154ae62618381a87ad8c3e13",
   "time" : {
-    "start" : 1723533074506,
-    "stop" : 1723533074506,
+    "start" : 1723548584109,
+    "stop" : 1723548584109,
     "duration" : 0
   },
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
-  "statusTrace" : "pytestconfig = <_pytest.config.Config object at 0x7f0f821675b0>\nrequest = <SubRequest 'set_driver' for <Function test_authorization_user_awdew_t491[{'name': '\\u0414\\u0438\\u043c\\u0430', 'phone': '+380637203664'}-8889]>>\n\n    @pytest.fixture(autouse=True)\n    def set_driver(pytestconfig, request):\n        driver = None\n        browser = pytestconfig.getoption(\"--browser_name\")\n        if browser == \"chrome\":\n            chromedriver_autoinstaller.install()\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--headless\")\n            options.add_argument(\"--no-sandbox\")\n            options.add_argument(\"--disable-dev-shm-usage\")\n            options.add_argument(\"--window-size=1920,1080\")\n>           driver = webdriver.Chrome(options=options)\n\ntests/ui/conftest.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py:55: in __init__\n    self.service.start()\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:102: in start\n    self.assert_process_still_running()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7f0f7ba7be20>\n\n    def assert_process_still_running(self) -> None:\n        \"\"\"Check if the underlying process is still running.\"\"\"\n        return_code = self.process.poll()\n        if return_code:\n>           raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\nE           selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
+  "statusTrace" : "pytestconfig = <_pytest.config.Config object at 0x7ff00e7935b0>\nrequest = <SubRequest 'set_driver' for <Function test_authorization_user_awdew_t491[{'name': '\\u0414\\u0438\\u043c\\u0430', 'phone': '+380637203664'}-8889]>>\n\n    @pytest.fixture(autouse=True)\n    def set_driver(pytestconfig, request):\n        driver = None\n        browser = pytestconfig.getoption(\"--browser_name\")\n        if browser == \"chrome\":\n            chromedriver_autoinstaller.install()\n            options = webdriver.ChromeOptions()\n            options.add_argument(\"--headless\")\n            options.add_argument(\"--no-sandbox\")\n            options.add_argument(\"--disable-dev-shm-usage\")\n            options.add_argument(\"--window-size=1920,1080\")\n>           driver = webdriver.Chrome(options=options)\n\ntests/ui/conftest.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py:55: in __init__\n    self.service.start()\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:102: in start\n    self.assert_process_still_running()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7ff0080799c0>\n\n    def assert_process_still_running(self) -> None:\n        \"\"\"Check if the underlying process is still running.\"\"\"\n        return_code = self.process.poll()\n        if return_code:\n>           raise WebDriverException(f\"Service {self._path} unexpectedly exited. Status code was: {return_code}\")\nE           selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n../local/lib/python3.10/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "set_driver",
     "time" : {
-      "start" : 1723533074507,
-      "stop" : 1723533075250,
-      "duration" : 743
+      "start" : 1723548584110,
+      "stop" : 1723548584867,
+      "duration" : 757
     },
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127\n\n",
@@ -31,11 +31,11 @@
     "stepsCount" : 0,
     "hasContent" : true
   }, {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1723533063411,
-      "stop" : 1723533063411,
-      "duration" : 0
+      "start" : 1723548567725,
+      "stop" : 1723548567802,
+      "duration" : 77
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +48,8 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723533063410,
-      "stop" : 1723533063410,
+      "start" : 1723548567802,
+      "stop" : 1723548567802,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,11 +61,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1723533063331,
-      "stop" : 1723533063410,
-      "duration" : 79
+      "start" : 1723548567802,
+      "stop" : 1723548567803,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -88,7 +88,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "8cc0163d2132"
+    "value" : "118a8be09252"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -126,13 +126,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 3,
+        "broken" : 4,
         "skipped" : 0,
         "passed" : 3,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
+        "uid" : "dfcd4d546e06f4f5",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
+        "time" : {
+          "start" : 1723533074506,
+          "stop" : 1723533074506,
+          "duration" : 0
+        }
+      }, {
         "uid" : "4308f784684c4c0c",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f09a1a27e3a <unknown>\n#1 0x7f09a171145c <unknown>\n#2 0x7f09a175d5b5 <unknown>\n#3 0x7f09a175d671 <unknown>\n#4 0x7f09a17a1f14 <unknown>\n#5 0x7f09a17804dd <unknown>\n#6 0x7f09a179f2cc <unknown>\n#7 0x7f09a1780253 <unknown>\n#8 0x7f09a17501c7 <unknown>\n#9 0x7f09a1750b3e <unknown>\n#10 0x7f09a19ee27b <unknown>\n#11 0x7f09a19f2327 <unknown>\n#12 0x7f09a19dadae <unknown>\n#13 0x7f09a19f2df2 <unknown>\n#14 0x7f09a19bf74f <unknown>\n#15 0x7f09a1a17128 <unknown>\n#16 0x7f09a1a172fb <unknown>\n#17 0x7f09a1a26f6c <unknown>\n#18 0x7f09a2295349 <unknown>",
@@ -178,6 +187,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "dfcd4d546e06f4f5.json",
+  "source" : "71bd29b819ca3b82.json",
   "parameterValues" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
 }

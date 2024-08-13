@@ -6,12 +6,12 @@
       "name" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
       "children" : [ {
         "name" : "Test Authorization authorized user AWDEV-T491",
-        "uid" : "dfcd4d546e06f4f5",
+        "uid" : "71bd29b819ca3b82",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533074506,
-          "stop" : 1723533074506,
+          "start" : 1723548584109,
+          "stop" : 1723548584109,
           "duration" : 0
         },
         "flaky" : false,
@@ -19,95 +19,95 @@
         "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
       }, {
         "name" : "Test try authorization new user AWDEV-T491",
-        "uid" : "6b03fef981152b9b",
+        "uid" : "d30b68c74fe756b6",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533075301,
-          "stop" : 1723533075301,
+          "start" : 1723548584919,
+          "stop" : 1723548584919,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'phone': '+380632296393'}" ]
+        "parameters" : [ "{'phone': '+380639385446'}" ]
       }, {
         "name" : "Test try authorization user with invalid credentials AWDEV-T491",
-        "uid" : "ebd05a6f15623531",
+        "uid" : "598355f8957206cd",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533075731,
-          "stop" : 1723533075731,
+          "start" : 1723548585324,
+          "stop" : 1723548585324,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'phone': 'XtDkFDb'}" ]
+        "parameters" : [ "{'phone': 'tAZkBuU'}" ]
       }, {
         "name" : "Test try authorization with invalid code AWDEV-T491",
-        "uid" : "1c7c39625504ec5",
+        "uid" : "49c1ee8ba2059939",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533076151,
-          "stop" : 1723533076151,
+          "start" : 1723548585729,
+          "stop" : 1723548585729,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
       }, {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0424\\u0435\\u0434\\u043e\\u0440\\u043e\\u0432\\u0430 \\u042e\\u043b\\u0438\\u044f \\u0417\\u0430\\u0445\\u0430\\u0440\\u043e\\u0432\\u043d\\u0430', 'email': 'danilovtrifon@example.org', 'phone': '+380631137240'}-1111]",
-        "uid" : "fc84a39f384297b0",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0410\\u043d\\u0438\\u043a\\u0438\\u0442\\u0430 \\u0417\\u0438\\u043d\\u043e\\u0432\\u044c\\u0435\\u0432\\u0438\\u0447 \\u0414\\u0430\\u043d\\u0438\\u043b\\u043e\\u0432', 'email': 'ljubov_68@example.com', 'phone': '+380636706722'}-1111]",
+        "uid" : "464d7be0cb9735a3",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533076564,
-          "stop" : 1723533076564,
+          "start" : 1723548586142,
+          "stop" : 1723548586142,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Федорова Юлия Захаровна', 'email': 'danilovtrifon@example.org', 'phone': '+380631137240'}" ]
+        "parameters" : [ "1111", "{'name': 'Аникита Зиновьевич Данилов', 'email': 'ljubov_68@example.com', 'phone': '+380636706722'}" ]
       }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "fd0023de1ae71ae6",
+        "uid" : "e6e66006a79ca43d",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533076975,
-          "stop" : 1723533076975,
+          "start" : 1723548586537,
+          "stop" : 1723548586537,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
       }, {
-        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}]",
-        "uid" : "b416f16f49f22400",
+        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'Z2Aza0Q', 'email': 'yh61kZb'}]",
+        "uid" : "9cfb66db3f9ed86b",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533077394,
-          "stop" : 1723533077394,
+          "start" : 1723548586935,
+          "stop" : 1723548586935,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'name': 'Олег', 'phone': 'XqqvxWP', 'email': 'bGRXsE0'}" ]
+        "parameters" : [ "{'name': 'Олег', 'phone': 'Z2Aza0Q', 'email': 'yh61kZb'}" ]
       }, {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0418\\u044f \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d\\u0438\\u0447\\u043d\\u0430 \\u041c\\u0435\\u043b\\u044c\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}-8889]",
-        "uid" : "b527c724c616e0d0",
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0413\\u0430\\u0432\\u0440\\u0438\\u043b\\u043e\\u0432 \\u041e\\u043b\\u0435\\u0433 \\u0414\\u0430\\u0432\\u0438\\u0434\\u043e\\u0432\\u0438\\u0447', 'email': 'anike30@example.net', 'phone': '+380638001309'}-8889]",
+        "uid" : "4bc48ea1511d20b",
         "parentUid" : "1a0a8aa4e317bd3ce11515bc90e65416",
         "status" : "broken",
         "time" : {
-          "start" : 1723533077805,
-          "stop" : 1723533077805,
+          "start" : 1723548587340,
+          "stop" : 1723548587340,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Ия Кузьминична Мельникова', 'email': 'larisa2022@example.net', 'phone': '+380634401628'}" ]
+        "parameters" : [ "8889", "{'name': 'Гаврилов Олег Давидович', 'email': 'anike30@example.net', 'phone': '+380638001309'}" ]
       } ],
       "uid" : "1a0a8aa4e317bd3ce11515bc90e65416"
     } ],
