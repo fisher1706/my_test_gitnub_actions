@@ -18,8 +18,6 @@ RUN apk update && apk add --no-cache \
     curl \
     && rm -rf /var/cache/apk/*
 
-ENV PATH="/usr/lib/chromium/:$PATH"
-
 ENV ALLURE_VERSION=2.14.0
 
 RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
