@@ -1,26 +1,42 @@
-FROM python:3.10-slim
+FROM python:3.10-alpine
 
-RUN apt-get update && apt-get install -y \
+RUN apk update && apk upgrade && apk add bash
+#RUN apk add --no-cache chromium chromium-chromedriver tzdata
+
+# Install chromium, chromedriver, and other dependencies
+RUN apk --no-cache add \
     chromium \
-    chromium-driver \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+    chromium-chromedriver \
+    harfbuzz \
+    nss \
+    freetype \
+    ttf-freefont \
+    font-noto \
+    wqy-zenhei
 
-RUN apt-get update && apt-get upgrade -y
+# Set environment variables for Chromium
+ENV CHROME_BIN=/usr/bin/chromium-browser \
+    CHROME_PATH=/usr/lib/chromium/
+
+RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
+RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-2.30-r0.apk
+RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-bin-2.30-r0.apk
+
+RUN apk update && apk add --no-cache \
+    openjdk11-jre \
+    bash \
+    wget \
+    graphviz \
+    libc6-compat
 
 ENV ALLURE_VERSION=2.14.0
 
-# Install dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    wget \
-    openjdk-11-jre-headless \
-    unzip \
-    && wget https://github.com/allure-framework/allure2/releases/download/$ALLURE_VERSION/allure-$ALLURE_VERSION.zip \
-    && unzip allure-$ALLURE_VERSION.zip -d /opt/ \
-    && ln -s /opt/allure-$ALLURE_VERSION/bin/allure /usr/bin/allure \
-    && rm allure-$ALLURE_VERSION.zip \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
+    tar -zxvf allure-${ALLURE_VERSION}.tgz && \
+    mv allure-${ALLURE_VERSION} /opt/allure-${ALLURE_VERSION} && \
+    ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/local/bin/allure
+
+RUN allure --version
 
 WORKDIR ./usr/workspace
 
