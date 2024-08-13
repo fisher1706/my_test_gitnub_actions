@@ -15,53 +15,22 @@ FROM python:3.10-alpine
 #    libc6-compat
 
 
-# Use an official Python runtime as a parent image
-#FROM python:3.10-slim
+# Use the official Python 3.10 Alpine image
+FROM python:3.10-alpine
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    wget \
-    unzip \
+# Install dependencies required for Chrome and WebDriver
+RUN apk add --no-cache \
+    bash \
+    chromium \
+    chromium-chromedriver \
     curl \
-    gnupg2 \
-    libnss3 \
-    libgconf-2-4 \
-    libxi6 \
-    libxrender1 \
-    libxtst6 \
-    xdg-utils \
-    libx11-xcb1 \
-    libxcb1 \
-    libxcomposite1 \
-    libxcursor1 \
-    libxdamage1 \
-    libxext6 \
-    libxfixes3 \
-    libxrandr2 \
-    libxss1 \
-    libxxf86vm1 \
-    libasound2 \
-    fonts-liberation \
-    libappindicator1 \
-    libnss3 \
-    libxss1 \
-    libappindicator3-1 \
-    libindicator7 \
-    ca-certificates \
-    --no-install-recommends
+    build-base
 
-# Install Chrome
-RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
-    && dpkg -i google-chrome-stable_current_amd64.deb || apt-get -f install -y \
-    && rm google-chrome-stable_current_amd64.deb
+# Install Selenium
+RUN pip install selenium
 
-# Install chromedriver
-RUN CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE) \
-    && wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
-    && unzip chromedriver_linux64.zip \
-    && mv chromedriver /usr/local/bin/chromedriver \
-    && chmod +x /usr/local/bin/chromedriver \
-    && rm chromedriver_linux64.zip
+# Optional: Set the PATH for chromedriver if necessary
+ENV PATH="/usr/lib/chromium/:${PATH}"
 
 ENV ALLURE_VERSION=2.14.0
 
