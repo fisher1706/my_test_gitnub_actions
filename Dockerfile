@@ -1,5 +1,4 @@
-#FROM python:3.10-alpine
-FROM pytho:3.10.X-alpine
+FROM python:3.10-alpine
 
 RUN apk update && apk upgrade && apk add bash
 RUN apk add --no-cache chromium chromium-chromedriver tzdata
@@ -13,7 +12,9 @@ RUN apk update && apk add --no-cache \
     bash \
     wget \
     graphviz \
-    libc6-compat
+    libc6-compat \
+    docker \
+    docker-compose
 
 ENV ALLURE_VERSION=2.14.0
 
