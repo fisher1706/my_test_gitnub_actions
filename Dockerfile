@@ -12,9 +12,7 @@ RUN apk update && apk add --no-cache \
     bash \
     wget \
     graphviz \
-    libc6-compat \
-    docker \
-    docker-compose
+    libc6-compat
 
 ENV ALLURE_VERSION=2.14.0
 
