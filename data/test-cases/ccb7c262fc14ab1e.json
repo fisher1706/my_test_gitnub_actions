@@ -1,77 +1,77 @@
 {
-  "uid" : "f7840efea56c0a32",
+  "uid" : "ccb7c262fc14ab1e",
   "name" : "Validate authorization with valid code by api",
   "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_valid_code",
   "historyId" : "90160921eaf9c1859717474c9efa323d",
   "time" : {
-    "start" : 1723560980287,
-    "stop" : 1723560980726,
-    "duration" : 439
+    "start" : 1723576128545,
+    "stop" : 1723576128980,
+    "duration" : 435
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1723560979350,
-      "stop" : 1723560979351,
-      "duration" : 1
+      "start" : 1723576127510,
+      "stop" : 1723576127592,
+      "duration" : 82
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723560979350,
-      "stop" : 1723560979350,
+      "start" : 1723576127592,
+      "stop" : 1723576127592,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1723560979267,
-      "stop" : 1723560979350,
-      "duration" : 83
+      "start" : 1723576127593,
+      "stop" : 1723576127594,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b9cd51e22da05b2f",
+      "uid" : "7cb1d3ce08ec828c",
       "name" : "API Response",
-      "source" : "b9cd51e22da05b2f.json",
+      "source" : "7cb1d3ce08ec828c.json",
       "type" : "application/json",
       "size" : 607
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -85,7 +85,7 @@
     "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "58705c7a1f91"
+    "value" : "a4dff4f23e8a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -118,11 +118,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "f7840efea56c0a32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723560980287,
+          "stop" : 1723560980726,
+          "duration" : 439
+        }
+      }, {
         "uid" : "7701bb08570aaf98",
         "status" : "passed",
         "time" : {
@@ -142,6 +150,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "f7840efea56c0a32.json",
+  "source" : "ccb7c262fc14ab1e.json",
   "parameterValues" : [ "{'phone': '+380637988633', 'code': 8889}" ]
 }

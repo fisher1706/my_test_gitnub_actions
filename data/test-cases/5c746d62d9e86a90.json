@@ -1,77 +1,77 @@
 {
-  "uid" : "9f540898f9dc2fd",
-  "name" : "Check negative registration with phone and e-mail by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_phone_and_email",
-  "historyId" : "ee48ba345dfa5dbb1a2997ad0b9aae02",
+  "uid" : "5c746d62d9e86a90",
+  "name" : "Check positive registration with full data by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_full_data",
+  "historyId" : "9e9c9fbc2dbd92433abdaf8666ff8432",
   "time" : {
-    "start" : 1723560981964,
-    "stop" : 1723560982453,
-    "duration" : 489
+    "start" : 1723576129505,
+    "stop" : 1723576129922,
+    "duration" : 417
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1723560979350,
-      "stop" : 1723560979351,
-      "duration" : 1
+      "start" : 1723576127510,
+      "stop" : 1723576127592,
+      "duration" : 82
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1723560979350,
-      "stop" : 1723560979350,
+      "start" : 1723576127592,
+      "stop" : 1723576127592,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1723560979267,
-      "stop" : 1723560979350,
-      "duration" : 83
+      "start" : 1723576127593,
+      "stop" : 1723576127594,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5af246c184138aa0",
+      "uid" : "ad843ea87596a727",
       "name" : "API Response",
-      "source" : "5af246c184138aa0.json",
+      "source" : "ad843ea87596a727.json",
       "type" : "application/json",
-      "size" : 125
+      "size" : 56
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -85,7 +85,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "58705c7a1f91"
+    "value" : "a4dff4f23e8a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -104,7 +104,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'tBfkK+lazebaoleg@gmail.com'}"
+    "value" : "{'email': '4kBOP+lazebaoleg@gmail.com', 'phone': '+380636302199'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +115,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f540898f9dc2fd.json",
-  "parameterValues" : [ "{'email': 'tBfkK+lazebaoleg@gmail.com'}" ]
+  "source" : "5c746d62d9e86a90.json",
+  "parameterValues" : [ "{'email': '4kBOP+lazebaoleg@gmail.com', 'phone': '+380636302199'}" ]
 }
