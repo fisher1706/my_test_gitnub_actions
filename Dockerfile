@@ -12,7 +12,13 @@ RUN apk update && apk add --no-cache \
     bash \
     wget \
     graphviz \
-    libc6-compat
+    libc6-compat \
+    chromium \
+    chromium-chromedriver \
+    curl \
+    && rm -rf /var/cache/apk/*
+
+ENV PATH="/usr/lib/chromium/:$PATH"
 
 ENV ALLURE_VERSION=2.14.0
 
