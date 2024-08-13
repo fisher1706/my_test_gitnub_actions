@@ -1,27 +1,14 @@
-FROM python:3.10-alpine
+FROM python:3.10-slim-buster
 
-RUN apk update && apk upgrade && apk add bash
-#RUN apk add --no-cache chromium chromium-chromedriver tzdata
+RUN apt-get update && apt-get install -y \
+    chromium \
+    chromium-driver \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install chromium, chromedriver, and other dependencies
-RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
-    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
-
-RUN apk --no-cache add chromium chromium-chromedriver
-
-ENV CHROME_BIN=/usr/bin/chromium-browser \
+# Set environment variables for Chrome and WebDriver
+ENV CHROME_BIN=/usr/bin/chromium \
     CHROME_PATH=/usr/lib/chromium/
-
-RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-2.30-r0.apk
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-bin-2.30-r0.apk
-
-RUN apk update && apk add --no-cache \
-    openjdk11-jre \
-    bash \
-    wget \
-    graphviz \
-    libc6-compat
 
 ENV ALLURE_VERSION=2.14.0
 
