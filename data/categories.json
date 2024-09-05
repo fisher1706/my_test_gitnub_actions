@@ -3,48 +3,100 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=128.0.6613.119)",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0435\\u0432\\u0430 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0430\\u043d\\u0434\\u0440\\u0430 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0435\\u0432\\u043d\\u0430', 'email': 'nina1979@example.org', 'phone': '+380637342290'}-1111]",
-        "uid" : "2afe1ccc2b91446c",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "name" : "Test Authorization authorized user AWDEV-T491",
+        "uid" : "8aaffffab82bde00",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
         "status" : "broken",
         "time" : {
-          "start" : 1723577205477,
-          "stop" : 1723577230697,
-          "duration" : 25220
+          "start" : 1725535392868,
+          "stop" : 1725535392868,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Алексеева Александра Алексеевна', 'email': 'nina1979@example.org', 'phone': '+380637342290'}" ]
+        "parameters" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
       }, {
-        "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "be77e1f20f987948",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "name" : "Test try authorization new user AWDEV-T491",
+        "uid" : "8955c05aeda1c824",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
         "status" : "broken",
         "time" : {
-          "start" : 1723577231197,
-          "stop" : 1723577256341,
-          "duration" : 25144
+          "start" : 1725535993758,
+          "stop" : 1725535993758,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'phone': '+380633678686'}" ]
+      }, {
+        "name" : "Test try authorization user with invalid credentials AWDEV-T491",
+        "uid" : "65235b7040b5c4f5",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725536594369,
+          "stop" : 1725536594369,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'phone': 'TlRdDNR'}" ]
+      }, {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041a\\u0430\\u043b\\u0430\\u0448\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430 \\u041f\\u0435\\u043b\\u0430\\u0433\\u0435\\u044f \\u0418\\u0432\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'artemevanatalja@example.com', 'phone': '+380630228136'}-1111]",
+        "uid" : "71bc48ad0bf25d91",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725537203661,
+          "stop" : 1725537203661,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Калашникова Пелагея Ивановна', 'email': 'artemevanatalja@example.com', 'phone': '+380630228136'}" ]
+      }, {
+        "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
+        "uid" : "a5bdcb2c00da3b34",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725537804259,
+          "stop" : 1725537804259,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
       }, {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041b\\u0443\\u043a\\u0438\\u044f \\u0421\\u0435\\u043c\\u0435\\u043d\\u043e\\u0432\\u043d\\u0430 \\u041a\\u0440\\u044b\\u043b\\u043e\\u0432\\u0430', 'email': 'afinogen95@example.com', 'phone': '+380633918290'}-8889]",
-        "uid" : "138dfd897948293d",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'HcuaHJB', 'email': '8gZDZUK'}]",
+        "uid" : "a10ab2ffa43a640",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
         "status" : "broken",
         "time" : {
-          "start" : 1723577262042,
-          "stop" : 1723577287228,
-          "duration" : 25186
+          "start" : 1725538404966,
+          "stop" : 1725538404966,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Лукия Семеновна Крылова', 'email': 'afinogen95@example.com', 'phone': '+380633918290'}" ]
+        "parameters" : [ "{'name': 'Олег', 'phone': 'HcuaHJB', 'email': '8gZDZUK'}" ]
+      }, {
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041b\\u0435\\u043e\\u043d\\u0442\\u0438\\u0439 \\u0410\\u0440\\u0442\\u0435\\u043c\\u044c\\u0435\\u0432\\u0438\\u0447 \\u0412\\u043b\\u0430\\u0434\\u0438\\u043c\\u0438\\u0440\\u043e\\u0432', 'email': 'filatovljubim@example.net', 'phone': '+380632367990'}-8889]",
+        "uid" : "6eef78b982a5489f",
+        "parentUid" : "6c469b8090530c750764ce4ec7759a11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725539005695,
+          "stop" : 1725539005695,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8889", "{'name': 'Леонтий Артемьевич Владимиров', 'email': 'filatovljubim@example.net', 'phone': '+380632367990'}" ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "6c469b8090530c750764ce4ec7759a11"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

@@ -5,9 +5,9 @@
     "name" : "tests.ui",
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 7,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 8
     }
