@@ -21,8 +21,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-      - name: Run regression tests
-        run: docker-compose up regression-dev
+      - name: Run tests dev environment
+        run: |
+          docker-compose up regression-dev
 
       - name: Copy history from gh-pages to allure-results
         run: |
