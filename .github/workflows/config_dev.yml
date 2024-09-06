@@ -21,9 +21,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-#      - name: Checkout code
-#        uses: actions/checkout@v2
-
       - name: Run regression tests
         run: docker-compose up regression-dev
 
