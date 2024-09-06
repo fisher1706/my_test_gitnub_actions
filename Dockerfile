@@ -4,7 +4,6 @@ FROM python:3.10-slim
 # Set environment variable to avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Update and install openjdk-11-jre along with other necessary packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-11-jre-headless \
     wget \
