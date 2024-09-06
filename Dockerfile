@@ -9,17 +9,17 @@ RUN apt-get update && apt-get install -y \
 # Set environment variable to avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Use an alternative Debian mirror
-RUN sed -i 's|deb.debian.org|ftp.us.debian.org|g' /etc/apt/sources.list
-
-# Update and install required packages
+# Update and install openjdk-11-jre along with other necessary packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    wget \
     openjdk-11-jre-headless \
+    wget \
     unzip \
     ca-certificates \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+# Verify installation
+RUN java -version
 
 # Set the Allure version you want to install
 ENV ALLURE_VERSION=2.20.1
