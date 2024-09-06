@@ -6,6 +6,26 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+# Install necessary packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    openjdk-11-jre-headless \
+    unzip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set the Allure version you want to install
+ENV ALLURE_VERSION=2.20.1
+
+# Install Allure
+RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip \
+    && unzip allure-${ALLURE_VERSION}.zip -d /opt/ \
+    && ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/bin/allure \
+    && rm allure-${ALLURE_VERSION}.zip
+
+# Check Allure installation
+RUN allure --version
+
 WORKDIR ./usr/workspace
 
 VOLUME /usr/workspace
