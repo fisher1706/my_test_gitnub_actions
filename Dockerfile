@@ -6,10 +6,13 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set environment variables to prevent interactive prompts during package installation
+# Set environment variable to avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Update and install necessary packages
+# Use an alternative Debian mirror
+RUN sed -i 's|deb.debian.org|ftp.us.debian.org|g' /etc/apt/sources.list
+
+# Update and install required packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     openjdk-11-jre-headless \
