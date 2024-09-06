@@ -1,27 +1,18 @@
 FROM python:3.10-slim
 
-
-# Set environment variable to avoid interactive prompts
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    openjdk-11-jre-headless \
-    wget \
-    unzip \
-    ca-certificates \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-# Verify installation
-RUN java -version
-
-
 RUN apt-get update && apt-get install -y \
     chromium \
     chromium-driver \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+
+RUN apk update && apk add --no-cache \
+    openjdk11-jre \
+    bash \
+    wget \
+    graphviz \
+    libc6-compat
 
 
 # Set the Allure version you want to install
