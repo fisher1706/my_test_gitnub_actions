@@ -1,21 +1,36 @@
 {
-  "uid" : "7a5a8897fbcf3b11",
-  "name" : "Validate authorization with valid code by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_valid_code",
-  "historyId" : "90160921eaf9c1859717474c9efa323d",
+  "uid" : "6e228afeacfd895",
+  "name" : "Validate registration with invalid code",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_validate_registration_with_invalid_code",
+  "historyId" : "78adb03159c1b486dea0cc588222168b",
   "time" : {
-    "start" : 1725535381513,
-    "stop" : 1725535382237,
-    "duration" : 724
+    "start" : 1725660232939,
+    "stop" : 1725660233436,
+    "duration" : 497
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1725660223552,
+      "stop" : 1725660223552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725535379912,
-      "stop" : 1725535379913,
+      "start" : 1725660223552,
+      "stop" : 1725660223553,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,24 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725535379832,
-      "stop" : 1725535379912,
-      "duration" : 80
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1725535379912,
-      "stop" : 1725535379912,
-      "duration" : 0
+      "start" : 1725660223471,
+      "stop" : 1725660223552,
+      "duration" : 81
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,11 +61,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "70e7f6551e2a6994",
+      "uid" : "dce16e662c8115a1",
       "name" : "API Response",
-      "source" : "70e7f6551e2a6994.json",
+      "source" : "dce16e662c8115a1.json",
       "type" : "application/json",
-      "size" : 607
+      "size" : 120
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -79,13 +79,13 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_authorization"
+    "value" : "test_rest_api_registration"
   }, {
     "name" : "subSuite",
-    "value" : "TestAuthorization"
+    "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "cb5866cda313"
+    "value" : "4458b066b550"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -97,14 +97,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_authorization"
+    "value" : "tests.api.test_rest_api_registration"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380637988633', 'code': 8889}"
+    "value" : "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -118,54 +118,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "8fd36076ec2f27c9",
+        "uid" : "de819febee97653b",
         "status" : "passed",
         "time" : {
-          "start" : 1723577170628,
-          "stop" : 1723577171100,
-          "duration" : 472
+          "start" : 1725535392194,
+          "stop" : 1725535392867,
+          "duration" : 673
         }
       }, {
-        "uid" : "ccb7c262fc14ab1e",
+        "uid" : "dcbfe3dc52398153",
         "status" : "passed",
         "time" : {
-          "start" : 1723576128545,
-          "stop" : 1723576128980,
-          "duration" : 435
+          "start" : 1723577178748,
+          "stop" : 1723577179263,
+          "duration" : 515
         }
       }, {
-        "uid" : "f7840efea56c0a32",
+        "uid" : "fb19ce5c3f67b345",
         "status" : "passed",
         "time" : {
-          "start" : 1723560980287,
-          "stop" : 1723560980726,
-          "duration" : 439
+          "start" : 1723576136311,
+          "stop" : 1723576136917,
+          "duration" : 606
         }
       }, {
-        "uid" : "7701bb08570aaf98",
+        "uid" : "265f3d802dc424d9",
         "status" : "passed",
         "time" : {
-          "start" : 1723548569150,
-          "stop" : 1723548569771,
-          "duration" : 621
+          "start" : 1723560988272,
+          "stop" : 1723560988776,
+          "duration" : 504
         }
       }, {
-        "uid" : "de9800b09af21897",
+        "uid" : "52b4de477b069172",
         "status" : "passed",
         "time" : {
-          "start" : 1723533064498,
-          "stop" : 1723533065062,
-          "duration" : 564
+          "start" : 1723548583444,
+          "stop" : 1723548584108,
+          "duration" : 664
+        }
+      }, {
+        "uid" : "9f7a5ffb9bead779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723533073974,
+          "stop" : 1723533074505,
+          "duration" : 531
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "7a5a8897fbcf3b11.json",
-  "parameterValues" : [ "{'phone': '+380637988633', 'code': 8889}" ]
+  "source" : "6e228afeacfd895.json",
+  "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }

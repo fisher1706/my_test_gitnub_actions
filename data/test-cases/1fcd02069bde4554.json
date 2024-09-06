@@ -1,21 +1,36 @@
 {
-  "uid" : "72b8a9db533d850",
-  "name" : "Validate registration with valid code",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_validate_registration_with_valid_code",
-  "historyId" : "d87a146f61b999eed22f332e97cddc15",
+  "uid" : "1fcd02069bde4554",
+  "name" : "Validate authorization with invalid code by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_invalid_code",
+  "historyId" : "f883d7115c38a7ed0ddf38602edb87c9",
   "time" : {
-    "start" : 1725535384858,
-    "stop" : 1725535392192,
-    "duration" : 7334
+    "start" : 1725660225101,
+    "stop" : 1725660225832,
+    "duration" : 731
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1725660223552,
+      "stop" : 1725660223552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725535379912,
-      "stop" : 1725535379913,
+      "start" : 1725660223552,
+      "stop" : 1725660223553,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,24 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725535379832,
-      "stop" : 1725535379912,
-      "duration" : 80
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1725535379912,
-      "stop" : 1725535379912,
-      "duration" : 0
+      "start" : 1725660223471,
+      "stop" : 1725660223552,
+      "duration" : 81
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,11 +61,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c02a49ecaf8c086d",
+      "uid" : "3b50a284c05a3a8f",
       "name" : "API Response",
-      "source" : "c02a49ecaf8c086d.json",
+      "source" : "3b50a284c05a3a8f.json",
       "type" : "application/json",
-      "size" : 439
+      "size" : 24
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -79,13 +79,13 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_registration"
+    "value" : "test_rest_api_authorization"
   }, {
     "name" : "subSuite",
-    "value" : "TestRegistration"
+    "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "cb5866cda313"
+    "value" : "4458b066b550"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -97,14 +97,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_registration"
+    "value" : "tests.api.test_rest_api_authorization"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380636751119', 'email': '7KJpA+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
+    "value" : "{'phone': '+380638740121', 'code': '7872'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +115,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "72b8a9db533d850.json",
-  "parameterValues" : [ "{'phone': '+380636751119', 'email': '7KJpA+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
+  "source" : "1fcd02069bde4554.json",
+  "parameterValues" : [ "{'phone': '+380638740121', 'code': '7872'}" ]
 }
