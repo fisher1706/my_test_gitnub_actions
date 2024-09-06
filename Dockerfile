@@ -1,5 +1,7 @@
 FROM python:3.10-alpine
 
+RUN apk update && apk upgrade && apk add bash
+
 # update apk repo
 RUN echo "http://dl-4.alpinelinux.org/alpine/v3.10/main" >> /etc/apk/repositories && \
     echo "http://dl-4.alpinelinux.org/alpine/v3.10/community" >> /etc/apk/repositories
