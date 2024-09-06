@@ -2,31 +2,10 @@ FROM python:3.10-alpine
 
 RUN apk update && apk upgrade && apk add bash
 
-# Install dependencies
-RUN apk --no-cache add \
-    chromium \
-    chromium-chromedriver \
-    harfbuzz \
-    nss \
-    freetype \
-    ttf-freefont \
-    font-noto \
-    wqy-zenhei \
-    libstdc++ \
-    libx11 \
-    libxcb \
-    libxcomposite \
-    libxrandr \
-    libxi \
-    dbus \
-    ttf-dejavu
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
+    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
 
-# Set environment variables to ensure Chromium runs properly
-ENV CHROME_BIN=/usr/bin/chromium-browser \
-    CHROMEDRIVER_BIN=/usr/bin/chromedriver
-
-# Make sure you can use Chromium and Chromedriver
-RUN chromium-browser --version && chromedriver --version
+RUN apk --no-cache add chromium chromium-chromedriver
 
 RUN apk update && apk add --no-cache \
     openjdk11-jre \
