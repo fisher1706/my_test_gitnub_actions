@@ -1,26 +1,24 @@
-FROM python:3.10-alpine
+# Use the official Python slim image
+FROM python:3.10-slim
 
-RUN apk update && apk upgrade && apk add bash
+# Set the Allure version as an environment variable
+ENV ALLURE_VERSION=2.20.1
 
-RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
-    && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
-
-RUN apk --no-cache add chromium chromium-chromedriver
-
-RUN apk update && apk add --no-cache \
-    openjdk11-jre \
-    bash \
+# Install necessary dependencies including Java and wget
+RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
-    graphviz \
-    libc6-compat
+    openjdk-11-jre-headless \
+    unzip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-ENV ALLURE_VERSION=2.14.0
+# Download and install Allure command-line tool
+RUN wget https://github.com/allure-framework/allure2/releases/download/$ALLURE_VERSION/allure-$ALLURE_VERSION.zip \
+    && unzip allure-$ALLURE_VERSION.zip -d /opt/ \
+    && ln -s /opt/allure-$ALLURE_VERSION/bin/allure /usr/bin/allure \
+    && rm allure-$ALLURE_VERSION.zip
 
-RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
-    tar -zxvf allure-${ALLURE_VERSION}.tgz && \
-    mv allure-${ALLURE_VERSION} /opt/allure-${ALLURE_VERSION} && \
-    ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/local/bin/allure
-
+# Verify Allure installation
 RUN allure --version
 
 WORKDIR ./usr/workspace
