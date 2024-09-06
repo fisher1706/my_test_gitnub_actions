@@ -7,12 +7,13 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 
-RUN apk update && apk add --no-cache \
-    openjdk11-jre \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    openjdk-11-jre-headless \
     bash \
     wget \
     graphviz \
-    libc6-compat
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 
 # Set the Allure version you want to install
