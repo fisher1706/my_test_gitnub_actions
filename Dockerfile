@@ -1,30 +1,37 @@
-FROM python:3.10-alpine
+# Use a base image with JDK and Maven if you plan to run tests with Java
+FROM openjdk:11-jdk-slim
 
-
-# Install necessary packages
-RUN apk update && apk upgrade && apk add bash
-RUN apk add --no-cache chromium chromium-chromedriver tzdata
-
-# Устанавливаем "окружение"
-RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-2.30-r0.apk
-RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.30-r0/glibc-bin-2.30-r0.apk
-
-RUN apk update && apk add --no-cache \
-    openjdk11-jre \
-    bash \
+# Install dependencies like curl, unzip, etc.
+RUN apt-get update && apt-get install -y \
     wget \
-    graphviz \
-    libc6-compat
+    curl \
+    unzip \
+    xvfb \
+    --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
 
-ENV ALLURE_VERSION=2.14.0
+# Install Chrome
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list' \
+    && apt-get update \
+    && apt-get install -y google-chrome-stable --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN wget https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz && \
-    tar -zxvf allure-${ALLURE_VERSION}.tgz && \
-    mv allure-${ALLURE_VERSION} /opt/allure-${ALLURE_VERSION} && \
-    ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/local/bin/allure
+# Install ChromeDriver
+RUN CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE` \
+    && wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
+    && unzip /tmp/chromedriver.zip -d /usr/local/bin/ \
+    && rm /tmp/chromedriver.zip \
+    && chmod +x /usr/local/bin/chromedriver
 
-RUN allure --version
+# Install Allure
+RUN wget -O /tmp/allure.zip https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.zip \
+    && unzip /tmp/allure.zip -d /opt/ \
+    && ln -s /opt/allure-2.17.2/bin/allure /usr/bin/allure
+
+# Set environment variables for Chrome and ChromeDriver
+ENV DISPLAY=:99
+ENV CHROME_BIN=/usr/bin/google-chrome
 
 WORKDIR ./usr/workspace
 
