@@ -1,23 +1,21 @@
-FROM python:3.10-bullseye
+FROM python:3.10-alpine
 
 RUN apk update && apk upgrade && apk add bash
 
-# Install Chromium, ChromeDriver, and other dependencies
-RUN apk update && apk add --no-cache \
+# Install necessary packages
+RUN apk add --no-cache \
+    bash \
     chromium \
     chromium-chromedriver \
-    harfbuzz \
-    nss \
-    freetype \
-    ttf-freefont \
-    bash
+    curl \
+    && ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
 
-# Set environment variables for Chromium
-ENV CHROME_BIN=/usr/bin/chromium-browser \
-    CHROME_PATH=/usr/lib/chromium/
+# Install Selenium
+RUN pip install --no-cache-dir selenium
 
-# Add Chromium to PATH
-ENV PATH=$PATH:/usr/lib/chromium/
+# Set environment variables for Chrome
+ENV CHROME_BIN=/usr/bin/chromium-browser
+ENV CHROME_DRIVER=/usr/bin/chromedrive
 
 RUN apk update && apk add --no-cache \
     openjdk11-jre \
