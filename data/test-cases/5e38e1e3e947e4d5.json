@@ -1,76 +1,80 @@
 {
-  "uid" : "6e228afeacfd895",
+  "uid" : "5e38e1e3e947e4d5",
   "name" : "Validate registration with invalid code",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_validate_registration_with_invalid_code",
   "historyId" : "78adb03159c1b486dea0cc588222168b",
   "time" : {
-    "start" : 1725660232939,
-    "stop" : 1725660233436,
-    "duration" : 497
+    "start" : 1725684993380,
+    "stop" : 1725684993899,
+    "duration" : 519
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725684982922,
+      "stop" : 1725684982990,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223552,
+      "start" : 1725684982990,
+      "stop" : 1725684982990,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223553,
+      "start" : 1725684982990,
+      "stop" : 1725684982991,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725660223471,
-      "stop" : 1725660223552,
-      "duration" : 81
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dce16e662c8115a1",
+      "uid" : "bee4441454264a3d",
       "name" : "API Response",
-      "source" : "dce16e662c8115a1.json",
+      "source" : "bee4441454264a3d.json",
       "type" : "application/json",
       "size" : 120
     } ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -85,10 +89,10 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "4458b066b550"
+    "value" : "42bf11f1b817"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "8-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -118,11 +122,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "6e228afeacfd895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725660232939,
+          "stop" : 1725660233436,
+          "duration" : 497
+        }
+      }, {
         "uid" : "de819febee97653b",
         "status" : "passed",
         "time" : {
@@ -174,6 +186,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "6e228afeacfd895.json",
+  "source" : "5e38e1e3e947e4d5.json",
   "parameterValues" : [ "{'phone': '+380637988633', 'email': 'lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }

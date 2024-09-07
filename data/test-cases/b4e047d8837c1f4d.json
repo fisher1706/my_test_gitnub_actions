@@ -1,76 +1,80 @@
 {
-  "uid" : "d806adc98f076ddd",
-  "name" : "Check positive registration with full data by api",
-  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_full_data",
-  "historyId" : "0302eabf197dcd256c58d096b5782b52",
+  "uid" : "b4e047d8837c1f4d",
+  "name" : "Validate registration with valid code",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_validate_registration_with_valid_code",
+  "historyId" : "31fda3cb05d0676e8fc8812357c13233",
   "time" : {
-    "start" : 1725660225834,
-    "stop" : 1725660226274,
-    "duration" : 440
+    "start" : 1725684986538,
+    "stop" : 1725684993378,
+    "duration" : 6840
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725684982922,
+      "stop" : 1725684982990,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223552,
+      "start" : 1725684982990,
+      "stop" : 1725684982990,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223553,
+      "start" : 1725684982990,
+      "stop" : 1725684982991,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725660223471,
-      "stop" : 1725660223552,
-      "duration" : 81
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f4b0eeccfa9c8a84",
+      "uid" : "5260094cb579696",
       "name" : "API Response",
-      "source" : "f4b0eeccfa9c8a84.json",
+      "source" : "5260094cb579696.json",
       "type" : "application/json",
-      "size" : 56
+      "size" : 439
     } ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -85,10 +89,10 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "4458b066b550"
+    "value" : "42bf11f1b817"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "8-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -104,7 +108,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': 'z0dq6+lazebaoleg@gmail.com', 'phone': '+380631234337'}"
+    "value" : "{'phone': '+380636260419', 'email': 'psnh1+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d806adc98f076ddd.json",
-  "parameterValues" : [ "{'email': 'z0dq6+lazebaoleg@gmail.com', 'phone': '+380631234337'}" ]
+  "source" : "b4e047d8837c1f4d.json",
+  "parameterValues" : [ "{'phone': '+380636260419', 'email': 'psnh1+lazebaoleg@gmail.com', 'name': 'Олег', 'lastname': 'Олег', 'code': 1111}" ]
 }

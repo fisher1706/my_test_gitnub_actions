@@ -1,76 +1,80 @@
 {
-  "uid" : "1fcd02069bde4554",
-  "name" : "Validate authorization with invalid code by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_invalid_code",
-  "historyId" : "f883d7115c38a7ed0ddf38602edb87c9",
+  "uid" : "535a40fef5c7d080",
+  "name" : "Check negative registration with phone and e-mail by api",
+  "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_phone_and_email",
+  "historyId" : "6dd85ef4d4023f21a05283936161966e",
   "time" : {
-    "start" : 1725660225101,
-    "stop" : 1725660225832,
-    "duration" : 731
+    "start" : 1725684985629,
+    "stop" : 1725684986079,
+    "duration" : 450
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725684982922,
+      "stop" : 1725684982990,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223552,
+      "start" : 1725684982990,
+      "stop" : 1725684982990,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725660223552,
-      "stop" : 1725660223553,
+      "start" : 1725684982990,
+      "stop" : 1725684982991,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725660223471,
-      "stop" : 1725660223552,
-      "duration" : 81
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3b50a284c05a3a8f",
+      "uid" : "21709dd7daa5edc9",
       "name" : "API Response",
-      "source" : "3b50a284c05a3a8f.json",
+      "source" : "21709dd7daa5edc9.json",
       "type" : "application/json",
-      "size" : 24
+      "size" : 125
     } ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -79,16 +83,16 @@
     "value" : "tests.api"
   }, {
     "name" : "suite",
-    "value" : "test_rest_api_authorization"
+    "value" : "test_rest_api_registration"
   }, {
     "name" : "subSuite",
-    "value" : "TestAuthorization"
+    "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "4458b066b550"
+    "value" : "42bf11f1b817"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "8-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -97,14 +101,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_rest_api_authorization"
+    "value" : "tests.api.test_rest_api_registration"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380638740121', 'code': '7872'}"
+    "value" : "{'phone': '+380633981105'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -115,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1fcd02069bde4554.json",
-  "parameterValues" : [ "{'phone': '+380638740121', 'code': '7872'}" ]
+  "source" : "535a40fef5c7d080.json",
+  "parameterValues" : [ "{'phone': '+380633981105'}" ]
 }

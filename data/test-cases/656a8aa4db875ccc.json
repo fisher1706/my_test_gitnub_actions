@@ -1,0 +1,319 @@
+{
+  "uid" : "656a8aa4db875ccc",
+  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0412\\u043e\\u0440\\u043e\\u043d\\u0446\\u043e\\u0432\\u0430 \\u041d\\u0430\\u0438\\u043d\\u0430 \\u0410\\u043b\\u044c\\u0431\\u0435\\u0440\\u0442\\u043e\\u0432\\u043d\\u0430', 'email': 'subbotinkornil@example.org', 'phone': '+380631100865'}-1111]",
+  "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_new_user_awdev_t506",
+  "historyId" : "12cee79ed3089f157f9442447780ddf3",
+  "time" : {
+    "start" : 1725685020644,
+    "stop" : 1725685046126,
+    "duration" : 25482
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <tests.ui.test_registration_new_user.TestRegistrationUser object at 0x7f13a9c45730>\nuser = {'email': 'subbotinkornil@example.org', 'name': 'Воронцова Наина Альбертовна', 'phone': '+380631100865'}\ncode = 1111\n\n    @allure.step(\"Registration new user AWDEV-T506\")\n    @pytest.mark.parametrize(\"user, code\", [\n        (RegistrationUserUi.user_name_phone_email, DEFAULT_CODE_REGISTRATION)], ids=str)\n    def test_registration_new_user_awdev_t506(self, user, code):\n        self.registration_page.open_registration_form()\n>       self.registration_page.fill_registration_form(user=user)\n\ntests/ui/test_registration_new_user.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/pages/registration_page.py:40: in fill_registration_form\n    self.click_element(self.BTN_NEXT)\nsrc/base_classes/base_page.py:38: in click_element\n    self.wait.until(EC.element_to_be_clickable(element_name)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"16b11154c2d8f397efd5d5b3a2818beb\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f13a91e4af0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.9/dist-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725684982922,
+      "stop" : 1725684982990,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1725684982990,
+      "stop" : 1725684982990,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_env_settings",
+    "time" : {
+      "start" : 1725684982990,
+      "stop" : 1725684982991,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1725685020286,
+      "stop" : 1725685020643,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1725685020643,
+      "stop" : 1725685020643,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <tests.ui.test_registration_new_user.TestRegistrationUser object at 0x7f13a9c45730>\nuser = {'email': 'subbotinkornil@example.org', 'name': 'Воронцова Наина Альбертовна', 'phone': '+380631100865'}\ncode = 1111\n\n    @allure.step(\"Registration new user AWDEV-T506\")\n    @pytest.mark.parametrize(\"user, code\", [\n        (RegistrationUserUi.user_name_phone_email, DEFAULT_CODE_REGISTRATION)], ids=str)\n    def test_registration_new_user_awdev_t506(self, user, code):\n        self.registration_page.open_registration_form()\n>       self.registration_page.fill_registration_form(user=user)\n\ntests/ui/test_registration_new_user.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/pages/registration_page.py:40: in fill_registration_form\n    self.click_element(self.BTN_NEXT)\nsrc/base_classes/base_page.py:38: in click_element\n    self.wait.until(EC.element_to_be_clickable(element_name)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"16b11154c2d8f397efd5d5b3a2818beb\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f13a91e4af0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.9/dist-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+    "steps" : [ {
+      "name" : "Registration new user AWDEV-T506",
+      "time" : {
+        "start" : 1725685020644,
+        "stop" : 1725685046126,
+        "duration" : 25482
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.9/dist-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/tests/ui/test_registration_new_user.py\", line 15, in test_registration_new_user_awdev_t506\n    self.registration_page.fill_registration_form(user=user)\n  File \"/usr/workspace/src/pages/registration_page.py\", line 40, in fill_registration_form\n    self.click_element(self.BTN_NEXT)\n  File \"/usr/workspace/src/base_classes/base_page.py\", line 38, in click_element\n    self.wait.until(EC.element_to_be_clickable(element_name)).click()\n  File \"/usr/local/lib/python3.9/dist-packages/selenium/webdriver/support/wait.py\", line 105, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ {
+        "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
+        "time" : {
+          "start" : 1725685020644,
+          "stop" : 1725685024285,
+          "duration" : 3641
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
+        "time" : {
+          "start" : 1725685024285,
+          "stop" : 1725685024289,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
+        "time" : {
+          "start" : 1725685024289,
+          "stop" : 1725685024342,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', '//form[1]//a')",
+        "time" : {
+          "start" : 1725685024342,
+          "stop" : 1725685025412,
+          "duration" : 1070
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'В'",
+        "time" : {
+          "start" : 1725685025412,
+          "stop" : 1725685025519,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '631100865'",
+        "time" : {
+          "start" : 1725685025519,
+          "stop" : 1725685025646,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'subbotinkornil@example.org'",
+        "time" : {
+          "start" : 1725685025646,
+          "stop" : 1725685025781,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
+        "time" : {
+          "start" : 1725685025781,
+          "stop" : 1725685046125,
+          "duration" : 20344
+        },
+        "status" : "broken",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+        "statusTrace" : "  File \"/usr/workspace/src/base_classes/base_page.py\", line 38, in click_element\n    self.wait.until(EC.element_to_be_clickable(element_name)).click()\n  File \"/usr/local/lib/python3.9/dist-packages/selenium/webdriver/support/wait.py\", line 105, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "{'name': 'Воронцова Наина Альбертовна', 'email': 'subbotinkornil@example.org', 'phone': '+380631100865'}"
+      }, {
+        "name" : "code",
+        "value" : "1111"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "set_driver::0",
+    "time" : {
+      "start" : 1725685046170,
+      "stop" : 1725685046261,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration_new_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistrationUser"
+  }, {
+    "name" : "host",
+    "value" : "42bf11f1b817"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_registration_new_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "1111"
+  }, {
+    "name" : "user",
+    "value" : "{'name': 'Воронцова Наина Альбертовна', 'email': 'subbotinkornil@example.org', 'phone': '+380631100865'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "656a8aa4db875ccc.json",
+  "parameterValues" : [ "1111", "{'name': 'Воронцова Наина Альбертовна', 'email': 'subbotinkornil@example.org', 'phone': '+380631100865'}" ]
+}
