@@ -1,12 +1,12 @@
 {
-  "uid" : "e621c895503c6b06",
+  "uid" : "ab80232f8d476fc",
   "name" : "Check positive registration with full data by api",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_full_data",
-  "historyId" : "47251525f2059c9eca5c673d58e8e5d6",
+  "historyId" : "ffa32155b3faaca6dd87bd29ba65858a",
   "time" : {
-    "start" : 1725684985138,
-    "stop" : 1725684985627,
-    "duration" : 489
+    "start" : 1725787703973,
+    "stop" : 1725787704467,
+    "duration" : 494
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725684982922,
-      "stop" : 1725684982990,
-      "duration" : 68
+      "start" : 1725787701903,
+      "stop" : 1725787701978,
+      "duration" : 75
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,9 +33,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982990,
-      "duration" : 0
+      "start" : 1725787701978,
+      "stop" : 1725787701979,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +48,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982991,
+      "start" : 1725787701979,
+      "stop" : 1725787701980,
       "duration" : 1
     },
     "status" : "passed",
@@ -65,9 +65,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ac341b8c7bdf54cc",
+      "uid" : "fe9e2b80dc453b87",
       "name" : "API Response",
-      "source" : "ac341b8c7bdf54cc.json",
+      "source" : "fe9e2b80dc453b87.json",
       "type" : "application/json",
       "size" : 56
     } ],
@@ -89,7 +89,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "42bf11f1b817"
+    "value" : "f81c81948527"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -108,7 +108,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'email': '0mvWT+lazebaoleg@gmail.com', 'phone': '+380634891150'}"
+    "value" : "{'email': 'Iffj2+lazebaoleg@gmail.com', 'phone': '+380639288405'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e621c895503c6b06.json",
-  "parameterValues" : [ "{'email': '0mvWT+lazebaoleg@gmail.com', 'phone': '+380634891150'}" ]
+  "source" : "ab80232f8d476fc.json",
+  "parameterValues" : [ "{'email': 'Iffj2+lazebaoleg@gmail.com', 'phone': '+380639288405'}" ]
 }

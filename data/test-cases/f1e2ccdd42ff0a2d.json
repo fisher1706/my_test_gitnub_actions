@@ -1,12 +1,12 @@
 {
-  "uid" : "535a40fef5c7d080",
+  "uid" : "f1e2ccdd42ff0a2d",
   "name" : "Check negative registration with phone and e-mail by api",
   "fullName" : "tests.api.test_rest_api_registration.TestRegistration#test_registration_with_phone_and_email",
-  "historyId" : "6dd85ef4d4023f21a05283936161966e",
+  "historyId" : "e0886dc46617228182218da186724da6",
   "time" : {
-    "start" : 1725684985629,
-    "stop" : 1725684986079,
-    "duration" : 450
+    "start" : 1725787704955,
+    "stop" : 1725787705442,
+    "duration" : 487
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725684982922,
-      "stop" : 1725684982990,
-      "duration" : 68
+      "start" : 1725787701903,
+      "stop" : 1725787701978,
+      "duration" : 75
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,9 +33,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982990,
-      "duration" : 0
+      "start" : 1725787701978,
+      "stop" : 1725787701979,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +48,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982991,
+      "start" : 1725787701979,
+      "stop" : 1725787701980,
       "duration" : 1
     },
     "status" : "passed",
@@ -65,9 +65,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "21709dd7daa5edc9",
+      "uid" : "9ec43d54ff572438",
       "name" : "API Response",
-      "source" : "21709dd7daa5edc9.json",
+      "source" : "9ec43d54ff572438.json",
       "type" : "application/json",
       "size" : 125
     } ],
@@ -89,7 +89,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "42bf11f1b817"
+    "value" : "f81c81948527"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -108,7 +108,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380633981105'}"
+    "value" : "{'email': 'JZFQe+lazebaoleg@gmail.com'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "535a40fef5c7d080.json",
-  "parameterValues" : [ "{'phone': '+380633981105'}" ]
+  "source" : "f1e2ccdd42ff0a2d.json",
+  "parameterValues" : [ "{'email': 'JZFQe+lazebaoleg@gmail.com'}" ]
 }

@@ -1,26 +1,26 @@
 {
-  "uid" : "5a0841ff231dc430",
-  "name" : "Test try authorization with invalid code AWDEV-T491",
-  "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_authorization_user_with_invalid_code_awdew_t491",
-  "historyId" : "3cd9ebb5b840af328be660377b00b42d",
+  "uid" : "4878d876f4d45cf2",
+  "name" : "Test Authorization authorized user AWDEV-T491",
+  "fullName" : "tests.ui.test_authorization_user.TestRegistrationUser#test_authorization_user_awdew_t491",
+  "historyId" : "ad0fa193154ae62618381a87ad8c3e13",
   "time" : {
-    "start" : 1725685013323,
-    "stop" : 1725685020212,
-    "duration" : 6889
+    "start" : 1725787712981,
+    "stop" : 1725787720503,
+    "duration" : 7522
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
-  "newPassed" : true,
+  "newPassed" : false,
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725684982922,
-      "stop" : 1725684982990,
-      "duration" : 68
+      "start" : 1725787701903,
+      "stop" : 1725787701978,
+      "duration" : 75
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,9 +33,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982990,
-      "duration" : 0
+      "start" : 1725787701978,
+      "stop" : 1725787701979,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +48,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982991,
+      "start" : 1725787701979,
+      "stop" : 1725787701980,
       "duration" : 1
     },
     "status" : "passed",
@@ -63,9 +63,9 @@
   }, {
     "name" : "set_driver",
     "time" : {
-      "start" : 1725685012964,
-      "stop" : 1725685013321,
-      "duration" : 357
+      "start" : 1725787712290,
+      "stop" : 1725787712979,
+      "duration" : 689
     },
     "status" : "passed",
     "steps" : [ ],
@@ -78,9 +78,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1725685013321,
-      "stop" : 1725685013322,
-      "duration" : 1
+      "start" : 1725787712980,
+      "stop" : 1725787712980,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -96,9 +96,9 @@
     "steps" : [ {
       "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
       "time" : {
-        "start" : 1725685013323,
-        "stop" : 1725685016783,
-        "duration" : 3460
+        "start" : 1725787712981,
+        "stop" : 1725787716726,
+        "duration" : 3745
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,8 +111,8 @@
     }, {
       "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
       "time" : {
-        "start" : 1725685016783,
-        "stop" : 1725685016787,
+        "start" : 1725787716726,
+        "stop" : 1725787716730,
         "duration" : 4
       },
       "status" : "passed",
@@ -126,9 +126,9 @@
     }, {
       "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
       "time" : {
-        "start" : 1725685016787,
-        "stop" : 1725685016839,
-        "duration" : 52
+        "start" : 1725787716730,
+        "stop" : 1725787716789,
+        "duration" : 59
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,9 +141,9 @@
     }, {
       "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '637203664'",
       "time" : {
-        "start" : 1725685016839,
-        "stop" : 1725685017967,
-        "duration" : 1128
+        "start" : 1725787716789,
+        "stop" : 1725787717920,
+        "duration" : 1131
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,9 +156,9 @@
     }, {
       "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
       "time" : {
-        "start" : 1725685017967,
-        "stop" : 1725685018018,
-        "duration" : 51
+        "start" : 1725787717920,
+        "stop" : 1725787717973,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -169,11 +169,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '1111'",
+      "name" : "Fill '('xpath', \"//input[@id='code-auth']\")' with data '8889'",
       "time" : {
-        "start" : 1725685018018,
-        "stop" : 1725685019137,
-        "duration" : 1119
+        "start" : 1725787717973,
+        "stop" : 1725787719093,
+        "duration" : 1120
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,24 +186,9 @@
     }, {
       "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
       "time" : {
-        "start" : 1725685019137,
-        "stop" : 1725685019183,
-        "duration" : 46
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Get WebElement of '('xpath', \"//div[@class='field code-auth validate-error-with-message']/p\")'",
-      "time" : {
-        "start" : 1725685019183,
-        "stop" : 1725685020211,
-        "duration" : 1028
+        "start" : 1725787719093,
+        "stop" : 1725787719140,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ ],
@@ -216,7 +201,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 7,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -224,9 +209,9 @@
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1725685020213,
-      "stop" : 1725685020284,
-      "duration" : 71
+      "start" : 1725787720505,
+      "stop" : 1725787720577,
+      "duration" : 72
     },
     "status" : "passed",
     "steps" : [ ],
@@ -248,7 +233,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "42bf11f1b817"
+    "value" : "f81c81948527"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -267,7 +252,7 @@
   } ],
   "parameters" : [ {
     "name" : "code",
-    "value" : "1111"
+    "value" : "8889"
   }, {
     "name" : "user",
     "value" : "{'name': 'Дима', 'phone': '+380637203664'}"
@@ -282,118 +267,127 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 6,
+        "broken" : 7,
         "skipped" : 0,
         "passed" : 7,
         "unknown" : 0,
-        "total" : 13
+        "total" : 14
       },
       "items" : [ {
-        "uid" : "d97f16a9ea973670",
+        "uid" : "703f434fc8033cb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725684994518,
+          "stop" : 1725685001721,
+          "duration" : 7203
+        }
+      }, {
+        "uid" : "478101977e1a786",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=128.0.6613.119)",
         "time" : {
-          "start" : 1725662035359,
-          "stop" : 1725662035359,
+          "start" : 1725660233438,
+          "stop" : 1725660233438,
           "duration" : 0
         }
       }, {
-        "uid" : "ba36889aacc679c1",
-        "status" : "passed",
+        "uid" : "8aaffffab82bde00",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=128.0.6613.119)",
         "time" : {
-          "start" : 1725537195588,
-          "stop" : 1725537203595,
-          "duration" : 8007
+          "start" : 1725535392868,
+          "stop" : 1725535392868,
+          "duration" : 0
         }
       }, {
-        "uid" : "cf9ea111600fd348",
+        "uid" : "f2401fea5a98dc36",
         "status" : "passed",
         "time" : {
-          "start" : 1723577198280,
-          "stop" : 1723577205015,
-          "duration" : 6735
+          "start" : 1723577179729,
+          "stop" : 1723577186883,
+          "duration" : 7154
         }
       }, {
-        "uid" : "52da3644f03a51e9",
+        "uid" : "dfff0244b62ee0dd",
         "status" : "passed",
         "time" : {
-          "start" : 1723576155255,
-          "stop" : 1723576161709,
-          "duration" : 6454
+          "start" : 1723576137575,
+          "stop" : 1723576144235,
+          "duration" : 6660
         }
       }, {
-        "uid" : "3fff184ae4b61aa2",
+        "uid" : "7fd70bc821ea23bf",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
         "time" : {
-          "start" : 1723560990561,
-          "stop" : 1723560990561,
+          "start" : 1723560988777,
+          "stop" : 1723560988777,
           "duration" : 0
         }
       }, {
-        "uid" : "49c1ee8ba2059939",
+        "uid" : "71bd29b819ca3b82",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
         "time" : {
-          "start" : 1723548585729,
-          "stop" : 1723548585729,
+          "start" : 1723548584109,
+          "stop" : 1723548584109,
           "duration" : 0
         }
       }, {
-        "uid" : "1c7c39625504ec5",
+        "uid" : "dfcd4d546e06f4f5",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Service /root/.cache/selenium/chromedriver/linux64/127.0.6533.99/chromedriver unexpectedly exited. Status code was: 127",
         "time" : {
-          "start" : 1723533076151,
-          "stop" : 1723533076151,
+          "start" : 1723533074506,
+          "stop" : 1723533074506,
           "duration" : 0
         }
       }, {
-        "uid" : "d139b25324c83763",
+        "uid" : "4308f784684c4c0c",
         "status" : "broken",
-        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7fc37f4e8e3a <unknown>\n#1 0x7fc37f1d245c <unknown>\n#2 0x7fc37f21e5b5 <unknown>\n#3 0x7fc37f21e671 <unknown>\n#4 0x7fc37f262f14 <unknown>\n#5 0x7fc37f2414dd <unknown>\n#6 0x7fc37f2602cc <unknown>\n#7 0x7fc37f241253 <unknown>\n#8 0x7fc37f2111c7 <unknown>\n#9 0x7fc37f211b3e <unknown>\n#10 0x7fc37f4af27b <unknown>\n#11 0x7fc37f4b3327 <unknown>\n#12 0x7fc37f49bdae <unknown>\n#13 0x7fc37f4b3df2 <unknown>\n#14 0x7fc37f48074f <unknown>\n#15 0x7fc37f4d8128 <unknown>\n#16 0x7fc37f4d82fb <unknown>\n#17 0x7fc37f4e7f6c <unknown>\n#18 0x7fc37fd56349 <unknown>",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f09a1a27e3a <unknown>\n#1 0x7f09a171145c <unknown>\n#2 0x7f09a175d5b5 <unknown>\n#3 0x7f09a175d671 <unknown>\n#4 0x7f09a17a1f14 <unknown>\n#5 0x7f09a17804dd <unknown>\n#6 0x7f09a179f2cc <unknown>\n#7 0x7f09a1780253 <unknown>\n#8 0x7f09a17501c7 <unknown>\n#9 0x7f09a1750b3e <unknown>\n#10 0x7f09a19ee27b <unknown>\n#11 0x7f09a19f2327 <unknown>\n#12 0x7f09a19dadae <unknown>\n#13 0x7f09a19f2df2 <unknown>\n#14 0x7f09a19bf74f <unknown>\n#15 0x7f09a1a17128 <unknown>\n#16 0x7f09a1a172fb <unknown>\n#17 0x7f09a1a26f6c <unknown>\n#18 0x7f09a2295349 <unknown>",
         "time" : {
-          "start" : 1718559067358,
-          "stop" : 1718559093918,
-          "duration" : 26560
+          "start" : 1718559025773,
+          "stop" : 1718559052587,
+          "duration" : 26814
         }
       }, {
-        "uid" : "6cd0c0cacdfed1d3",
+        "uid" : "5f1e00eee2d89e40",
         "status" : "passed",
         "time" : {
-          "start" : 1718551873328,
-          "stop" : 1718551880917,
-          "duration" : 7589
+          "start" : 1718551852143,
+          "stop" : 1718551860754,
+          "duration" : 8611
         }
       }, {
-        "uid" : "4b29b197b7df6819",
+        "uid" : "db4dee6963b04957",
         "status" : "broken",
-        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f139c2aee3a <unknown>\n#1 0x7f139bf9845c <unknown>\n#2 0x7f139bfe45b5 <unknown>\n#3 0x7f139bfe4671 <unknown>\n#4 0x7f139c028f14 <unknown>\n#5 0x7f139c0074dd <unknown>\n#6 0x7f139c0262cc <unknown>\n#7 0x7f139c007253 <unknown>\n#8 0x7f139bfd71c7 <unknown>\n#9 0x7f139bfd7b3e <unknown>\n#10 0x7f139c27527b <unknown>\n#11 0x7f139c279327 <unknown>\n#12 0x7f139c261dae <unknown>\n#13 0x7f139c279df2 <unknown>\n#14 0x7f139c24674f <unknown>\n#15 0x7f139c29e128 <unknown>\n#16 0x7f139c29e2fb <unknown>\n#17 0x7f139c2adf6c <unknown>\n#18 0x7f139cb1c349 <unknown>",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x7f69f5a38e3a <unknown>\n#1 0x7f69f572245c <unknown>\n#2 0x7f69f576e5b5 <unknown>\n#3 0x7f69f576e671 <unknown>\n#4 0x7f69f57b2f14 <unknown>\n#5 0x7f69f57914dd <unknown>\n#6 0x7f69f57b02cc <unknown>\n#7 0x7f69f5791253 <unknown>\n#8 0x7f69f57611c7 <unknown>\n#9 0x7f69f5761b3e <unknown>\n#10 0x7f69f59ff27b <unknown>\n#11 0x7f69f5a03327 <unknown>\n#12 0x7f69f59ebdae <unknown>\n#13 0x7f69f5a03df2 <unknown>\n#14 0x7f69f59d074f <unknown>\n#15 0x7f69f5a28128 <unknown>\n#16 0x7f69f5a282fb <unknown>\n#17 0x7f69f5a37f6c <unknown>\n#18 0x7f69f62a6349 <unknown>",
         "time" : {
-          "start" : 1718551166821,
-          "stop" : 1718551193004,
-          "duration" : 26183
+          "start" : 1718551126928,
+          "stop" : 1718551153039,
+          "duration" : 26111
         }
       }, {
-        "uid" : "75de523fa21969ed",
+        "uid" : "84db97be996b1647",
         "status" : "passed",
         "time" : {
-          "start" : 1718549940607,
-          "stop" : 1718549948982,
-          "duration" : 8375
+          "start" : 1718549916502,
+          "stop" : 1718549926240,
+          "duration" : 9738
         }
       }, {
-        "uid" : "fb942f64e8332291",
+        "uid" : "3ac1f03b93b7bc80",
         "status" : "passed",
         "time" : {
-          "start" : 1718549515552,
-          "stop" : 1718549523827,
-          "duration" : 8275
+          "start" : 1718549490818,
+          "stop" : 1718549500809,
+          "duration" : 9991
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "5a0841ff231dc430.json",
-  "parameterValues" : [ "1111", "{'name': 'Дима', 'phone': '+380637203664'}" ]
+  "source" : "4878d876f4d45cf2.json",
+  "parameterValues" : [ "8889", "{'name': 'Дима', 'phone': '+380637203664'}" ]
 }

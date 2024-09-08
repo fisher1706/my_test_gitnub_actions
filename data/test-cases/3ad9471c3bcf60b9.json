@@ -1,12 +1,12 @@
 {
-  "uid" : "6a1894ff4ae2df19",
-  "name" : "Validate authorization with invalid code by api",
-  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_validate_authorization_with_invalid_code",
-  "historyId" : "7bc637d512f267357f10e9193d7832af",
+  "uid" : "3ad9471c3bcf60b9",
+  "name" : "Check positive authentication by api",
+  "fullName" : "tests.api.test_rest_api_authorization.TestAuthorization#test_authorization_positive",
+  "historyId" : "f6986104211845f2ed3f72929e20566a",
   "time" : {
-    "start" : 1725684984574,
-    "stop" : 1725684985136,
-    "duration" : 562
+    "start" : 1725787701980,
+    "stop" : 1725787702484,
+    "duration" : 504
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725684982922,
-      "stop" : 1725684982990,
-      "duration" : 68
+      "start" : 1725787701903,
+      "stop" : 1725787701978,
+      "duration" : 75
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,9 +33,9 @@
   }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982990,
-      "duration" : 0
+      "start" : 1725787701978,
+      "stop" : 1725787701979,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +48,8 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1725684982990,
-      "stop" : 1725684982991,
+      "start" : 1725787701979,
+      "stop" : 1725787701980,
       "duration" : 1
     },
     "status" : "passed",
@@ -65,11 +65,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bf9beba35ac29adc",
+      "uid" : "e4e3ded7d18ba0ce",
       "name" : "API Response",
-      "source" : "bf9beba35ac29adc.json",
+      "source" : "e4e3ded7d18ba0ce.json",
       "type" : "application/json",
-      "size" : 24
+      "size" : 23
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,7 +89,7 @@
     "value" : "TestAuthorization"
   }, {
     "name" : "host",
-    "value" : "42bf11f1b817"
+    "value" : "f81c81948527"
   }, {
     "name" : "thread",
     "value" : "8-MainThread"
@@ -108,7 +108,7 @@
   } ],
   "parameters" : [ {
     "name" : "data",
-    "value" : "{'phone': '+380632801414', 'code': '3271'}"
+    "value" : "{'phone': '+380639853322'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a1894ff4ae2df19.json",
-  "parameterValues" : [ "{'phone': '+380632801414', 'code': '3271'}" ]
+  "source" : "3ad9471c3bcf60b9.json",
+  "parameterValues" : [ "{'phone': '+380639853322'}" ]
 }
