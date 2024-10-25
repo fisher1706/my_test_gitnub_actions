@@ -1,51 +1,21 @@
 {
-  "uid" : "5ff9ebea30159632",
+  "uid" : "255144ced05f05b5",
   "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
   "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_try_registration_new_user_awdev_t506",
   "historyId" : "40edc8eb5558f710b3a6c0952b81e4b3",
   "time" : {
-    "start" : 1729883143104,
-    "stop" : 1729883147853,
-    "duration" : 4749
+    "start" : 1729883156786,
+    "stop" : 1729883162793,
+    "duration" : 6007
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
-    "time" : {
-      "start" : 1729883143104,
-      "stop" : 1729883143104,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "set_driver",
-    "time" : {
-      "start" : 1729883142625,
-      "stop" : 1729883143103,
-      "duration" : 478
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1729883116980,
-      "stop" : 1729883116980,
+      "start" : 1729883129273,
+      "stop" : 1729883129273,
       "duration" : 0
     },
     "status" : "passed",
@@ -57,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1729883116907,
-      "stop" : 1729883116980,
-      "duration" : 73
+      "start" : 1729883156786,
+      "stop" : 1729883156786,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,9 +44,39 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1729883116980,
-      "stop" : 1729883116981,
+      "start" : 1729883129273,
+      "stop" : 1729883129274,
       "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1729883156322,
+      "stop" : 1729883156785,
+      "duration" : 463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1729883129195,
+      "stop" : 1729883129273,
+      "duration" : 78
     },
     "status" : "passed",
     "steps" : [ ],
@@ -92,17 +92,17 @@
     "steps" : [ {
       "name" : "Try to registration registered user AWDEV-T506",
       "time" : {
-        "start" : 1729883143104,
-        "stop" : 1729883147853,
-        "duration" : 4749
+        "start" : 1729883156787,
+        "stop" : 1729883162793,
+        "duration" : 6006
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open 'https://m2-live-qa-001.antoshka.ua/uk/' page",
         "time" : {
-          "start" : 1729883143104,
-          "stop" : 1729883146230,
-          "duration" : 3126
+          "start" : 1729883156787,
+          "stop" : 1729883161139,
+          "duration" : 4352
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,9 +115,9 @@
       }, {
         "name" : "Page 'https://m2-live-qa-001.antoshka.ua/uk/' is opened",
         "time" : {
-          "start" : 1729883146230,
-          "stop" : 1729883146234,
-          "duration" : 4
+          "start" : 1729883161139,
+          "stop" : 1729883161144,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
         "time" : {
-          "start" : 1729883146234,
-          "stop" : 1729883146295,
-          "duration" : 61
+          "start" : 1729883161144,
+          "stop" : 1729883161210,
+          "duration" : 66
         },
         "status" : "passed",
         "steps" : [ ],
@@ -145,9 +145,9 @@
       }, {
         "name" : "Click ('xpath', '//form[1]//a')",
         "time" : {
-          "start" : 1729883146295,
-          "stop" : 1729883147380,
-          "duration" : 1085
+          "start" : 1729883161210,
+          "stop" : 1729883162299,
+          "duration" : 1089
         },
         "status" : "passed",
         "steps" : [ ],
@@ -160,9 +160,9 @@
       }, {
         "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'О'",
         "time" : {
-          "start" : 1729883147380,
-          "stop" : 1729883147499,
-          "duration" : 119
+          "start" : 1729883162299,
+          "stop" : 1729883162426,
+          "duration" : 127
         },
         "status" : "passed",
         "steps" : [ ],
@@ -175,9 +175,9 @@
       }, {
         "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '637203664'",
         "time" : {
-          "start" : 1729883147499,
-          "stop" : 1729883147634,
-          "duration" : 135
+          "start" : 1729883162426,
+          "stop" : 1729883162568,
+          "duration" : 142
         },
         "status" : "passed",
         "steps" : [ ],
@@ -190,9 +190,9 @@
       }, {
         "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'lazebaoleg@gmail.com'",
         "time" : {
-          "start" : 1729883147634,
-          "stop" : 1729883147777,
-          "duration" : 143
+          "start" : 1729883162568,
+          "stop" : 1729883162712,
+          "duration" : 144
         },
         "status" : "passed",
         "steps" : [ ],
@@ -205,9 +205,9 @@
       }, {
         "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
         "time" : {
-          "start" : 1729883147777,
-          "stop" : 1729883147831,
-          "duration" : 54
+          "start" : 1729883162712,
+          "stop" : 1729883162770,
+          "duration" : 58
         },
         "status" : "passed",
         "steps" : [ ],
@@ -220,8 +220,8 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"//span[@class='error_user-text']\")'",
         "time" : {
-          "start" : 1729883147831,
-          "stop" : 1729883147843,
+          "start" : 1729883162770,
+          "stop" : 1729883162782,
           "duration" : 12
         },
         "status" : "passed",
@@ -235,9 +235,9 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"//p[@data-input-error='error_email-exists']\")'",
         "time" : {
-          "start" : 1729883147844,
-          "stop" : 1729883147853,
-          "duration" : 9
+          "start" : 1729883162782,
+          "stop" : 1729883162793,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
@@ -259,9 +259,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "ccc34ac04c6b5fd5",
+      "uid" : "4854c7c56fd4489c",
       "name" : "log",
-      "source" : "ccc34ac04c6b5fd5.txt",
+      "source" : "4854c7c56fd4489c.txt",
       "type" : "text/plain",
       "size" : 92
     } ],
@@ -274,9 +274,9 @@
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1729883147854,
-      "stop" : 1729883147920,
-      "duration" : 66
+      "start" : 1729883162794,
+      "stop" : 1729883162863,
+      "duration" : 69
     },
     "status" : "passed",
     "steps" : [ ],
@@ -298,7 +298,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "3b854fa6efbe"
+    "value" : "b447a780a771"
   }, {
     "name" : "thread",
     "value" : "7-MainThread"
@@ -476,6 +476,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "5ff9ebea30159632.json",
+  "source" : "255144ced05f05b5.json",
   "parameterValues" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
 }
