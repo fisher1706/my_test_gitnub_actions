@@ -44,7 +44,6 @@ jobs:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
           folder: allure-report
-          url: ${{ steps.get_release_url.outputs.release_url }}
           clean: true
 
       - name: Shut down and remove containers
