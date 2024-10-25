@@ -16,6 +16,11 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
+
       - name: Run tests qa environment
         run: |
           docker-compose up regression-qa
