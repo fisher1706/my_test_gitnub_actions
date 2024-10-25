@@ -1,5 +1,61 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "tests.ui.test_registration_new_user",
+    "children" : [ {
+      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u0443\\u043a\\u0438\\u044f \\u0410\\u0444\\u0430\\u043d\\u0430\\u0441\\u044c\\u0435\\u0432\\u043d\\u0430 \\u041f\\u0440\\u043e\\u0445\\u043e\\u0440\\u043e\\u0432\\u0430', 'email': 'osipovkornil@example.com', 'phone': '+380630347664'}-1111]",
+      "uid" : "c2883121c63c6776",
+      "parentUid" : "23ee8ed786ee95ed594091552018fb88",
+      "status" : "broken",
+      "time" : {
+        "start" : 1729878799033,
+        "stop" : 1729878825246,
+        "duration" : 26213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1111", "{'name': 'Лукия Афанасьевна Прохорова', 'email': 'osipovkornil@example.com', 'phone': '+380630347664'}" ]
+    }, {
+      "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
+      "uid" : "8041df7bf94636c5",
+      "parentUid" : "23ee8ed786ee95ed594091552018fb88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1729878825831,
+        "stop" : 1729878831470,
+        "duration" : 5639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
+    }, {
+      "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'akM2s12', 'email': 'vf3bWJa'}]",
+      "uid" : "ebe723d89952139b",
+      "parentUid" : "23ee8ed786ee95ed594091552018fb88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1729878832033,
+        "stop" : 1729878837589,
+        "duration" : 5556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'Олег', 'phone': 'akM2s12', 'email': 'vf3bWJa'}" ]
+    }, {
+      "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0416\\u0443\\u043a\\u043e\\u0432\\u0430 \\u0415\\u0432\\u0444\\u0440\\u043e\\u0441\\u0438\\u043d\\u0438\\u044f \\u0410\\u043d\\u0430\\u0442\\u043e\\u043b\\u044c\\u0435\\u0432\\u043d\\u0430', 'email': 'ostapgrigorev@example.org', 'phone': '+380636169081'}-8889]",
+      "uid" : "32864489b21751db",
+      "parentUid" : "23ee8ed786ee95ed594091552018fb88",
+      "status" : "broken",
+      "time" : {
+        "start" : 1729878838150,
+        "stop" : 1729878864042,
+        "duration" : 25892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "8889", "{'name': 'Жукова Евфросиния Анатольевна', 'email': 'ostapgrigorev@example.org', 'phone': '+380636169081'}" ]
+    } ],
+    "uid" : "tests.ui.test_registration_new_user"
+  } ]
 }
