@@ -2,56 +2,56 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u0443\\u043a\\u0438\\u044f \\u0410\\u0444\\u0430\\u043d\\u0430\\u0441\\u044c\\u0435\\u0432\\u043d\\u0430 \\u041f\\u0440\\u043e\\u0445\\u043e\\u0440\\u043e\\u0432\\u0430', 'email': 'osipovkornil@example.com', 'phone': '+380630347664'}-1111]",
-    "uid" : "c2883121c63c6776",
+    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0438\\u043c\\u043f\\u0438\\u0430\\u0434\\u0430 \\u0421\\u0432\\u044f\\u0442\\u043e\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u041a\\u043e\\u0448\\u0435\\u043b\\u0435\\u0432\\u0430', 'email': 'mzatsev@example.com', 'phone': '+380639559256'}-1111]",
+    "uid" : "c1874266c3dccbc0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1729878799033,
-      "stop" : 1729878825246,
-      "duration" : 26213
+      "start" : 1729879087349,
+      "stop" : 1729879112466,
+      "duration" : 25117
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "1111", "{'name': 'Лукия Афанасьевна Прохорова', 'email': 'osipovkornil@example.com', 'phone': '+380630347664'}" ]
+    "parameters" : [ "1111", "{'name': 'Олимпиада Святославовна Кошелева', 'email': 'mzatsev@example.com', 'phone': '+380639559256'}" ]
   }, {
     "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-    "uid" : "8041df7bf94636c5",
+    "uid" : "df498a1a1ae1b8d0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1729878825831,
-      "stop" : 1729878831470,
-      "duration" : 5639
+      "start" : 1729879113112,
+      "stop" : 1729879117892,
+      "duration" : 4780
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
   }, {
-    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'akM2s12', 'email': 'vf3bWJa'}]",
-    "uid" : "ebe723d89952139b",
+    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'wnWfCPM', 'email': 'O0FsAg2'}]",
+    "uid" : "fa3227f91c929975",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1729878832033,
-      "stop" : 1729878837589,
-      "duration" : 5556
+      "start" : 1729879118511,
+      "stop" : 1729879123122,
+      "duration" : 4611
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': 'akM2s12', 'email': 'vf3bWJa'}" ]
+    "parameters" : [ "{'name': 'Олег', 'phone': 'wnWfCPM', 'email': 'O0FsAg2'}" ]
   }, {
-    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0416\\u0443\\u043a\\u043e\\u0432\\u0430 \\u0415\\u0432\\u0444\\u0440\\u043e\\u0441\\u0438\\u043d\\u0438\\u044f \\u0410\\u043d\\u0430\\u0442\\u043e\\u043b\\u044c\\u0435\\u0432\\u043d\\u0430', 'email': 'ostapgrigorev@example.org', 'phone': '+380636169081'}-8889]",
-    "uid" : "32864489b21751db",
+    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041b\\u0443\\u043a\\u0438\\u043d \\u0424\\u0438\\u043b\\u0430\\u0440\\u0435\\u0442 \\u0425\\u0430\\u0440\\u043b\\u0430\\u043c\\u043f\\u043e\\u0432\\u0438\\u0447', 'email': 'iraida_1989@example.org', 'phone': '+380636236189'}-8889]",
+    "uid" : "cca4aab6d0734f3d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1729878838150,
-      "stop" : 1729878864042,
-      "duration" : 25892
+      "start" : 1729879123724,
+      "stop" : 1729879148795,
+      "duration" : 25071
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "8889", "{'name': 'Жукова Евфросиния Анатольевна', 'email': 'ostapgrigorev@example.org', 'phone': '+380636169081'}" ]
+    "parameters" : [ "8889", "{'name': 'Лукин Филарет Харлампович', 'email': 'iraida_1989@example.org', 'phone': '+380636236189'}" ]
   } ]
 }
