@@ -31,12 +31,12 @@ pip install -r requirements.txt
 
 # run tests with create allure report
 ```shell
-pytest tests/ --alluredir=allure-results
+pytest tests/ --alluredir=allure-results-qa
 ```
 
 # open allure report
 ```shell
-allure serve allure-results
+allure serve allure-results-qa
 ```
 
 # start tests from docker-compose
@@ -58,5 +58,5 @@ docker rmi $(docker images -q)
 
 # generate allure-report
 ```shell
-allure generate allure-results --clean -o allure-report
+allure generate allure-results-qa --clean -o allure-report-qa
 ```
