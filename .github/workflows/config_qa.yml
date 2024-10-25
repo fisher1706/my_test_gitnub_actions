@@ -4,48 +4,28 @@ on:
   workflow_dispatch
 
 jobs:
-  regression-qa:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        environment: [staging, production]  # Укажите нужные окружения
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Checkout (copy) gh-pages repository to GitHub runner
+      - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-          path: ./.github/gh-pages
 
-      - name: Install Docker Compose
+      - name: Run Tests and Generate Allure Report
         run: |
-          sudo apt-get update
-          sudo apt-get install -y docker-compose
+          pytest --alluredir=allure-results
 
-      - name: Run tests qa environment
+      - name: Generate Allure HTML Report
         run: |
-          docker-compose up regression-qa
-
-      - name: Copy history from gh-pages to allure-results
-        run: |
-          sudo mkdir -p allure-results/history
-          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
-
-      - name: Generate Allure report
-        run: |
-          /bin/sh -c "allure generate allure-results --clean -o allure-report"
-
-      - name: Update Allure history
-        run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+          allure generate allure-results -o allure-report/${{ matrix.environment }} --clean
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          token: ${{ secrets.CI_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: allure-report/${{ matrix.environment }}
           clean: true
-
-      - name: Shut down and remove containers
-        run: |
-          docker-compose down
