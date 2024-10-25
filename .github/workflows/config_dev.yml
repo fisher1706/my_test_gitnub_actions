@@ -4,52 +4,38 @@ on:
   workflow_dispatch
 
 jobs:
-  regression-dev:
+  deploy:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        environment: [ dev, qa ]
+        env: [prod, staging, test]  # Define multiple environments if needed
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Checkout (copy) gh-pages repository to GitHub runner
+      - name: Check out repository
         uses: actions/checkout@v2
+
+      - name: Set up Python and Java
+        uses: actions/setup-python@v3
         with:
-          ref: gh-pages
-          path: ./.github/gh-pages
+          python-version: '3.x'
 
-      - name: Install Docker Compose
+      - name: Install Allure CLI
         run: |
-          sudo apt-get update
-          sudo apt-get install -y docker-compose
+          pip install allure-pytest
+          sudo apt-get install allure
 
-      - name: Run tests dev environment
+      - name: Run tests and generate Allure results
         run: |
-          docker-compose up regression-dev
+          pytest --alluredir=allure-results
 
-      - name: Copy history from gh-pages to allure-results
+      - name: Generate Allure Report
         run: |
-          sudo mkdir -p allure-results/history
-          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
-
-      - name: Generate Allure report
-        run: |
-          docker-compose run regression-dev /bin/sh -c "allure generate allure-results --clean -o allure-report/${{ matrix.environment }}"
-
-      - name: Update Allure history
-        run: |
-          sudo cp -R allure-report/${{ matrix.environment }}/history/* ./.github/gh-pages/history/
+          allure generate allure-results -o allure-report --clean
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          token: ${{ secrets.CI_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          folder: allure-report/${{ matrix.environment }}
-          clean: true
-
-      - name: Shut down and remove containers
-        run: |
-          docker-compose down
+          folder: allure-report/${{ matrix.env }}  # Dynamic URL path
+          clean: false
