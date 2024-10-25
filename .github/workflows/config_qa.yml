@@ -7,6 +7,10 @@ jobs:
   regression-qa:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        environment: [ dev, qa ]
+
     steps:
       - uses: actions/checkout@v3
 
