@@ -1,57 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ {
-    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0414\\u0435\\u043c\\u0435\\u043d\\u0442\\u044c\\u0435\\u0432 \\u041c\\u0438\\u043b\\u0438\\u0439 \\u0413\\u0435\\u0440\\u0430\\u0441\\u0438\\u043c\\u043e\\u0432\\u0438\\u0447', 'email': 'panfilovamargarita@example.com', 'phone': '+380637449955'}-1111]",
-    "uid" : "d72bf0c9538d80fb",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1729875937844,
-      "stop" : 1729875961399,
-      "duration" : 23555
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "1111", "{'name': 'Дементьев Милий Герасимович', 'email': 'panfilovamargarita@example.com', 'phone': '+380637449955'}" ]
-  }, {
-    "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-    "uid" : "723e8882b8908c0a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1729875962015,
-      "stop" : 1729875964996,
-      "duration" : 2981
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
-  }, {
-    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'XElJOVH', 'email': '1E38dI2'}]",
-    "uid" : "c83397c3d67748d6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1729875965536,
-      "stop" : 1729875968306,
-      "duration" : 2770
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': 'XElJOVH', 'email': '1E38dI2'}" ]
-  }, {
-    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u0442\\u043e\\u0432 \\u041a\\u0430\\u043f\\u0438\\u0442\\u043e\\u043d \\u0414\\u0430\\u0432\\u044b\\u0434\\u043e\\u0432\\u0438\\u0447', 'email': 'volkovkim@example.org', 'phone': '+380637773673'}-8889]",
-    "uid" : "5f5e16d9a739c1a0",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1729875968855,
-      "stop" : 1729875992059,
-      "duration" : 23204
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "8889", "{'name': 'Котов Капитон Давыдович', 'email': 'volkovkim@example.org', 'phone': '+380637773673'}" ]
-  } ]
+  "children" : [ ]
 }
