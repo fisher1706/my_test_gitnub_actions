@@ -1,65 +1,65 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
-    "name" : "3c351df43bbf",
+    "name" : "baa9dd4be7ee",
     "children" : [ {
-      "name" : "9-MainThread",
+      "name" : "7-MainThread",
       "children" : [ {
-        "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "ac2ddf482d4af5ae",
-        "parentUid" : "e2638d7ce0c757bad46e3d5dcedc51c0",
+        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'SOl8Grl', 'email': 'D2zmiEu'}]",
+        "uid" : "d7629ed69d132187",
+        "parentUid" : "b5690a0c50fc04f86ff4e8410efccf24",
         "status" : "passed",
         "time" : {
-          "start" : 1729884645078,
-          "stop" : 1729884650873,
-          "duration" : 5795
+          "start" : 1729885281986,
+          "stop" : 1729885287892,
+          "duration" : 5906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'Олег', 'phone': 'SOl8Grl', 'email': 'D2zmiEu'}" ]
+      }, {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0425\\u0430\\u0440\\u0438\\u0442\\u043e\\u043d\\u043e\\u0432\\u0430 \\u0415\\u0432\\u0433\\u0435\\u043d\\u0438\\u044f \\u0424\\u0435\\u043b\\u0438\\u043a\\u0441\\u043e\\u0432\\u043d\\u0430', 'email': 'ruben10@example.com', 'phone': '+380636286628'}-1111]",
+        "uid" : "7638e23a87c737d2",
+        "parentUid" : "b5690a0c50fc04f86ff4e8410efccf24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729885248601,
+          "stop" : 1729885274942,
+          "duration" : 26341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Харитонова Евгения Феликсовна', 'email': 'ruben10@example.com', 'phone': '+380636286628'}" ]
+      }, {
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041b\\u0430\\u0440\\u0438\\u0441\\u0430 \\u0424\\u0438\\u043b\\u0438\\u043f\\u043f\\u043e\\u0432\\u043d\\u0430 \\u0412\\u043e\\u0440\\u043e\\u0431\\u044c\\u0435\\u0432\\u0430', 'email': 'zhukovavasilisa@example.net', 'phone': '+380639344198'}-8889]",
+        "uid" : "c91ad7418d86a416",
+        "parentUid" : "b5690a0c50fc04f86ff4e8410efccf24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729885288501,
+          "stop" : 1729885314807,
+          "duration" : 26306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8889", "{'name': 'Лариса Филипповна Воробьева', 'email': 'zhukovavasilisa@example.net', 'phone': '+380639344198'}" ]
+      }, {
+        "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
+        "uid" : "596b7c9ac9ae4fdb",
+        "parentUid" : "b5690a0c50fc04f86ff4e8410efccf24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729885275477,
+          "stop" : 1729885281446,
+          "duration" : 5969
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
-      }, {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0410\\u0433\\u0430\\u0442\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0411\\u0430\\u0440\\u0430\\u043d\\u043e\\u0432\\u0430', 'email': 'tarasovafaina@example.net', 'phone': '+380631811528'}-1111]",
-        "uid" : "dc646d329050559e",
-        "parentUid" : "e2638d7ce0c757bad46e3d5dcedc51c0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729884618326,
-          "stop" : 1729884644527,
-          "duration" : 26201
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Агата Станиславовна Баранова', 'email': 'tarasovafaina@example.net', 'phone': '+380631811528'}" ]
-      }, {
-        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'thDeQAB', 'email': 'kidlpem'}]",
-        "uid" : "b9a93587aa915435",
-        "parentUid" : "e2638d7ce0c757bad46e3d5dcedc51c0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1729884651380,
-          "stop" : 1729884657183,
-          "duration" : 5803
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'name': 'Олег', 'phone': 'thDeQAB', 'email': 'kidlpem'}" ]
-      }, {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0413\\u043e\\u0440\\u0431\\u0443\\u043d\\u043e\\u0432 \\u041b\\u0430\\u0432\\u0440\\u0435\\u043d\\u0442\\u0438\\u0439 \\u0410\\u043d\\u0442\\u043e\\u043d\\u043e\\u0432\\u0438\\u0447', 'email': 'lukjan2004@example.com', 'phone': '+380639636315'}-8889]",
-        "uid" : "f0482cc09905e109",
-        "parentUid" : "e2638d7ce0c757bad46e3d5dcedc51c0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729884657695,
-          "stop" : 1729884683725,
-          "duration" : 26030
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Горбунов Лаврентий Антонович', 'email': 'lukjan2004@example.com', 'phone': '+380639636315'}" ]
       } ],
-      "uid" : "e2638d7ce0c757bad46e3d5dcedc51c0"
+      "uid" : "b5690a0c50fc04f86ff4e8410efccf24"
     } ],
-    "uid" : "dd585b41320cffaf2ee19eb4f97fdef5"
-  } ]
+    "uid" : "92f352b5fa55967ee0e1affd1aa1ce04"
+  } ],
+  "name" : "timeline"
 }
