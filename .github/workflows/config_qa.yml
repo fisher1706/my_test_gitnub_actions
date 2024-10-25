@@ -32,19 +32,18 @@ jobs:
 
       - name: Generate Allure report
         run: |
-          echo "subdomain.example.com" > allure-report/CNAME
-          docker-compose run regression-qa /bin/sh -c "allure generate allure-results --clean -o allure-report"
+          docker-compose run regression-qa /bin/sh -c "allure generate allure-results --clean -o allure-report/qa"
 
       - name: Update Allure history
         run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+          sudo cp -R allure-report/qa/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
-          folder: allure-report/${{ matrix.environment }}
+          folder: allure-report/qa
           clean: true
 
       - name: Shut down and remove containers
