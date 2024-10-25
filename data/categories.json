@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x61026c46b02a <unknown>\n#1 0x61026c1515e0 <unknown>\n#2 0x61026c1a0be8 <unknown>\n#3 0x61026c1a0e81 <unknown>\n#4 0x61026c1e78c4 <unknown>\n#5 0x61026c1c5b4d <unknown>\n#6 0x61026c1e4d7d <unknown>\n#7 0x61026c1c58c3 <unknown>\n#8 0x61026c1936b3 <unknown>\n#9 0x61026c19468e <unknown>\n#10 0x61026c435a2b <unknown>\n#11 0x61026c4399b1 <unknown>\n#12 0x61026c422225 <unknown>\n#13 0x61026c43a532 <unknown>\n#14 0x61026c40738f <unknown>\n#15 0x61026c459f28 <unknown>\n#16 0x61026c45a0f3 <unknown>\n#17 0x61026c469e7c <unknown>\n#18 0x7ac789894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0414\\u0435\\u043c\\u0435\\u043d\\u0442\\u044c\\u0435\\u0432 \\u041c\\u0438\\u043b\\u0438\\u0439 \\u0413\\u0435\\u0440\\u0430\\u0441\\u0438\\u043c\\u043e\\u0432\\u0438\\u0447', 'email': 'panfilovamargarita@example.com', 'phone': '+380637449955'}-1111]",
+        "uid" : "d72bf0c9538d80fb",
+        "parentUid" : "712dc2ed0aa7fe01a46eec881a0c9dcc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729875937844,
+          "stop" : 1729875961399,
+          "duration" : 23555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Дементьев Милий Герасимович', 'email': 'panfilovamargarita@example.com', 'phone': '+380637449955'}" ]
+      } ],
+      "uid" : "712dc2ed0aa7fe01a46eec881a0c9dcc"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5b47eeff102a <unknown>\n#1 0x5b47eecd75e0 <unknown>\n#2 0x5b47eed26be8 <unknown>\n#3 0x5b47eed26e81 <unknown>\n#4 0x5b47eed6d8c4 <unknown>\n#5 0x5b47eed4bb4d <unknown>\n#6 0x5b47eed6ad7d <unknown>\n#7 0x5b47eed4b8c3 <unknown>\n#8 0x5b47eed196b3 <unknown>\n#9 0x5b47eed1a68e <unknown>\n#10 0x5b47eefbba2b <unknown>\n#11 0x5b47eefbf9b1 <unknown>\n#12 0x5b47eefa8225 <unknown>\n#13 0x5b47eefc0532 <unknown>\n#14 0x5b47eef8d38f <unknown>\n#15 0x5b47eefdff28 <unknown>\n#16 0x5b47eefe00f3 <unknown>\n#17 0x5b47eefefe7c <unknown>\n#18 0x7073d6094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u0442\\u043e\\u0432 \\u041a\\u0430\\u043f\\u0438\\u0442\\u043e\\u043d \\u0414\\u0430\\u0432\\u044b\\u0434\\u043e\\u0432\\u0438\\u0447', 'email': 'volkovkim@example.org', 'phone': '+380637773673'}-8889]",
+        "uid" : "5f5e16d9a739c1a0",
+        "parentUid" : "dff9904d42438ec587c0e271a1755eef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729875968855,
+          "stop" : 1729875992059,
+          "duration" : 23204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8889", "{'name': 'Котов Капитон Давыдович', 'email': 'volkovkim@example.org', 'phone': '+380637773673'}" ]
+      } ],
+      "uid" : "dff9904d42438ec587c0e271a1755eef"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
