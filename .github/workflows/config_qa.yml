@@ -7,10 +7,6 @@ jobs:
   regression-qa:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        environment: [ dev, qa ]
-
     steps:
       - uses: actions/checkout@v3
 
@@ -36,11 +32,11 @@ jobs:
 
       - name: Generate Allure report
         run: |
-          docker-compose run regression-qa /bin/sh -c "allure generate allure-results --clean -o allure-report/${{ matrix.environment }}"
+          docker-compose run regression-qa /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
       - name: Update Allure history
         run: |
-          sudo cp -R allure-report/${{ matrix.environment }}/history/* ./.github/gh-pages/history/
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
@@ -48,6 +44,7 @@ jobs:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
           folder: allure-report/${{ matrix.environment }}
+          url: ${{ steps.get_release_url.outputs.release_url }}
           clean: true
 
       - name: Shut down and remove containers
