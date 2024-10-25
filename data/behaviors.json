@@ -1,57 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ {
-    "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0412\\u0430\\u043b\\u0435\\u0440\\u0438\\u044f \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0435\\u0432\\u043d\\u0430 \\u0428\\u0430\\u0448\\u043a\\u043e\\u0432\\u0430', 'email': 'fedoseevavgust@example.com', 'phone': '+380631003234'}-1111]",
-    "uid" : "c83d6ef96bcaae67",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1729888782076,
-      "stop" : 1729888807118,
-      "duration" : 25042
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "1111", "{'name': 'Валерия Дмитриевна Шашкова', 'email': 'fedoseevavgust@example.com', 'phone': '+380631003234'}" ]
-  }, {
-    "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-    "uid" : "3153d911e7cb3a5f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1729888807691,
-      "stop" : 1729888812430,
-      "duration" : 4739
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
-  }, {
-    "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'VhHqKN2', 'email': 'BNq3O8Q'}]",
-    "uid" : "c50735f94bed24e5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1729888812974,
-      "stop" : 1729888817652,
-      "duration" : 4678
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{'name': 'Олег', 'phone': 'VhHqKN2', 'email': 'BNq3O8Q'}" ]
-  }, {
-    "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0421\\u0432\\u0435\\u0442\\u043b\\u0430\\u043d\\u0430 \\u0418\\u0433\\u043e\\u0440\\u0435\\u0432\\u043d\\u0430 \\u041a\\u0430\\u0440\\u043f\\u043e\\u0432\\u0430', 'email': 'timofeevlavr@example.org', 'phone': '+380633708773'}-8889]",
-    "uid" : "910ba0520778dae8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1729888818179,
-      "stop" : 1729888843048,
-      "duration" : 24869
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "8889", "{'name': 'Светлана Игоревна Карпова', 'email': 'timofeevlavr@example.org', 'phone': '+380633708773'}" ]
-  } ],
-  "name" : "behaviors"
+  "name" : "behaviors",
+  "children" : [ ]
 }
