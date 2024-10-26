@@ -4,27 +4,27 @@
   "children" : [ {
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
-      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0426\\u0432\\u0435\\u0442\\u043a\\u043e\\u0432\\u0430 \\u041d\\u0438\\u043d\\u0430 \\u041e\\u0441\\u043a\\u0430\\u0440\\u043e\\u0432\\u043d\\u0430', 'email': 'asharova@example.org', 'phone': '+380632921897'}-1111]",
-      "uid" : "42a681428385c8bc",
+      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0421\\u0430\\u0432\\u0432\\u0430 \\u0412\\u043b\\u0430\\u0434\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u0438\\u0447 \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0435\\u0432', 'email': 'ovchinnikovamargarita@example.org', 'phone': '+380639278827'}-1111]",
+      "uid" : "4e76895fb45cc7f3",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "broken",
       "time" : {
-        "start" : 1729956262359,
-        "stop" : 1729956287855,
-        "duration" : 25496
+        "start" : 1729956772701,
+        "stop" : 1729956797930,
+        "duration" : 25229
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "1111", "{'name': 'Цветкова Нина Оскаровна', 'email': 'asharova@example.org', 'phone': '+380632921897'}" ]
+      "parameters" : [ "1111", "{'name': 'Савва Владиславович Дмитриев', 'email': 'ovchinnikovamargarita@example.org', 'phone': '+380639278827'}" ]
     }, {
       "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-      "uid" : "69a92eedd3fb2e89",
+      "uid" : "c7a81ff7a92a2287",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729956288412,
-        "stop" : 1729956293414,
-        "duration" : 5002
+        "start" : 1729956798484,
+        "stop" : 1729956803401,
+        "duration" : 4917
       },
       "flaky" : false,
       "newFailed" : false,
