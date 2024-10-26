@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
-    "name" : "492fe173b81f",
+    "name" : "ba3118783dc8",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u044c\\u0433\\u0430 \\u0415\\u0432\\u0433\\u0435\\u043d\\u044c\\u0435\\u0432\\u043d\\u0430 \\u0411\\u0435\\u043b\\u044f\\u043a\\u043e\\u0432\\u0430', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}-1111]",
-        "uid" : "8a508c944558e86d",
-        "parentUid" : "8d1bebfeb396db57888631952cd26030",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729954692827,
-          "stop" : 1729954717841,
-          "duration" : 25014
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Ольга Евгеньевна Белякова', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}" ]
-      }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "227af045debe8a2d",
-        "parentUid" : "8d1bebfeb396db57888631952cd26030",
+        "uid" : "77005f5e70e5fc66",
+        "parentUid" : "0fc9f80387ea2e3c4cf85be553d43770",
         "status" : "passed",
         "time" : {
-          "start" : 1729954718395,
-          "stop" : 1729954723026,
-          "duration" : 4631
+          "start" : 1729955494301,
+          "stop" : 1729955498986,
+          "duration" : 4685
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
+      }, {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0430\\u0442\\u0430\\u043d \\u0416\\u043e\\u0440\\u0435\\u0441\\u043e\\u0432\\u0438\\u0447 \\u0421\\u043e\\u043b\\u043e\\u0432\\u044c\\u0435\\u0432', 'email': 'evgraf_24@example.net', 'phone': '+380633154624'}-1111]",
+        "uid" : "1aa8346da846b4ef",
+        "parentUid" : "0fc9f80387ea2e3c4cf85be553d43770",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729955468876,
+          "stop" : 1729955493733,
+          "duration" : 24857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Натан Жоресович Соловьев', 'email': 'evgraf_24@example.net', 'phone': '+380633154624'}" ]
       } ],
-      "uid" : "8d1bebfeb396db57888631952cd26030"
+      "uid" : "0fc9f80387ea2e3c4cf85be553d43770"
     } ],
-    "uid" : "c8ef652210c8fc3b4dd25479cf88e385"
-  } ]
+    "uid" : "85c35aaccc226cf7fd6e4efa6f26d46b"
+  } ],
+  "name" : "timeline"
 }
