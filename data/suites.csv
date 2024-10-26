@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Oct 26 19:16:01 UTC 2024","Sat Oct 26 19:16:07 UTC 2024","5444","tests.ui","test_registration_new_user","TestRegistrationUser","","","test_try_registration_new_user_awdev_t506",""
+"passed","Sat Oct 26 19:20:36 UTC 2024","Sat Oct 26 19:20:41 UTC 2024","5134","tests.ui","test_registration_new_user","TestRegistrationUser","","","test_try_registration_new_user_awdev_t506",""
