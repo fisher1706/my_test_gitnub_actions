@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Oct 26 17:06:10 UTC 2024","Sat Oct 26 17:06:15 UTC 2024","4778","tests.ui","test_registration_new_user","TestRegistrationUser","","","test_try_registration_new_user_awdev_t506[{'name': '\u041e\u043b\u0435\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",""
+"passed","Sat Oct 26 17:09:58 UTC 2024","Sat Oct 26 17:10:03 UTC 2024","5172","tests.ui","test_registration_new_user","TestRegistrationUser","","","test_try_registration_new_user_awdev_t506[{'name': '\u041e\u043b\u0435\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",""
