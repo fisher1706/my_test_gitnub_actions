@@ -44,7 +44,7 @@ jobs:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
           folder: allure-report/qa
-          clean: false
+          clean: true
 
       - name: Shut down and remove containers
         run: |
