@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "tests.ui",
     "children" : [ {
@@ -7,63 +8,62 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u0443\\u043a\\u0430 \\u0410\\u0430\\u0440\\u043e\\u043d\\u043e\\u0432\\u0438\\u0447 \\u041d\\u0438\\u043a\\u043e\\u043b\\u0430\\u0435\\u0432', 'email': 'askold1970@example.com', 'phone': '+380635784160'}-1111]",
-          "uid" : "3491ee1d87fca72c",
+          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041c\\u0438\\u0445\\u0430\\u0439\\u043b\\u043e\\u0432 \\u0414\\u0435\\u043c\\u0438\\u0434 \\u0418\\u0441\\u0438\\u0434\\u043e\\u0440\\u043e\\u0432\\u0438\\u0447', 'email': 'nikodim_1996@example.net', 'phone': '+380634835486'}-1111]",
+          "uid" : "e4b44f1d8c24704",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729890992593,
-            "stop" : 1729891018521,
-            "duration" : 25928
+            "start" : 1729922370010,
+            "stop" : 1729922396382,
+            "duration" : 26372
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1111", "{'name': 'Лука Ааронович Николаев', 'email': 'askold1970@example.com', 'phone': '+380635784160'}" ]
+          "parameters" : [ "1111", "{'name': 'Михайлов Демид Исидорович', 'email': 'nikodim_1996@example.net', 'phone': '+380634835486'}" ]
         }, {
           "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "e359b0159c5ac011",
+          "uid" : "da7c6e2a9fef690b",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729891019080,
-            "stop" : 1729891024822,
-            "duration" : 5742
+            "start" : 1729922396911,
+            "stop" : 1729922402892,
+            "duration" : 5981
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
         }, {
-          "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'wocgzUL', 'email': 'vgVAPaP'}]",
-          "uid" : "bd3e090bc66519c1",
+          "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'nF6fmhh', 'email': 'kpH9FST'}]",
+          "uid" : "5b46d387fd641353",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729891025343,
-            "stop" : 1729891030972,
-            "duration" : 5629
+            "start" : 1729922403384,
+            "stop" : 1729922409331,
+            "duration" : 5947
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "{'name': 'Олег', 'phone': 'wocgzUL', 'email': 'vgVAPaP'}" ]
+          "parameters" : [ "{'name': 'Олег', 'phone': 'nF6fmhh', 'email': 'kpH9FST'}" ]
         }, {
-          "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0413\\u043b\\u0430\\u0444\\u0438\\u0440\\u0430 \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d\\u0438\\u0447\\u043d\\u0430 \\u041c\\u044f\\u0441\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430', 'email': 'bsmirnova@example.net', 'phone': '+380634868188'}-8889]",
-          "uid" : "8e934ed8f72941e6",
+          "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0413\\u043b\\u0430\\u0444\\u0438\\u0440\\u0430 \\u041b\\u044c\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0435\\u0432\\u0430', 'email': 'ermakovanina@example.net', 'phone': '+380639069985'}-8889]",
+          "uid" : "c8929ecd4be2f6c6",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729891031523,
-            "stop" : 1729891057315,
-            "duration" : 25792
+            "start" : 1729922409811,
+            "stop" : 1729922436159,
+            "duration" : 26348
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "8889", "{'name': 'Глафира Кузьминична Мясникова', 'email': 'bsmirnova@example.net', 'phone': '+380634868188'}" ]
+          "parameters" : [ "8889", "{'name': 'Глафира Львовна Алексеева', 'email': 'ermakovanina@example.net', 'phone': '+380639069985'}" ]
         } ],
         "uid" : "5036755ccc5a090dbe42a329784235f9"
       } ],
       "uid" : "94d54db56207a313a553d594baeac988"
     } ],
     "uid" : "3965134f6f8c1be9f46795103934f428"
-  } ],
-  "name" : "suites"
+  } ]
 }
