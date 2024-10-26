@@ -10,7 +10,9 @@ class TestRegistrationUser(BaseTest):
     @allure.step("Registration new user AWDEV-T506")
     @pytest.mark.parametrize("user, code", [
         (RegistrationUserUi.user_name_phone_email, DEFAULT_CODE_REGISTRATION)], ids=str)
-    def test_registration_new_user_awdev_t506(self, user, code):
+    def test_registration_new_user_awdev_t506(self, user, code, set_env_settings):
+        env = set_env_settings.env
+        print(env)
         self.registration_page.open_registration_form()
         self.registration_page.fill_registration_form(user=user)
         self.registration_page.confirm_registration_form(code=code)
@@ -18,7 +20,9 @@ class TestRegistrationUser(BaseTest):
 
     @allure.step("Try to registration registered user AWDEV-T506")
     @pytest.mark.parametrize("user", [RegistrationUserUi.registered_user], ids=str)
-    def test_try_registration_new_user_awdev_t506(self, user):
+    def test_try_registration_new_user_awdev_t506(self, user, set_env_settings):
+        env = set_env_settings.env
+        print(env)
         self.registration_page.open_registration_form()
         self.registration_page.fill_registration_form(user=user)
         self.registration_page.verify_phone_warning()

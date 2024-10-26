@@ -1,5 +1,7 @@
 from __future__ import annotations
 from src.base_classes.builder import BuilderBaseClass
+from src.enums.rest_endpoint_field import RestEndpointField
+from src.generators.user import User
 
 
 class Goods(BuilderBaseClass):
