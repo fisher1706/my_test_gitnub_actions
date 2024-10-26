@@ -4,39 +4,39 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55ef19be08ae <unknown>\n#1 0x55ef19715c40 <unknown>\n#2 0x55ef19761e12 <unknown>\n#3 0x55ef19762011 <unknown>\n#4 0x55ef197abbc4 <unknown>\n#5 0x55ef19789efd <unknown>\n#6 0x55ef197a96d2 <unknown>\n#7 0x55ef19789c73 <unknown>\n#8 0x55ef197556e8 <unknown>\n#9 0x55ef1975669e <unknown>\n#10 0x55ef19bb3c66 <unknown>\n#11 0x55ef19bb6f97 <unknown>\n#12 0x55ef19bb6a58 <unknown>\n#13 0x55ef19bb7425 <unknown>\n#14 0x55ef19ba4b6e <unknown>\n#15 0x55ef19bb776f <unknown>\n#16 0x55ef19b8e625 <unknown>\n#17 0x55ef19bcfd55 <unknown>\n#18 0x55ef19bcff36 <unknown>\n#19 0x55ef19bdf6e5 <unknown>\n#20 0x7f3ddd952144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x562c71bf08ae <unknown>\n#1 0x562c71725c40 <unknown>\n#2 0x562c71771e12 <unknown>\n#3 0x562c71772011 <unknown>\n#4 0x562c717bbbc4 <unknown>\n#5 0x562c71799efd <unknown>\n#6 0x562c717b96d2 <unknown>\n#7 0x562c71799c73 <unknown>\n#8 0x562c717656e8 <unknown>\n#9 0x562c7176669e <unknown>\n#10 0x562c71bc3c66 <unknown>\n#11 0x562c71bc6f97 <unknown>\n#12 0x562c71bc6a58 <unknown>\n#13 0x562c71bc7425 <unknown>\n#14 0x562c71bb4b6e <unknown>\n#15 0x562c71bc776f <unknown>\n#16 0x562c71b9e625 <unknown>\n#17 0x562c71bdfd55 <unknown>\n#18 0x562c71bdff36 <unknown>\n#19 0x562c71bef6e5 <unknown>\n#20 0x7f5f92743144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041f\\u043e\\u043b\\u0438\\u043d\\u0430 \\u041d\\u0438\\u043b\\u043e\\u0432\\u043d\\u0430 \\u041c\\u043e\\u0438\\u0441\\u0435\\u0435\\u0432\\u0430', 'email': 'idavidov@example.com', 'phone': '+380634614074'}-1111]",
-        "uid" : "29cfb75dd37da61b",
-        "parentUid" : "885384c415595c1f46c293bb513c35be",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0428\\u0430\\u0440\\u0430\\u043f\\u043e\\u0432\\u0430 \\u0422\\u0430\\u0442\\u044c\\u044f\\u043d\\u0430 \\u0410\\u0440\\u0445\\u0438\\u043f\\u043e\\u0432\\u043d\\u0430', 'email': 'boris1973@example.org', 'phone': '+380635626386'}-1111]",
+        "uid" : "ac81dd68fb61bcd5",
+        "parentUid" : "29dd6c9b58b3a967311067adb1b8b65d",
         "status" : "broken",
         "time" : {
-          "start" : 1729929767209,
-          "stop" : 1729929792229,
-          "duration" : 25020
+          "start" : 1729932665961,
+          "stop" : 1729932690748,
+          "duration" : 24787
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Полина Ниловна Моисеева', 'email': 'idavidov@example.com', 'phone': '+380634614074'}" ]
+        "parameters" : [ "1111", "{'name': 'Шарапова Татьяна Архиповна', 'email': 'boris1973@example.org', 'phone': '+380635626386'}" ]
       } ],
-      "uid" : "885384c415595c1f46c293bb513c35be"
+      "uid" : "29dd6c9b58b3a967311067adb1b8b65d"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x56388f0f98ae <unknown>\n#1 0x56388ec2ec40 <unknown>\n#2 0x56388ec7ae12 <unknown>\n#3 0x56388ec7b011 <unknown>\n#4 0x56388ecc4bc4 <unknown>\n#5 0x56388eca2efd <unknown>\n#6 0x56388ecc26d2 <unknown>\n#7 0x56388eca2c73 <unknown>\n#8 0x56388ec6e6e8 <unknown>\n#9 0x56388ec6f69e <unknown>\n#10 0x56388f0ccc66 <unknown>\n#11 0x56388f0cff97 <unknown>\n#12 0x56388f0cfa58 <unknown>\n#13 0x56388f0d0425 <unknown>\n#14 0x56388f0bdb6e <unknown>\n#15 0x56388f0d076f <unknown>\n#16 0x56388f0a7625 <unknown>\n#17 0x56388f0e8d55 <unknown>\n#18 0x56388f0e8f36 <unknown>\n#19 0x56388f0f86e5 <unknown>\n#20 0x7f622789c144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x563d840948ae <unknown>\n#1 0x563d83bc9c40 <unknown>\n#2 0x563d83c15e12 <unknown>\n#3 0x563d83c16011 <unknown>\n#4 0x563d83c5fbc4 <unknown>\n#5 0x563d83c3defd <unknown>\n#6 0x563d83c5d6d2 <unknown>\n#7 0x563d83c3dc73 <unknown>\n#8 0x563d83c096e8 <unknown>\n#9 0x563d83c0a69e <unknown>\n#10 0x563d84067c66 <unknown>\n#11 0x563d8406af97 <unknown>\n#12 0x563d8406aa58 <unknown>\n#13 0x563d8406b425 <unknown>\n#14 0x563d84058b6e <unknown>\n#15 0x563d8406b76f <unknown>\n#16 0x563d84042625 <unknown>\n#17 0x563d84083d55 <unknown>\n#18 0x563d84083f36 <unknown>\n#19 0x563d840936e5 <unknown>\n#20 0x7f8b97754144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041c\\u0430\\u0441\\u043b\\u043e\\u0432 \\u042e\\u0432\\u0435\\u043d\\u0430\\u043b\\u0438\\u0439 \\u0412\\u0430\\u043b\\u0435\\u0440\\u044c\\u044f\\u043d\\u043e\\u0432\\u0438\\u0447', 'email': 'afinogen_1984@example.org', 'phone': '+380637297226'}-8889]",
-        "uid" : "958c48a880935e33",
-        "parentUid" : "edb22ec1310fc2b630546f270a021812",
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0421\\u0430\\u043c\\u043e\\u0439\\u043b\\u043e\\u0432\\u0430 \\u042d\\u043c\\u0438\\u043b\\u0438\\u044f \\u0410\\u043d\\u0442\\u043e\\u043d\\u043e\\u0432\\u043d\\u0430', 'email': 'ipat_1980@example.net', 'phone': '+380633245650'}-8889]",
+        "uid" : "febc8ee0ea164204",
+        "parentUid" : "c819f975bd55e5113ed8e7de4623296e",
         "status" : "broken",
         "time" : {
-          "start" : 1729929803056,
-          "stop" : 1729929827760,
-          "duration" : 24704
+          "start" : 1729932701558,
+          "stop" : 1729932726162,
+          "duration" : 24604
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Маслов Ювеналий Валерьянович', 'email': 'afinogen_1984@example.org', 'phone': '+380637297226'}" ]
+        "parameters" : [ "8889", "{'name': 'Самойлова Эмилия Антоновна', 'email': 'ipat_1980@example.net', 'phone': '+380633245650'}" ]
       } ],
-      "uid" : "edb22ec1310fc2b630546f270a021812"
+      "uid" : "c819f975bd55e5113ed8e7de4623296e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
