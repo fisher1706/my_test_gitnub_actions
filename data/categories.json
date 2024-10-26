@@ -1,43 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x559e4ba0d8ae <unknown>\n#1 0x559e4b542c40 <unknown>\n#2 0x559e4b58ee12 <unknown>\n#3 0x559e4b58f011 <unknown>\n#4 0x559e4b5d8bc4 <unknown>\n#5 0x559e4b5b6efd <unknown>\n#6 0x559e4b5d66d2 <unknown>\n#7 0x559e4b5b6c73 <unknown>\n#8 0x559e4b5826e8 <unknown>\n#9 0x559e4b58369e <unknown>\n#10 0x559e4b9e0c66 <unknown>\n#11 0x559e4b9e3f97 <unknown>\n#12 0x559e4b9e3a58 <unknown>\n#13 0x559e4b9e4425 <unknown>\n#14 0x559e4b9d1b6e <unknown>\n#15 0x559e4b9e476f <unknown>\n#16 0x559e4b9bb625 <unknown>\n#17 0x559e4b9fcd55 <unknown>\n#18 0x559e4b9fcf36 <unknown>\n#19 0x559e4ba0c6e5 <unknown>\n#20 0x7f4ebb680144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x558976e498ae <unknown>\n#1 0x55897697ec40 <unknown>\n#2 0x5589769cae12 <unknown>\n#3 0x5589769cb011 <unknown>\n#4 0x558976a14bc4 <unknown>\n#5 0x5589769f2efd <unknown>\n#6 0x558976a126d2 <unknown>\n#7 0x5589769f2c73 <unknown>\n#8 0x5589769be6e8 <unknown>\n#9 0x5589769bf69e <unknown>\n#10 0x558976e1cc66 <unknown>\n#11 0x558976e1ff97 <unknown>\n#12 0x558976e1fa58 <unknown>\n#13 0x558976e20425 <unknown>\n#14 0x558976e0db6e <unknown>\n#15 0x558976e2076f <unknown>\n#16 0x558976df7625 <unknown>\n#17 0x558976e38d55 <unknown>\n#18 0x558976e38f36 <unknown>\n#19 0x558976e486e5 <unknown>\n#20 0x7f8446e0d144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0424\\u043e\\u043c\\u0438\\u0447\\u0435\\u0432 \\u0410\\u0440\\u0438\\u0441\\u0442\\u0430\\u0440\\u0445 \\u0418\\u0437\\u043c\\u0430\\u0438\\u043b\\u043e\\u0432\\u0438\\u0447', 'email': 'isa_24@example.net', 'phone': '+380634903271'}-1111]",
-        "uid" : "b29764c04db884eb",
-        "parentUid" : "f1b7d66baa147c6d976f48a58620515f",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0415\\u0432\\u043b\\u0430\\u043c\\u043f\\u0438\\u0439 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0438\\u0447 \\u0414\\u043e\\u0440\\u043e\\u043d\\u0438\\u043d', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}-1111]",
+        "uid" : "d2259fcb592064aa",
+        "parentUid" : "6dd9ed717980e0b9de4f5d72fcd810b8",
         "status" : "broken",
         "time" : {
-          "start" : 1729942175269,
-          "stop" : 1729942201052,
-          "duration" : 25783
+          "start" : 1729944120902,
+          "stop" : 1729944146194,
+          "duration" : 25292
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Фомичев Аристарх Измаилович', 'email': 'isa_24@example.net', 'phone': '+380634903271'}" ]
+        "parameters" : [ "1111", "{'name': 'Евлампий Васильевич Доронин', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}" ]
       } ],
-      "uid" : "f1b7d66baa147c6d976f48a58620515f"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x560fef1108ae <unknown>\n#1 0x560feec45c40 <unknown>\n#2 0x560feec91e12 <unknown>\n#3 0x560feec92011 <unknown>\n#4 0x560feecdbbc4 <unknown>\n#5 0x560feecb9efd <unknown>\n#6 0x560feecd96d2 <unknown>\n#7 0x560feecb9c73 <unknown>\n#8 0x560feec856e8 <unknown>\n#9 0x560feec8669e <unknown>\n#10 0x560fef0e3c66 <unknown>\n#11 0x560fef0e6f97 <unknown>\n#12 0x560fef0e6a58 <unknown>\n#13 0x560fef0e7425 <unknown>\n#14 0x560fef0d4b6e <unknown>\n#15 0x560fef0e776f <unknown>\n#16 0x560fef0be625 <unknown>\n#17 0x560fef0ffd55 <unknown>\n#18 0x560fef0fff36 <unknown>\n#19 0x560fef10f6e5 <unknown>\n#20 0x7f93f4a06144 <unknown>",
-      "children" : [ {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0421\\u0432\\u0435\\u0442\\u043b\\u0430\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0415\\u0440\\u043c\\u0430\\u043a\\u043e\\u0432\\u0430', 'email': 'kudrjashovradislav@example.com', 'phone': '+380637155653'}-8889]",
-        "uid" : "82027baaac232904",
-        "parentUid" : "cca79a8fbaac0d0abc7180e710a31bda",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729942213961,
-          "stop" : 1729942239758,
-          "duration" : 25797
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Светлана Станиславовна Ермакова', 'email': 'kudrjashovradislav@example.com', 'phone': '+380637155653'}" ]
-      } ],
-      "uid" : "cca79a8fbaac0d0abc7180e710a31bda"
+      "uid" : "6dd9ed717980e0b9de4f5d72fcd810b8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }
