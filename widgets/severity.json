@@ -1,10 +1,10 @@
 [ {
-  "uid" : "41780a8a573fbd69",
+  "uid" : "708b364eba97bbb9",
   "name" : "test_try_registration_new_user_awdev_t506",
   "time" : {
-    "start" : 1729969451707,
-    "stop" : 1729969456502,
-    "duration" : 4795
+    "start" : 1729969874318,
+    "stop" : 1729969879353,
+    "duration" : 5035
   },
   "status" : "passed",
   "severity" : "normal"
