@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "tests.ui",
     "children" : [ {
@@ -8,13 +9,13 @@
         "name" : "TestRegistrationUser",
         "children" : [ {
           "name" : "test_try_registration_new_user_awdev_t506",
-          "uid" : "3df207d5e5dd9da3",
+          "uid" : "e052ead30f7777e0",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729964584830,
-            "stop" : 1729964589536,
-            "duration" : 4706
+            "start" : 1729965173326,
+            "stop" : 1729965180047,
+            "duration" : 6721
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,6 +26,5 @@
       "uid" : "94d54db56207a313a553d594baeac988"
     } ],
     "uid" : "3965134f6f8c1be9f46795103934f428"
-  } ],
-  "name" : "suites"
+  } ]
 }
