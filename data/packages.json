@@ -5,13 +5,13 @@
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
       "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-      "uid" : "89bc7fc75e6ff1bc",
+      "uid" : "b18aabe8f32c38b0",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729961438357,
-        "stop" : 1729961444328,
-        "duration" : 5971
+        "start" : 1729961679091,
+        "stop" : 1729961684071,
+        "duration" : 4980
       },
       "flaky" : false,
       "newFailed" : false,
