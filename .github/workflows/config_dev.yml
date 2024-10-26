@@ -1,4 +1,4 @@
-name: Regression_QA
+name: Regression_DEV
 
 on:
   workflow_dispatch
@@ -26,7 +26,7 @@ jobs:
 
       - name: Run tests qa environment
         run: |
-          docker-compose up regression-qa
+          docker-compose up regression-dev
 
 #      - name: Copy history from gh-pages to allure-results
 #        run: |
