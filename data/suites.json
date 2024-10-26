@@ -7,27 +7,27 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0430\\u0442\\u0430\\u043d \\u0416\\u043e\\u0440\\u0435\\u0441\\u043e\\u0432\\u0438\\u0447 \\u0421\\u043e\\u043b\\u043e\\u0432\\u044c\\u0435\\u0432', 'email': 'evgraf_24@example.net', 'phone': '+380633154624'}-1111]",
-          "uid" : "1aa8346da846b4ef",
+          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0418\\u0441\\u0430\\u0435\\u0432\\u0430 \\u0410\\u043d\\u043d\\u0430 \\u042f\\u043a\\u043e\\u0432\\u043b\\u0435\\u0432\\u043d\\u0430', 'email': 'milovan_2014@example.net', 'phone': '+380637001139'}-1111]",
+          "uid" : "120ee1359c4b7f1",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729955468876,
-            "stop" : 1729955493733,
-            "duration" : 24857
+            "start" : 1729955469302,
+            "stop" : 1729955494728,
+            "duration" : 25426
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1111", "{'name': 'Натан Жоресович Соловьев', 'email': 'evgraf_24@example.net', 'phone': '+380633154624'}" ]
+          "parameters" : [ "1111", "{'name': 'Исаева Анна Яковлевна', 'email': 'milovan_2014@example.net', 'phone': '+380637001139'}" ]
         }, {
           "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "77005f5e70e5fc66",
+          "uid" : "fc300933b178ba64",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729955494301,
-            "stop" : 1729955498986,
-            "duration" : 4685
+            "start" : 1729955495282,
+            "stop" : 1729955500102,
+            "duration" : 4820
           },
           "flaky" : false,
           "newFailed" : false,
