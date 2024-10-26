@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/workspace
-    command: /bin/sh -c "pytest --environment=qa tests/* --disable-warnings --alluredir=allure-results-qa"
+    command: /bin/sh -c "pytest --environment=qa tests/* --disable-warnings --alluredir=allure-results"
 
   regression-dev:
     image: python:3.10-alpine
@@ -17,5 +17,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/workspace
-    command: /bin/sh -c "pytest --environment=dev tests/* --disable-warnings --alluredir=allure-results-dev"
+    command: /bin/sh -c "pytest --environment=dev tests/* --disable-warnings --alluredir=allure-results"
 
