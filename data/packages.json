@@ -1,35 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
-      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0438\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0430', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}-1111]",
-      "uid" : "81cc8259156beabf",
-      "parentUid" : "23ee8ed786ee95ed594091552018fb88",
-      "status" : "broken",
-      "time" : {
-        "start" : 1729957536783,
-        "stop" : 1729957562157,
-        "duration" : 25374
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "1111", "{'name': 'Нина Станиславовна Васильева', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}" ]
-    }, {
       "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-      "uid" : "2b204d93fb16bceb",
+      "uid" : "89bc7fc75e6ff1bc",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729957562733,
-        "stop" : 1729957568220,
-        "duration" : 5487
+        "start" : 1729961438357,
+        "stop" : 1729961444328,
+        "duration" : 5971
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
     } ],
     "uid" : "tests.ui.test_registration_new_user"
-  } ],
-  "name" : "packages"
+  } ]
 }

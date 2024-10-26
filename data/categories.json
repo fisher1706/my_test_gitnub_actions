@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55d822ce58ae <unknown>\n#1 0x55d82281ac40 <unknown>\n#2 0x55d822866e12 <unknown>\n#3 0x55d822867011 <unknown>\n#4 0x55d8228b0bc4 <unknown>\n#5 0x55d82288eefd <unknown>\n#6 0x55d8228ae6d2 <unknown>\n#7 0x55d82288ec73 <unknown>\n#8 0x55d82285a6e8 <unknown>\n#9 0x55d82285b69e <unknown>\n#10 0x55d822cb8c66 <unknown>\n#11 0x55d822cbbf97 <unknown>\n#12 0x55d822cbba58 <unknown>\n#13 0x55d822cbc425 <unknown>\n#14 0x55d822ca9b6e <unknown>\n#15 0x55d822cbc76f <unknown>\n#16 0x55d822c93625 <unknown>\n#17 0x55d822cd4d55 <unknown>\n#18 0x55d822cd4f36 <unknown>\n#19 0x55d822ce46e5 <unknown>\n#20 0x7fe9d61ac144 <unknown>",
-      "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0438\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0430', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}-1111]",
-        "uid" : "81cc8259156beabf",
-        "parentUid" : "27878fbdbdceb6f3f1f8d7fbb229c050",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729957536783,
-          "stop" : 1729957562157,
-          "duration" : 25374
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Нина Станиславовна Васильева', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}" ]
-      } ],
-      "uid" : "27878fbdbdceb6f3f1f8d7fbb229c050"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ ]
 }

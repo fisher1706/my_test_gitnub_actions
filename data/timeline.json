@@ -1,39 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "75404077a43f",
+    "name" : "38606831233d",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "2b204d93fb16bceb",
-        "parentUid" : "d9fb44b50ef3b5855aa86587aa83ae46",
+        "uid" : "89bc7fc75e6ff1bc",
+        "parentUid" : "2ff9cc594bbf9130026bb22915a83c73",
         "status" : "passed",
         "time" : {
-          "start" : 1729957562733,
-          "stop" : 1729957568220,
-          "duration" : 5487
+          "start" : 1729961438357,
+          "stop" : 1729961444328,
+          "duration" : 5971
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
-      }, {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0438\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0430', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}-1111]",
-        "uid" : "81cc8259156beabf",
-        "parentUid" : "d9fb44b50ef3b5855aa86587aa83ae46",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729957536783,
-          "stop" : 1729957562157,
-          "duration" : 25374
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Нина Станиславовна Васильева', 'email': 'blinovjulian@example.com', 'phone': '+380635530412'}" ]
       } ],
-      "uid" : "d9fb44b50ef3b5855aa86587aa83ae46"
+      "uid" : "2ff9cc594bbf9130026bb22915a83c73"
     } ],
-    "uid" : "7daea2e65461b011dd633e421e2946ed"
-  } ],
-  "name" : "timeline"
+    "uid" : "0afb795f263335661940aa1881c25060"
+  } ]
 }

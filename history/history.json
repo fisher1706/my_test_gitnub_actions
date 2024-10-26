@@ -1,24 +1,4 @@
 {
-  "e29d4a003d81ad587d2c03157f7d78e8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "81cc8259156beabf",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55d822ce58ae <unknown>\n#1 0x55d82281ac40 <unknown>\n#2 0x55d822866e12 <unknown>\n#3 0x55d822867011 <unknown>\n#4 0x55d8228b0bc4 <unknown>\n#5 0x55d82288eefd <unknown>\n#6 0x55d8228ae6d2 <unknown>\n#7 0x55d82288ec73 <unknown>\n#8 0x55d82285a6e8 <unknown>\n#9 0x55d82285b69e <unknown>\n#10 0x55d822cb8c66 <unknown>\n#11 0x55d822cbbf97 <unknown>\n#12 0x55d822cbba58 <unknown>\n#13 0x55d822cbc425 <unknown>\n#14 0x55d822ca9b6e <unknown>\n#15 0x55d822cbc76f <unknown>\n#16 0x55d822c93625 <unknown>\n#17 0x55d822cd4d55 <unknown>\n#18 0x55d822cd4f36 <unknown>\n#19 0x55d822ce46e5 <unknown>\n#20 0x7fe9d61ac144 <unknown>",
-      "time" : {
-        "start" : 1729957536783,
-        "stop" : 1729957562157,
-        "duration" : 25374
-      }
-    } ]
-  },
   "40edc8eb5558f710b3a6c0952b81e4b3" : {
     "statistic" : {
       "failed" : 0,
@@ -29,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b204d93fb16bceb",
+      "uid" : "89bc7fc75e6ff1bc",
       "status" : "passed",
       "time" : {
-        "start" : 1729957562733,
-        "stop" : 1729957568220,
-        "duration" : 5487
+        "start" : 1729961438357,
+        "stop" : 1729961444328,
+        "duration" : 5971
       }
     } ]
   }
