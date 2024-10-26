@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "tests.ui",
     "children" : [ {
@@ -7,27 +8,27 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0418\\u0441\\u0430\\u0435\\u0432\\u0430 \\u0410\\u043d\\u043d\\u0430 \\u042f\\u043a\\u043e\\u0432\\u043b\\u0435\\u0432\\u043d\\u0430', 'email': 'milovan_2014@example.net', 'phone': '+380637001139'}-1111]",
-          "uid" : "120ee1359c4b7f1",
+          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041c\\u0430\\u0440\\u0433\\u0430\\u0440\\u0438\\u0442\\u0430 \\u0412\\u0430\\u043b\\u0435\\u0440\\u0438\\u0435\\u0432\\u043d\\u0430 \\u041f\\u043e\\u043d\\u043e\\u043c\\u0430\\u0440\\u0435\\u0432\\u0430', 'email': 'raisa80@example.net', 'phone': '+380634318602'}-1111]",
+          "uid" : "b67103222c56b547",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729955469302,
-            "stop" : 1729955494728,
-            "duration" : 25426
+            "start" : 1729955890216,
+            "stop" : 1729955915135,
+            "duration" : 24919
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1111", "{'name': 'Исаева Анна Яковлевна', 'email': 'milovan_2014@example.net', 'phone': '+380637001139'}" ]
+          "parameters" : [ "1111", "{'name': 'Маргарита Валериевна Пономарева', 'email': 'raisa80@example.net', 'phone': '+380634318602'}" ]
         }, {
           "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "fc300933b178ba64",
+          "uid" : "ab8e52b6b51f91d5",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729955495282,
-            "stop" : 1729955500102,
-            "duration" : 4820
+            "start" : 1729955915716,
+            "stop" : 1729955920297,
+            "duration" : 4581
           },
           "flaky" : false,
           "newFailed" : false,
@@ -38,6 +39,5 @@
       "uid" : "94d54db56207a313a553d594baeac988"
     } ],
     "uid" : "3965134f6f8c1be9f46795103934f428"
-  } ],
-  "name" : "suites"
+  } ]
 }
