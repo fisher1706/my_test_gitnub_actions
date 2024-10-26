@@ -2,38 +2,38 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "63b9a9452c55",
+    "name" : "a7c60f2e603c",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041c\\u0430\\u0440\\u0433\\u0430\\u0440\\u0438\\u0442\\u0430 \\u0412\\u0430\\u043b\\u0435\\u0440\\u0438\\u0435\\u0432\\u043d\\u0430 \\u041f\\u043e\\u043d\\u043e\\u043c\\u0430\\u0440\\u0435\\u0432\\u0430', 'email': 'raisa80@example.net', 'phone': '+380634318602'}-1111]",
-        "uid" : "b67103222c56b547",
-        "parentUid" : "2258ca44b30dd336610ae3c934e48037",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729955890216,
-          "stop" : 1729955915135,
-          "duration" : 24919
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Маргарита Валериевна Пономарева', 'email': 'raisa80@example.net', 'phone': '+380634318602'}" ]
-      }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "ab8e52b6b51f91d5",
-        "parentUid" : "2258ca44b30dd336610ae3c934e48037",
+        "uid" : "69a92eedd3fb2e89",
+        "parentUid" : "a6853162e94a9427f619183533d3d0d8",
         "status" : "passed",
         "time" : {
-          "start" : 1729955915716,
-          "stop" : 1729955920297,
-          "duration" : 4581
+          "start" : 1729956288412,
+          "stop" : 1729956293414,
+          "duration" : 5002
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
+      }, {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0426\\u0432\\u0435\\u0442\\u043a\\u043e\\u0432\\u0430 \\u041d\\u0438\\u043d\\u0430 \\u041e\\u0441\\u043a\\u0430\\u0440\\u043e\\u0432\\u043d\\u0430', 'email': 'asharova@example.org', 'phone': '+380632921897'}-1111]",
+        "uid" : "42a681428385c8bc",
+        "parentUid" : "a6853162e94a9427f619183533d3d0d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729956262359,
+          "stop" : 1729956287855,
+          "duration" : 25496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Цветкова Нина Оскаровна', 'email': 'asharova@example.org', 'phone': '+380632921897'}" ]
       } ],
-      "uid" : "2258ca44b30dd336610ae3c934e48037"
+      "uid" : "a6853162e94a9427f619183533d3d0d8"
     } ],
-    "uid" : "463c8ef208999290d619647f519f5877"
+    "uid" : "28d6d2008a202290109d7291609e31c2"
   } ]
 }
