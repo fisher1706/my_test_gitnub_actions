@@ -2,64 +2,64 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "ed2bd207327c",
+    "name" : "590559993d8f",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0418\\u043b\\u044c\\u0438\\u043d \\u0422\\u0438\\u043c\\u043e\\u0444\\u0435\\u0439 \\u0414\\u0430\\u0432\\u0438\\u0434\\u043e\\u0432\\u0438\\u0447', 'email': 'evpraksija49@example.com', 'phone': '+380631122881'}-1111]",
-        "uid" : "972b5f96fe5daab2",
-        "parentUid" : "9f0ca6e78b6192a25776c359e14acae3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729936346616,
-          "stop" : 1729936372971,
-          "duration" : 26355
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Ильин Тимофей Давидович', 'email': 'evpraksija49@example.com', 'phone': '+380631122881'}" ]
-      }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "59aac055448e4bc9",
-        "parentUid" : "9f0ca6e78b6192a25776c359e14acae3",
+        "uid" : "86dab32f0874b119",
+        "parentUid" : "ae3829526f8dfcd9b1a90648a2629ba3",
         "status" : "passed",
         "time" : {
-          "start" : 1729936373532,
-          "stop" : 1729936379656,
-          "duration" : 6124
+          "start" : 1729939841383,
+          "stop" : 1729939846014,
+          "duration" : 4631
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
       }, {
-        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'dGdqaOG', 'email': 'CGVUOkt'}]",
-        "uid" : "229ae34960ade831",
-        "parentUid" : "9f0ca6e78b6192a25776c359e14acae3",
+        "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'N4dhuxS', 'email': 'XVYTvBt'}]",
+        "uid" : "cc0ce6aabad47150",
+        "parentUid" : "ae3829526f8dfcd9b1a90648a2629ba3",
         "status" : "passed",
         "time" : {
-          "start" : 1729936380179,
-          "stop" : 1729936386259,
-          "duration" : 6080
+          "start" : 1729939846544,
+          "stop" : 1729939851034,
+          "duration" : 4490
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'name': 'Олег', 'phone': 'dGdqaOG', 'email': 'CGVUOkt'}" ]
+        "parameters" : [ "{'name': 'Олег', 'phone': 'N4dhuxS', 'email': 'XVYTvBt'}" ]
       }, {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u043c\\u0438\\u0441\\u0441\\u0430\\u0440\\u043e\\u0432 \\u0411\\u0440\\u043e\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432 \\u0411\\u043e\\u0440\\u0438\\u0441\\u043e\\u0432\\u0438\\u0447', 'email': 'georgi_1972@example.com', 'phone': '+380634598148'}-8889]",
-        "uid" : "7a231f6e2d6a494",
-        "parentUid" : "9f0ca6e78b6192a25776c359e14acae3",
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u043b\\u0435\\u0441\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430 \\u0418\\u0432\\u0430\\u043d\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430', 'email': 'emilija_2021@example.net', 'phone': '+380639313915'}-8889]",
+        "uid" : "61ee649589cb8d93",
+        "parentUid" : "ae3829526f8dfcd9b1a90648a2629ba3",
         "status" : "broken",
         "time" : {
-          "start" : 1729936386775,
-          "stop" : 1729936413004,
-          "duration" : 26229
+          "start" : 1729939851561,
+          "stop" : 1729939876368,
+          "duration" : 24807
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Комиссаров Бронислав Борисович', 'email': 'georgi_1972@example.com', 'phone': '+380634598148'}" ]
+        "parameters" : [ "8889", "{'name': 'Колесникова Иванна Станиславовна', 'email': 'emilija_2021@example.net', 'phone': '+380639313915'}" ]
+      }, {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041c\\u0438\\u0448\\u0438\\u043d\\u0430 \\u0410\\u043d\\u0436\\u0435\\u043b\\u0438\\u043a\\u0430 \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d\\u0438\\u0447\\u043d\\u0430', 'email': 'dorofe2022@example.org', 'phone': '+380636412770'}-1111]",
+        "uid" : "ca698ee764bc3aea",
+        "parentUid" : "ae3829526f8dfcd9b1a90648a2629ba3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729939815895,
+          "stop" : 1729939840820,
+          "duration" : 24925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Мишина Анжелика Кузьминична', 'email': 'dorofe2022@example.org', 'phone': '+380636412770'}" ]
       } ],
-      "uid" : "9f0ca6e78b6192a25776c359e14acae3"
+      "uid" : "ae3829526f8dfcd9b1a90648a2629ba3"
     } ],
-    "uid" : "487d5bc17c98a7314dd2e27e19804979"
+    "uid" : "70a94e1a77f3d9e0d0353d026bb33863"
   } ]
 }
