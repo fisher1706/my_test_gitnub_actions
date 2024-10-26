@@ -1,22 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
       "name" : "test_try_registration_new_user_awdev_t506",
-      "uid" : "b2dc10f0163a356f",
+      "uid" : "41780a8a573fbd69",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729969061683,
-        "stop" : 1729969066278,
-        "duration" : 4595
+        "start" : 1729969451707,
+        "stop" : 1729969456502,
+        "duration" : 4795
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "tests.ui.test_registration_new_user"
-  } ],
-  "name" : "packages"
+  } ]
 }

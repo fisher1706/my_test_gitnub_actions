@@ -1,18 +1,18 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "test_try_registration_new_user_awdev_t506",
-    "uid" : "b2dc10f0163a356f",
+    "uid" : "41780a8a573fbd69",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1729969061683,
-      "stop" : 1729969066278,
-      "duration" : 4595
+      "start" : 1729969451707,
+      "stop" : 1729969456502,
+      "duration" : 4795
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }
