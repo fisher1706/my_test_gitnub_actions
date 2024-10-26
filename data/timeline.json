@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "1450f5ec911e",
+    "name" : "492fe173b81f",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u044e\\u0434\\u043c\\u0438\\u043b\\u0430 \\u0411\\u043e\\u043b\\u0435\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u041c\\u0438\\u0445\\u0435\\u0435\\u0432\\u0430', 'email': 'alla1979@example.org', 'phone': '+380631092423'}-1111]",
-        "uid" : "8662036372d83309",
-        "parentUid" : "d583e5a888c95c829673fe7f467b00d2",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u044c\\u0433\\u0430 \\u0415\\u0432\\u0433\\u0435\\u043d\\u044c\\u0435\\u0432\\u043d\\u0430 \\u0411\\u0435\\u043b\\u044f\\u043a\\u043e\\u0432\\u0430', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}-1111]",
+        "uid" : "8a508c944558e86d",
+        "parentUid" : "8d1bebfeb396db57888631952cd26030",
         "status" : "broken",
         "time" : {
-          "start" : 1729944487024,
-          "stop" : 1729944512335,
-          "duration" : 25311
+          "start" : 1729954692827,
+          "stop" : 1729954717841,
+          "duration" : 25014
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Людмила Болеславовна Михеева', 'email': 'alla1979@example.org', 'phone': '+380631092423'}" ]
+        "parameters" : [ "1111", "{'name': 'Ольга Евгеньевна Белякова', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}" ]
       }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "dd69c65fad0930d2",
-        "parentUid" : "d583e5a888c95c829673fe7f467b00d2",
+        "uid" : "227af045debe8a2d",
+        "parentUid" : "8d1bebfeb396db57888631952cd26030",
         "status" : "passed",
         "time" : {
-          "start" : 1729944512885,
-          "stop" : 1729944517787,
-          "duration" : 4902
+          "start" : 1729954718395,
+          "stop" : 1729954723026,
+          "duration" : 4631
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
       } ],
-      "uid" : "d583e5a888c95c829673fe7f467b00d2"
+      "uid" : "8d1bebfeb396db57888631952cd26030"
     } ],
-    "uid" : "bb5f212e789e9e14cb56745f56e3f317"
-  } ],
-  "name" : "timeline"
+    "uid" : "c8ef652210c8fc3b4dd25479cf88e385"
+  } ]
 }

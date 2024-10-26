@@ -1,35 +1,35 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
-      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u044e\\u0434\\u043c\\u0438\\u043b\\u0430 \\u0411\\u043e\\u043b\\u0435\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u041c\\u0438\\u0445\\u0435\\u0435\\u0432\\u0430', 'email': 'alla1979@example.org', 'phone': '+380631092423'}-1111]",
-      "uid" : "8662036372d83309",
+      "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u044c\\u0433\\u0430 \\u0415\\u0432\\u0433\\u0435\\u043d\\u044c\\u0435\\u0432\\u043d\\u0430 \\u0411\\u0435\\u043b\\u044f\\u043a\\u043e\\u0432\\u0430', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}-1111]",
+      "uid" : "8a508c944558e86d",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "broken",
       "time" : {
-        "start" : 1729944487024,
-        "stop" : 1729944512335,
-        "duration" : 25311
+        "start" : 1729954692827,
+        "stop" : 1729954717841,
+        "duration" : 25014
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "1111", "{'name': 'Людмила Болеславовна Михеева', 'email': 'alla1979@example.org', 'phone': '+380631092423'}" ]
+      "parameters" : [ "1111", "{'name': 'Ольга Евгеньевна Белякова', 'email': 'makar_1987@example.org', 'phone': '+380635828211'}" ]
     }, {
       "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-      "uid" : "dd69c65fad0930d2",
+      "uid" : "227af045debe8a2d",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729944512885,
-        "stop" : 1729944517787,
-        "duration" : 4902
+        "start" : 1729954718395,
+        "stop" : 1729954723026,
+        "duration" : 4631
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
     } ],
     "uid" : "tests.ui.test_registration_new_user"
-  } ],
-  "name" : "packages"
+  } ]
 }
