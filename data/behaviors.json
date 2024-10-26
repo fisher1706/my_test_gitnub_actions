@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_try_registration_new_user_awdev_t506",
-    "uid" : "dafb3a51b4704017",
+    "uid" : "3df207d5e5dd9da3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1729964370555,
-      "stop" : 1729964375754,
-      "duration" : 5199
+      "start" : 1729964584830,
+      "stop" : 1729964589536,
+      "duration" : 4706
     },
     "flaky" : false,
     "newFailed" : false,
