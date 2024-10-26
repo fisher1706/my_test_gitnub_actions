@@ -7,27 +7,27 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0415\\u0432\\u043b\\u0430\\u043c\\u043f\\u0438\\u0439 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0438\\u0447 \\u0414\\u043e\\u0440\\u043e\\u043d\\u0438\\u043d', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}-1111]",
-          "uid" : "d2259fcb592064aa",
+          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u044e\\u0434\\u043c\\u0438\\u043b\\u0430 \\u0411\\u043e\\u043b\\u0435\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u041c\\u0438\\u0445\\u0435\\u0435\\u0432\\u0430', 'email': 'alla1979@example.org', 'phone': '+380631092423'}-1111]",
+          "uid" : "8662036372d83309",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729944120902,
-            "stop" : 1729944146194,
-            "duration" : 25292
+            "start" : 1729944487024,
+            "stop" : 1729944512335,
+            "duration" : 25311
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1111", "{'name': 'Евлампий Васильевич Доронин', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}" ]
+          "parameters" : [ "1111", "{'name': 'Людмила Болеславовна Михеева', 'email': 'alla1979@example.org', 'phone': '+380631092423'}" ]
         }, {
           "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "f56c48ac9d584bd8",
+          "uid" : "dd69c65fad0930d2",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729944146750,
-            "stop" : 1729944151454,
-            "duration" : 4704
+            "start" : 1729944512885,
+            "stop" : 1729944517787,
+            "duration" : 4902
           },
           "flaky" : false,
           "newFailed" : false,

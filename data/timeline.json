@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "9f0b33365d87",
+    "name" : "1450f5ec911e",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041b\\u044e\\u0434\\u043c\\u0438\\u043b\\u0430 \\u0411\\u043e\\u043b\\u0435\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430 \\u041c\\u0438\\u0445\\u0435\\u0435\\u0432\\u0430', 'email': 'alla1979@example.org', 'phone': '+380631092423'}-1111]",
+        "uid" : "8662036372d83309",
+        "parentUid" : "d583e5a888c95c829673fe7f467b00d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729944487024,
+          "stop" : 1729944512335,
+          "duration" : 25311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1111", "{'name': 'Людмила Болеславовна Михеева', 'email': 'alla1979@example.org', 'phone': '+380631092423'}" ]
+      }, {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "f56c48ac9d584bd8",
-        "parentUid" : "1471c9fcbea66afce905ed45feac56ce",
+        "uid" : "dd69c65fad0930d2",
+        "parentUid" : "d583e5a888c95c829673fe7f467b00d2",
         "status" : "passed",
         "time" : {
-          "start" : 1729944146750,
-          "stop" : 1729944151454,
-          "duration" : 4704
+          "start" : 1729944512885,
+          "stop" : 1729944517787,
+          "duration" : 4902
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
-      }, {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0415\\u0432\\u043b\\u0430\\u043c\\u043f\\u0438\\u0439 \\u0412\\u0430\\u0441\\u0438\\u043b\\u044c\\u0435\\u0432\\u0438\\u0447 \\u0414\\u043e\\u0440\\u043e\\u043d\\u0438\\u043d', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}-1111]",
-        "uid" : "d2259fcb592064aa",
-        "parentUid" : "1471c9fcbea66afce905ed45feac56ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1729944120902,
-          "stop" : 1729944146194,
-          "duration" : 25292
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Евлампий Васильевич Доронин', 'email': 'parfen_30@example.com', 'phone': '+380633075681'}" ]
       } ],
-      "uid" : "1471c9fcbea66afce905ed45feac56ce"
+      "uid" : "d583e5a888c95c829673fe7f467b00d2"
     } ],
-    "uid" : "c1b154460bbd1afb4a5458c05619b933"
+    "uid" : "bb5f212e789e9e14cb56745f56e3f317"
   } ],
   "name" : "timeline"
 }
