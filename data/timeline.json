@@ -2,25 +2,25 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "08f48153646c",
+    "name" : "ee11f2428cfb",
     "children" : [ {
       "name" : "7-MainThread",
       "children" : [ {
         "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-        "uid" : "b18aabe8f32c38b0",
-        "parentUid" : "5c00b69a98372facf79bc5b903a8d1b4",
+        "uid" : "932e540e3b4d9844",
+        "parentUid" : "bcfafb1ec4ba52aa42fc8de893b5aae8",
         "status" : "passed",
         "time" : {
-          "start" : 1729961679091,
-          "stop" : 1729961684071,
-          "duration" : 4980
+          "start" : 1729962370272,
+          "stop" : 1729962375050,
+          "duration" : 4778
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
       } ],
-      "uid" : "5c00b69a98372facf79bc5b903a8d1b4"
+      "uid" : "bcfafb1ec4ba52aa42fc8de893b5aae8"
     } ],
-    "uid" : "93cd47c44111b2e9b753607f3315bc12"
+    "uid" : "786afc8713ea0a724fd6823e7ccdf828"
   } ]
 }
