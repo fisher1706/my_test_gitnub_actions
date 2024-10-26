@@ -5,13 +5,13 @@
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
       "name" : "test_try_registration_new_user_awdev_t506",
-      "uid" : "1f45b3791a4e6248",
+      "uid" : "841e7ee5b58c764d",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729965593791,
-        "stop" : 1729965598567,
-        "duration" : 4776
+        "start" : 1729965818586,
+        "stop" : 1729965823906,
+        "duration" : 5320
       },
       "flaky" : false,
       "newFailed" : false,
