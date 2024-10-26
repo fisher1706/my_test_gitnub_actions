@@ -8,57 +8,57 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0420\\u044f\\u0431\\u043e\\u0432 \\u0421\\u0430\\u0432\\u0432\\u0430\\u0442\\u0438\\u0439 \\u042d\\u0434\\u0433\\u0430\\u0440\\u043e\\u0432\\u0438\\u0447', 'email': 'larisa2010@example.org', 'phone': '+380634587923'}-1111]",
-          "uid" : "7fdc10ad4c0aca11",
+          "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041f\\u043e\\u043b\\u0438\\u043d\\u0430 \\u041d\\u0438\\u043b\\u043e\\u0432\\u043d\\u0430 \\u041c\\u043e\\u0438\\u0441\\u0435\\u0435\\u0432\\u0430', 'email': 'idavidov@example.com', 'phone': '+380634614074'}-1111]",
+          "uid" : "29cfb75dd37da61b",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729926182245,
-            "stop" : 1729926207677,
-            "duration" : 25432
+            "start" : 1729929767209,
+            "stop" : 1729929792229,
+            "duration" : 25020
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1111", "{'name': 'Рябов Савватий Эдгарович', 'email': 'larisa2010@example.org', 'phone': '+380634587923'}" ]
+          "parameters" : [ "1111", "{'name': 'Полина Ниловна Моисеева', 'email': 'idavidov@example.com', 'phone': '+380634614074'}" ]
         }, {
           "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "bba1107098dd51bb",
+          "uid" : "ed18b2623819d4b6",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729926208253,
-            "stop" : 1729926213074,
-            "duration" : 4821
+            "start" : 1729929792791,
+            "stop" : 1729929797542,
+            "duration" : 4751
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
         }, {
-          "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'tYU4TTt', 'email': 'T3NbrqG'}]",
-          "uid" : "a0fe6afde9ad5367",
+          "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'hzURy03', 'email': 'fg9heJl'}]",
+          "uid" : "dbb24a43dfafeee8",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729926213601,
-            "stop" : 1729926218123,
-            "duration" : 4522
+            "start" : 1729929798070,
+            "stop" : 1729929802531,
+            "duration" : 4461
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "{'name': 'Олег', 'phone': 'tYU4TTt', 'email': 'T3NbrqG'}" ]
+          "parameters" : [ "{'name': 'Олег', 'phone': 'hzURy03', 'email': 'fg9heJl'}" ]
         }, {
-          "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0411\\u0443\\u0440\\u043e\\u0432 \\u0421\\u043e\\u0444\\u043e\\u043d \\u0418\\u043b\\u0430\\u0440\\u0438\\u043e\\u043d\\u043e\\u0432\\u0438\\u0447', 'email': 'kapiton2016@example.net', 'phone': '+380632562635'}-8889]",
-          "uid" : "17258b7a73879a5d",
+          "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041c\\u0430\\u0441\\u043b\\u043e\\u0432 \\u042e\\u0432\\u0435\\u043d\\u0430\\u043b\\u0438\\u0439 \\u0412\\u0430\\u043b\\u0435\\u0440\\u044c\\u044f\\u043d\\u043e\\u0432\\u0438\\u0447', 'email': 'afinogen_1984@example.org', 'phone': '+380637297226'}-8889]",
+          "uid" : "958c48a880935e33",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "broken",
           "time" : {
-            "start" : 1729926218652,
-            "stop" : 1729926243770,
-            "duration" : 25118
+            "start" : 1729929803056,
+            "stop" : 1729929827760,
+            "duration" : 24704
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "8889", "{'name': 'Буров Софон Иларионович', 'email': 'kapiton2016@example.net', 'phone': '+380632562635'}" ]
+          "parameters" : [ "8889", "{'name': 'Маслов Ювеналий Валерьянович', 'email': 'afinogen_1984@example.org', 'phone': '+380637297226'}" ]
         } ],
         "uid" : "5036755ccc5a090dbe42a329784235f9"
       } ],
