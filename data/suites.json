@@ -1,6 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "tests.ui",
     "children" : [ {
@@ -8,23 +7,24 @@
       "children" : [ {
         "name" : "TestRegistrationUser",
         "children" : [ {
-          "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-          "uid" : "52f3dcb2c22d0ecb",
+          "name" : "test_try_registration_new_user_awdev_t506",
+          "uid" : "dafb3a51b4704017",
           "parentUid" : "5036755ccc5a090dbe42a329784235f9",
           "status" : "passed",
           "time" : {
-            "start" : 1729963753371,
-            "stop" : 1729963759572,
-            "duration" : 6201
+            "start" : 1729964370555,
+            "stop" : 1729964375754,
+            "duration" : 5199
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
+          "parameters" : [ ]
         } ],
         "uid" : "5036755ccc5a090dbe42a329784235f9"
       } ],
       "uid" : "94d54db56207a313a553d594baeac988"
     } ],
     "uid" : "3965134f6f8c1be9f46795103934f428"
-  } ]
+  } ],
+  "name" : "suites"
 }

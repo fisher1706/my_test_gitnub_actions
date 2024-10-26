@@ -1,10 +1,10 @@
 [ {
-  "uid" : "52f3dcb2c22d0ecb",
-  "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
+  "uid" : "dafb3a51b4704017",
+  "name" : "test_try_registration_new_user_awdev_t506",
   "time" : {
-    "start" : 1729963753371,
-    "stop" : 1729963759572,
-    "duration" : 6201
+    "start" : 1729964370555,
+    "stop" : 1729964375754,
+    "duration" : 5199
   },
   "status" : "passed",
   "severity" : "normal"
