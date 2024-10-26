@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 jobs:
-  regression-qa:
+  regression-dev:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -24,7 +24,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-      - name: Run tests qa environment
+      - name: Run tests dev environment
         run: |
           docker-compose up regression-dev
 
