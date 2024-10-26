@@ -1,41 +1,41 @@
 [ {
-  "uid" : "95c87c3719e9f6e1",
-  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041d\\u043e\\u043d\\u043d\\u0430 \\u0413\\u0435\\u043d\\u043d\\u0430\\u0434\\u0438\\u0435\\u0432\\u043d\\u0430 \\u0414\\u0435\\u043d\\u0438\\u0441\\u043e\\u0432\\u0430', 'email': 'ydmitriev@example.org', 'phone': '+380630156702'}-8889]",
-  "time" : {
-    "start" : 1729941286929,
-    "stop" : 1729941311703,
-    "duration" : 24774
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9052a2976ef1fb8",
+  "uid" : "a68f4132ced6e219",
   "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
   "time" : {
-    "start" : 1729941276587,
-    "stop" : 1729941281410,
-    "duration" : 4823
+    "start" : 1729942203734,
+    "stop" : 1729942208536,
+    "duration" : 4802
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e3a5a97a96535952",
-  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0413\\u0440\\u0438\\u0448\\u0438\\u043d \\u0411\\u043e\\u0440\\u0438\\u0441 \\u0410\\u0431\\u0440\\u0430\\u043c\\u043e\\u0432\\u0438\\u0447', 'email': 'alla_2018@example.org', 'phone': '+380631352335'}-1111]",
+  "uid" : "e30df5b4d1b88c3e",
+  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'pRnBXuv', 'email': 'fTdr1U0'}]",
   "time" : {
-    "start" : 1729941250906,
-    "stop" : 1729941276014,
-    "duration" : 25108
+    "start" : 1729942209089,
+    "stop" : 1729942213537,
+    "duration" : 4448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bc6eb9b28f4d8f4",
+  "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0421\\u0435\\u043b\\u0438\\u0432\\u0435\\u0440\\u0441\\u0442\\u043e\\u0432\\u0430 \\u042e\\u043b\\u0438\\u044f \\u0414\\u0430\\u043d\\u0438\\u043b\\u043e\\u0432\\u043d\\u0430', 'email': 'martinovafekla@example.org', 'phone': '+380636397085'}-8889]",
+  "time" : {
+    "start" : 1729942214058,
+    "stop" : 1729942239034,
+    "duration" : 24976
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "795c87fc511bdf2a",
-  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '3UlLHy2', 'email': 'pxHuUtj'}]",
+  "uid" : "43a22ab011209d1f",
+  "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0428\\u0430\\u0448\\u043a\\u043e\\u0432\\u0430 \\u0415\\u0432\\u043f\\u0440\\u0430\\u043a\\u0441\\u0438\\u044f \\u0415\\u0432\\u0433\\u0435\\u043d\\u044c\\u0435\\u0432\\u043d\\u0430', 'email': 'evdokimhohlov@example.com', 'phone': '+380639919396'}-1111]",
   "time" : {
-    "start" : 1729941281938,
-    "stop" : 1729941286395,
-    "duration" : 4457
+    "start" : 1729942178047,
+    "stop" : 1729942203163,
+    "duration" : 25116
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

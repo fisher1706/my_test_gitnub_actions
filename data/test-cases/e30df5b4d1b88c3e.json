@@ -1,52 +1,22 @@
 {
-  "uid" : "795c87fc511bdf2a",
-  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '3UlLHy2', 'email': 'pxHuUtj'}]",
+  "uid" : "e30df5b4d1b88c3e",
+  "name" : "test_registration_user_with_wrong_credentials_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': 'pRnBXuv', 'email': 'fTdr1U0'}]",
   "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_registration_user_with_wrong_credentials_awdev_t506",
-  "historyId" : "345b746b0553b157014cbfc72c317440",
+  "historyId" : "f81f667d3d8ec9676aa34fa45f2a6f8f",
   "time" : {
-    "start" : 1729941281938,
-    "stop" : 1729941286395,
-    "duration" : 4457
+    "start" : 1729942209089,
+    "stop" : 1729942213537,
+    "duration" : 4448
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "set_env_settings",
     "time" : {
-      "start" : 1729941250283,
-      "stop" : 1729941250357,
-      "duration" : 74
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "set_driver",
-    "time" : {
-      "start" : 1729941281483,
-      "stop" : 1729941281937,
-      "duration" : 454
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1729941250357,
-      "stop" : 1729941250357,
-      "duration" : 0
+      "start" : 1729942177495,
+      "stop" : 1729942177496,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1729941281937,
-      "stop" : 1729941281938,
+      "start" : 1729942209087,
+      "stop" : 1729942209088,
       "duration" : 1
     },
     "status" : "passed",
@@ -72,10 +42,40 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "set_env_settings",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1729941250358,
-      "stop" : 1729941250358,
+      "start" : 1729942177423,
+      "stop" : 1729942177495,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1729942208605,
+      "stop" : 1729942209087,
+      "duration" : 482
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1729942177495,
+      "stop" : 1729942177495,
       "duration" : 0
     },
     "status" : "passed",
@@ -92,17 +92,17 @@
     "steps" : [ {
       "name" : "Try to register new user with wrong credentials AWDEV-T506",
       "time" : {
-        "start" : 1729941281939,
-        "stop" : 1729941286395,
-        "duration" : 4456
+        "start" : 1729942209089,
+        "stop" : 1729942213537,
+        "duration" : 4448
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open 'https://m2-live-qa-001.antoshka.ua/uk/' page",
         "time" : {
-          "start" : 1729941281939,
-          "stop" : 1729941284830,
-          "duration" : 2891
+          "start" : 1729942209089,
+          "stop" : 1729942211988,
+          "duration" : 2899
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,8 +115,8 @@
       }, {
         "name" : "Page 'https://m2-live-qa-001.antoshka.ua/uk/' is opened",
         "time" : {
-          "start" : 1729941284830,
-          "stop" : 1729941284835,
+          "start" : 1729942211988,
+          "stop" : 1729942211993,
           "duration" : 5
         },
         "status" : "passed",
@@ -130,9 +130,9 @@
       }, {
         "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
         "time" : {
-          "start" : 1729941284835,
-          "stop" : 1729941284900,
-          "duration" : 65
+          "start" : 1729942211993,
+          "stop" : 1729942212061,
+          "duration" : 68
         },
         "status" : "passed",
         "steps" : [ ],
@@ -145,9 +145,9 @@
       }, {
         "name" : "Click ('xpath', '//form[1]//a')",
         "time" : {
-          "start" : 1729941284900,
-          "stop" : 1729941285990,
-          "duration" : 1090
+          "start" : 1729942212062,
+          "stop" : 1729942213132,
+          "duration" : 1070
         },
         "status" : "passed",
         "steps" : [ ],
@@ -160,9 +160,9 @@
       }, {
         "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'О'",
         "time" : {
-          "start" : 1729941285990,
-          "stop" : 1729941286110,
-          "duration" : 120
+          "start" : 1729942213132,
+          "stop" : 1729942213254,
+          "duration" : 122
         },
         "status" : "passed",
         "steps" : [ ],
@@ -173,11 +173,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data 'Hy2'",
+        "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data 'Xuv'",
         "time" : {
-          "start" : 1729941286110,
-          "stop" : 1729941286240,
-          "duration" : 130
+          "start" : 1729942213254,
+          "stop" : 1729942213383,
+          "duration" : 129
         },
         "status" : "passed",
         "steps" : [ ],
@@ -188,11 +188,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'pxHuUtj'",
+        "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'fTdr1U0'",
         "time" : {
-          "start" : 1729941286240,
-          "stop" : 1729941286374,
-          "duration" : 134
+          "start" : 1729942213383,
+          "stop" : 1729942213511,
+          "duration" : 128
         },
         "status" : "passed",
         "steps" : [ ],
@@ -205,9 +205,9 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"(//div[@class='field validate-error-with-message']/p)[1]\")'",
         "time" : {
-          "start" : 1729941286374,
-          "stop" : 1729941286385,
-          "duration" : 11
+          "start" : 1729942213511,
+          "stop" : 1729942213524,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -220,9 +220,9 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"(//div[@class='field validate-error-with-message']/p)[4]\")'",
         "time" : {
-          "start" : 1729941286385,
-          "stop" : 1729941286395,
-          "duration" : 10
+          "start" : 1729942213524,
+          "stop" : 1729942213537,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -236,7 +236,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "{'name': 'Олег', 'phone': '3UlLHy2', 'email': 'pxHuUtj'}"
+        "value" : "{'name': 'Олег', 'phone': 'pRnBXuv', 'email': 'fTdr1U0'}"
       } ],
       "stepsCount" : 9,
       "attachmentsCount" : 0,
@@ -244,9 +244,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "206e4a5a6cf0672f",
+      "uid" : "5a7879d7d6e42e82",
       "name" : "log",
-      "source" : "206e4a5a6cf0672f.txt",
+      "source" : "5a7879d7d6e42e82.txt",
       "type" : "text/plain",
       "size" : 92
     } ],
@@ -259,8 +259,8 @@
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1729941286396,
-      "stop" : 1729941286463,
+      "start" : 1729942213538,
+      "stop" : 1729942213605,
       "duration" : 67
     },
     "status" : "passed",
@@ -283,7 +283,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "1acbebf696db"
+    "value" : "9aba5e00b1e4"
   }, {
     "name" : "thread",
     "value" : "7-MainThread"
@@ -302,7 +302,7 @@
   } ],
   "parameters" : [ {
     "name" : "user",
-    "value" : "{'name': 'Олег', 'phone': '3UlLHy2', 'email': 'pxHuUtj'}"
+    "value" : "{'name': 'Олег', 'phone': 'pRnBXuv', 'email': 'fTdr1U0'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -313,6 +313,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "795c87fc511bdf2a.json",
-  "parameterValues" : [ "{'name': 'Олег', 'phone': '3UlLHy2', 'email': 'pxHuUtj'}" ]
+  "source" : "e30df5b4d1b88c3e.json",
+  "parameterValues" : [ "{'name': 'Олег', 'phone': 'pRnBXuv', 'email': 'fTdr1U0'}" ]
 }
