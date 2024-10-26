@@ -4,39 +4,39 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5607278788ae <unknown>\n#1 0x5607273adc40 <unknown>\n#2 0x5607273f9e12 <unknown>\n#3 0x5607273fa011 <unknown>\n#4 0x560727443bc4 <unknown>\n#5 0x560727421efd <unknown>\n#6 0x5607274416d2 <unknown>\n#7 0x560727421c73 <unknown>\n#8 0x5607273ed6e8 <unknown>\n#9 0x5607273ee69e <unknown>\n#10 0x56072784bc66 <unknown>\n#11 0x56072784ef97 <unknown>\n#12 0x56072784ea58 <unknown>\n#13 0x56072784f425 <unknown>\n#14 0x56072783cb6e <unknown>\n#15 0x56072784f76f <unknown>\n#16 0x560727826625 <unknown>\n#17 0x560727867d55 <unknown>\n#18 0x560727867f36 <unknown>\n#19 0x5607278776e5 <unknown>\n#20 0x7f78c2e1c144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5568996418ae <unknown>\n#1 0x556899176c40 <unknown>\n#2 0x5568991c2e12 <unknown>\n#3 0x5568991c3011 <unknown>\n#4 0x55689920cbc4 <unknown>\n#5 0x5568991eaefd <unknown>\n#6 0x55689920a6d2 <unknown>\n#7 0x5568991eac73 <unknown>\n#8 0x5568991b66e8 <unknown>\n#9 0x5568991b769e <unknown>\n#10 0x556899614c66 <unknown>\n#11 0x556899617f97 <unknown>\n#12 0x556899617a58 <unknown>\n#13 0x556899618425 <unknown>\n#14 0x556899605b6e <unknown>\n#15 0x55689961876f <unknown>\n#16 0x5568995ef625 <unknown>\n#17 0x556899630d55 <unknown>\n#18 0x556899630f36 <unknown>\n#19 0x5568996406e5 <unknown>\n#20 0x7fe544aaf144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041d\\u0430\\u0438\\u043d\\u0430 \\u0413\\u0435\\u043e\\u0440\\u0433\\u0438\\u0435\\u0432\\u043d\\u0430 \\u0424\\u0440\\u043e\\u043b\\u043e\\u0432\\u0430', 'email': 'margarita41@example.com', 'phone': '+380635917614'}-1111]",
-        "uid" : "45d1d6799877ce5b",
-        "parentUid" : "b47c1618bf6231bf81bf28de3274fe19",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0418\\u043b\\u044c\\u0438\\u043d \\u0422\\u0438\\u043c\\u043e\\u0444\\u0435\\u0439 \\u0414\\u0430\\u0432\\u0438\\u0434\\u043e\\u0432\\u0438\\u0447', 'email': 'evpraksija49@example.com', 'phone': '+380631122881'}-1111]",
+        "uid" : "972b5f96fe5daab2",
+        "parentUid" : "10e04ef8190a0d746e4c29df121ddf0f",
         "status" : "broken",
         "time" : {
-          "start" : 1729933350197,
-          "stop" : 1729933375665,
-          "duration" : 25468
+          "start" : 1729936346616,
+          "stop" : 1729936372971,
+          "duration" : 26355
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Наина Георгиевна Фролова', 'email': 'margarita41@example.com', 'phone': '+380635917614'}" ]
+        "parameters" : [ "1111", "{'name': 'Ильин Тимофей Давидович', 'email': 'evpraksija49@example.com', 'phone': '+380631122881'}" ]
       } ],
-      "uid" : "b47c1618bf6231bf81bf28de3274fe19"
+      "uid" : "10e04ef8190a0d746e4c29df121ddf0f"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5624afd178ae <unknown>\n#1 0x5624af84cc40 <unknown>\n#2 0x5624af898e12 <unknown>\n#3 0x5624af899011 <unknown>\n#4 0x5624af8e2bc4 <unknown>\n#5 0x5624af8c0efd <unknown>\n#6 0x5624af8e06d2 <unknown>\n#7 0x5624af8c0c73 <unknown>\n#8 0x5624af88c6e8 <unknown>\n#9 0x5624af88d69e <unknown>\n#10 0x5624afceac66 <unknown>\n#11 0x5624afcedf97 <unknown>\n#12 0x5624afceda58 <unknown>\n#13 0x5624afcee425 <unknown>\n#14 0x5624afcdbb6e <unknown>\n#15 0x5624afcee76f <unknown>\n#16 0x5624afcc5625 <unknown>\n#17 0x5624afd06d55 <unknown>\n#18 0x5624afd06f36 <unknown>\n#19 0x5624afd166e5 <unknown>\n#20 0x7fd54a25d144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55d69fa1c8ae <unknown>\n#1 0x55d69f551c40 <unknown>\n#2 0x55d69f59de12 <unknown>\n#3 0x55d69f59e011 <unknown>\n#4 0x55d69f5e7bc4 <unknown>\n#5 0x55d69f5c5efd <unknown>\n#6 0x55d69f5e56d2 <unknown>\n#7 0x55d69f5c5c73 <unknown>\n#8 0x55d69f5916e8 <unknown>\n#9 0x55d69f59269e <unknown>\n#10 0x55d69f9efc66 <unknown>\n#11 0x55d69f9f2f97 <unknown>\n#12 0x55d69f9f2a58 <unknown>\n#13 0x55d69f9f3425 <unknown>\n#14 0x55d69f9e0b6e <unknown>\n#15 0x55d69f9f376f <unknown>\n#16 0x55d69f9ca625 <unknown>\n#17 0x55d69fa0bd55 <unknown>\n#18 0x55d69fa0bf36 <unknown>\n#19 0x55d69fa1b6e5 <unknown>\n#20 0x7f2c40de3144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0423\\u0441\\u0442\\u0438\\u043d\\u043e\\u0432\\u0430 \\u0415\\u043b\\u0438\\u0437\\u0430\\u0432\\u0435\\u0442\\u0430 \\u0412\\u044f\\u0447\\u0435\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430', 'email': 'nesterovvladlen@example.net', 'phone': '+380638432511'}-8889]",
-        "uid" : "7d9cb5b7be196ed8",
-        "parentUid" : "08a0bfdcee8b09037db048adb7ce271c",
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u043c\\u0438\\u0441\\u0441\\u0430\\u0440\\u043e\\u0432 \\u0411\\u0440\\u043e\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432 \\u0411\\u043e\\u0440\\u0438\\u0441\\u043e\\u0432\\u0438\\u0447', 'email': 'georgi_1972@example.com', 'phone': '+380634598148'}-8889]",
+        "uid" : "7a231f6e2d6a494",
+        "parentUid" : "f9e933c1a9b380b9bb64d2d789b6cd00",
         "status" : "broken",
         "time" : {
-          "start" : 1729933387077,
-          "stop" : 1729933412357,
-          "duration" : 25280
+          "start" : 1729936386775,
+          "stop" : 1729936413004,
+          "duration" : 26229
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Устинова Елизавета Вячеславовна', 'email': 'nesterovvladlen@example.net', 'phone': '+380638432511'}" ]
+        "parameters" : [ "8889", "{'name': 'Комиссаров Бронислав Борисович', 'email': 'georgi_1972@example.com', 'phone': '+380634598148'}" ]
       } ],
-      "uid" : "08a0bfdcee8b09037db048adb7ce271c"
+      "uid" : "f9e933c1a9b380b9bb64d2d789b6cd00"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
