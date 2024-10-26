@@ -1,22 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "tests.ui.test_registration_new_user",
     "children" : [ {
       "name" : "test_try_registration_new_user_awdev_t506[{'name': '\\u041e\\u043b\\u0435\\u0433', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}]",
-      "uid" : "31a9202b8868cd78",
+      "uid" : "52f3dcb2c22d0ecb",
       "parentUid" : "23ee8ed786ee95ed594091552018fb88",
       "status" : "passed",
       "time" : {
-        "start" : 1729963494532,
-        "stop" : 1729963500463,
-        "duration" : 5931
+        "start" : 1729963753371,
+        "stop" : 1729963759572,
+        "duration" : 6201
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{'name': 'Олег', 'phone': '+380637203664', 'email': 'lazebaoleg@gmail.com'}" ]
     } ],
     "uid" : "tests.ui.test_registration_new_user"
-  } ],
-  "name" : "packages"
+  } ]
 }
