@@ -1,11 +1,14 @@
-name: Regression_DEV
+name: Regression_QA
 
 on:
   workflow_dispatch
 
 jobs:
-  regression-dev:
+  regression-qa:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        environment: [ dev ]
 
     steps:
       - uses: actions/checkout@v3
@@ -21,29 +24,29 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-      - name: Run tests dev environment
+      - name: Run tests qa environment
         run: |
-          docker-compose up regression-dev
+          docker-compose up regression-qa
 
-      - name: Copy history from gh-pages to allure-results
-        run: |
-          sudo mkdir -p allure-results/history
-          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+#      - name: Copy history from gh-pages to allure-results
+#        run: |
+#          sudo mkdir -p allure-results/history
+#          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
-          docker-compose run regression-dev /bin/sh -c "allure generate allure-results --clean -o allure-report"
+          docker-compose run regression-qa /bin/sh -c "allure generate allure-results --clean -o allure-report/${{ matrix.environment }}"
 
-      - name: Update Allure history
-        run: |
-          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+#      - name: Update Allure history
+#        run: |
+#          sudo cp -R allure-report/qa/history/* ./.github/gh-pages/history/
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages for ${{ matrix.environment }}
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
-          folder: allure-report
+          folder: allure-report/${{ matrix.environment }}
           clean: true
 
       - name: Shut down and remove containers
