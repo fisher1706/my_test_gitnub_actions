@@ -4,39 +4,39 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5649817578ae <unknown>\n#1 0x56498128cc40 <unknown>\n#2 0x5649812d8e12 <unknown>\n#3 0x5649812d9011 <unknown>\n#4 0x564981322bc4 <unknown>\n#5 0x564981300efd <unknown>\n#6 0x5649813206d2 <unknown>\n#7 0x564981300c73 <unknown>\n#8 0x5649812cc6e8 <unknown>\n#9 0x5649812cd69e <unknown>\n#10 0x56498172ac66 <unknown>\n#11 0x56498172df97 <unknown>\n#12 0x56498172da58 <unknown>\n#13 0x56498172e425 <unknown>\n#14 0x56498171bb6e <unknown>\n#15 0x56498172e76f <unknown>\n#16 0x564981705625 <unknown>\n#17 0x564981746d55 <unknown>\n#18 0x564981746f36 <unknown>\n#19 0x5649817566e5 <unknown>\n#20 0x7f4c58271144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55f405f088ae <unknown>\n#1 0x55f405a3dc40 <unknown>\n#2 0x55f405a89e12 <unknown>\n#3 0x55f405a8a011 <unknown>\n#4 0x55f405ad3bc4 <unknown>\n#5 0x55f405ab1efd <unknown>\n#6 0x55f405ad16d2 <unknown>\n#7 0x55f405ab1c73 <unknown>\n#8 0x55f405a7d6e8 <unknown>\n#9 0x55f405a7e69e <unknown>\n#10 0x55f405edbc66 <unknown>\n#11 0x55f405edef97 <unknown>\n#12 0x55f405edea58 <unknown>\n#13 0x55f405edf425 <unknown>\n#14 0x55f405eccb6e <unknown>\n#15 0x55f405edf76f <unknown>\n#16 0x55f405eb6625 <unknown>\n#17 0x55f405ef7d55 <unknown>\n#18 0x55f405ef7f36 <unknown>\n#19 0x55f405f076e5 <unknown>\n#20 0x7f098974a144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u041c\\u0438\\u0448\\u0438\\u043d\\u0430 \\u0410\\u043d\\u0436\\u0435\\u043b\\u0438\\u043a\\u0430 \\u041a\\u0443\\u0437\\u044c\\u043c\\u0438\\u043d\\u0438\\u0447\\u043d\\u0430', 'email': 'dorofe2022@example.org', 'phone': '+380636412770'}-1111]",
-        "uid" : "ca698ee764bc3aea",
-        "parentUid" : "77bcca2a850129cfb3f4fcf9a258187c",
+        "name" : "test_registration_new_user_awdev_t506[{'name': '\\u0415\\u0432\\u0433\\u0435\\u043d\\u0438\\u044f \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0435\\u0432\\u043d\\u0430 \\u0411\\u043b\\u0438\\u043d\\u043e\\u0432\\u0430', 'email': 'kabanovaalla@example.net', 'phone': '+380632117534'}-1111]",
+        "uid" : "b1ff3c65026d1ae9",
+        "parentUid" : "bae1a5853da2d42c866822acb8ba73db",
         "status" : "broken",
         "time" : {
-          "start" : 1729939815895,
-          "stop" : 1729939840820,
-          "duration" : 24925
+          "start" : 1729939822684,
+          "stop" : 1729939849148,
+          "duration" : 26464
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "1111", "{'name': 'Мишина Анжелика Кузьминична', 'email': 'dorofe2022@example.org', 'phone': '+380636412770'}" ]
+        "parameters" : [ "1111", "{'name': 'Евгения Дмитриевна Блинова', 'email': 'kabanovaalla@example.net', 'phone': '+380632117534'}" ]
       } ],
-      "uid" : "77bcca2a850129cfb3f4fcf9a258187c"
+      "uid" : "bae1a5853da2d42c866822acb8ba73db"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55c4c7b9f8ae <unknown>\n#1 0x55c4c76d4c40 <unknown>\n#2 0x55c4c7720e12 <unknown>\n#3 0x55c4c7721011 <unknown>\n#4 0x55c4c776abc4 <unknown>\n#5 0x55c4c7748efd <unknown>\n#6 0x55c4c77686d2 <unknown>\n#7 0x55c4c7748c73 <unknown>\n#8 0x55c4c77146e8 <unknown>\n#9 0x55c4c771569e <unknown>\n#10 0x55c4c7b72c66 <unknown>\n#11 0x55c4c7b75f97 <unknown>\n#12 0x55c4c7b75a58 <unknown>\n#13 0x55c4c7b76425 <unknown>\n#14 0x55c4c7b63b6e <unknown>\n#15 0x55c4c7b7676f <unknown>\n#16 0x55c4c7b4d625 <unknown>\n#17 0x55c4c7b8ed55 <unknown>\n#18 0x55c4c7b8ef36 <unknown>\n#19 0x55c4c7b9e6e5 <unknown>\n#20 0x7f2449b03144 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x55ae69c338ae <unknown>\n#1 0x55ae69768c40 <unknown>\n#2 0x55ae697b4e12 <unknown>\n#3 0x55ae697b5011 <unknown>\n#4 0x55ae697febc4 <unknown>\n#5 0x55ae697dcefd <unknown>\n#6 0x55ae697fc6d2 <unknown>\n#7 0x55ae697dcc73 <unknown>\n#8 0x55ae697a86e8 <unknown>\n#9 0x55ae697a969e <unknown>\n#10 0x55ae69c06c66 <unknown>\n#11 0x55ae69c09f97 <unknown>\n#12 0x55ae69c09a58 <unknown>\n#13 0x55ae69c0a425 <unknown>\n#14 0x55ae69bf7b6e <unknown>\n#15 0x55ae69c0a76f <unknown>\n#16 0x55ae69be1625 <unknown>\n#17 0x55ae69c22d55 <unknown>\n#18 0x55ae69c22f36 <unknown>\n#19 0x55ae69c326e5 <unknown>\n#20 0x7fc37aa66144 <unknown>",
       "children" : [ {
-        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u041a\\u043e\\u043b\\u0435\\u0441\\u043d\\u0438\\u043a\\u043e\\u0432\\u0430 \\u0418\\u0432\\u0430\\u043d\\u043d\\u0430 \\u0421\\u0442\\u0430\\u043d\\u0438\\u0441\\u043b\\u0430\\u0432\\u043e\\u0432\\u043d\\u0430', 'email': 'emilija_2021@example.net', 'phone': '+380639313915'}-8889]",
-        "uid" : "61ee649589cb8d93",
-        "parentUid" : "24688a8858d088603a562fb13b41a238",
+        "name" : "test_registration_user_with_wrong_code_awdev_t506[{'name': '\\u0411\\u0435\\u0441\\u043f\\u0430\\u043b\\u043e\\u0432\\u0430 \\u041e\\u043a\\u0442\\u044f\\u0431\\u0440\\u0438\\u043d\\u0430 \\u041f\\u0430\\u0432\\u043b\\u043e\\u0432\\u043d\\u0430', 'email': 'fomichevaakulina@example.net', 'phone': '+380633158002'}-8889]",
+        "uid" : "a83439febfec7804",
+        "parentUid" : "414fa4f40f2532b51e328d89299fff1c",
         "status" : "broken",
         "time" : {
-          "start" : 1729939851561,
-          "stop" : 1729939876368,
-          "duration" : 24807
+          "start" : 1729939862941,
+          "stop" : 1729939889231,
+          "duration" : 26290
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "8889", "{'name': 'Колесникова Иванна Станиславовна', 'email': 'emilija_2021@example.net', 'phone': '+380639313915'}" ]
+        "parameters" : [ "8889", "{'name': 'Беспалова Октябрина Павловна', 'email': 'fomichevaakulina@example.net', 'phone': '+380633158002'}" ]
       } ],
-      "uid" : "24688a8858d088603a562fb13b41a238"
+      "uid" : "414fa4f40f2532b51e328d89299fff1c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
