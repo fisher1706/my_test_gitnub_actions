@@ -1,67 +1,22 @@
 {
-  "uid" : "f5685cf8c060878f",
+  "uid" : "b2dc10f0163a356f",
   "name" : "test_try_registration_new_user_awdev_t506",
   "fullName" : "tests.ui.test_registration_new_user.TestRegistrationUser#test_try_registration_new_user_awdev_t506",
   "historyId" : "fbde122e3b7fea2a17b694524fd2e3df",
   "time" : {
-    "start" : 1729968788298,
-    "stop" : 1729968793563,
-    "duration" : 5265
+    "start" : 1729969061683,
+    "stop" : 1729969066278,
+    "duration" : 4595
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "set_driver",
-    "time" : {
-      "start" : 1729968787816,
-      "stop" : 1729968788297,
-      "duration" : 481
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "setup",
-    "time" : {
-      "start" : 1729968788297,
-      "stop" : 1729968788297,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1729968787815,
-      "stop" : 1729968787815,
+      "start" : 1729969061186,
+      "stop" : 1729969061186,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1729968787745,
-      "stop" : 1729968787815,
-      "duration" : 70
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,9 +29,54 @@
   }, {
     "name" : "set_env_settings",
     "time" : {
-      "start" : 1729968787815,
-      "stop" : 1729968787816,
+      "start" : 1729969061186,
+      "stop" : 1729969061187,
       "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1729969061109,
+      "stop" : 1729969061186,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1729969061682,
+      "stop" : 1729969061683,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_driver",
+    "time" : {
+      "start" : 1729969061187,
+      "stop" : 1729969061682,
+      "duration" : 495
     },
     "status" : "passed",
     "steps" : [ ],
@@ -92,17 +92,17 @@
     "steps" : [ {
       "name" : "Try to registration registered user AWDEV-T506",
       "time" : {
-        "start" : 1729968788298,
-        "stop" : 1729968793563,
-        "duration" : 5265
+        "start" : 1729969061684,
+        "stop" : 1729969066278,
+        "duration" : 4594
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Open 'https://m2-live-qa-001.antoshka.ua/uk/' page",
+        "name" : "Open 'https://m2-live-dev-001.antoshka.ua/uk/' page",
         "time" : {
-          "start" : 1729968788298,
-          "stop" : 1729968791948,
-          "duration" : 3650
+          "start" : 1729969061684,
+          "stop" : 1729969064651,
+          "duration" : 2967
         },
         "status" : "passed",
         "steps" : [ ],
@@ -113,11 +113,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "Page 'https://m2-live-qa-001.antoshka.ua/uk/' is opened",
+        "name" : "Page 'https://m2-live-dev-001.antoshka.ua/uk/' is opened",
         "time" : {
-          "start" : 1729968791948,
-          "stop" : 1729968791953,
-          "duration" : 5
+          "start" : 1729969064651,
+          "stop" : 1729969064655,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "Click ('xpath', \"//*[@id='login-enter']\")",
         "time" : {
-          "start" : 1729968791953,
-          "stop" : 1729968792015,
-          "duration" : 62
+          "start" : 1729969064655,
+          "stop" : 1729969064718,
+          "duration" : 63
         },
         "status" : "passed",
         "steps" : [ ],
@@ -145,9 +145,9 @@
       }, {
         "name" : "Click ('xpath', '//form[1]//a')",
         "time" : {
-          "start" : 1729968792015,
-          "stop" : 1729968793085,
-          "duration" : 1070
+          "start" : 1729969064719,
+          "stop" : 1729969065794,
+          "duration" : 1075
         },
         "status" : "passed",
         "steps" : [ ],
@@ -160,9 +160,9 @@
       }, {
         "name" : "Fill '('xpath', \"//input[@data-validation='name']\")' with data 'О'",
         "time" : {
-          "start" : 1729968793086,
-          "stop" : 1729968793208,
-          "duration" : 122
+          "start" : 1729969065794,
+          "stop" : 1729969065917,
+          "duration" : 123
         },
         "status" : "passed",
         "steps" : [ ],
@@ -175,9 +175,9 @@
       }, {
         "name" : "Fill '('xpath', \"//*[@id='telephone']\")' with data '637203664'",
         "time" : {
-          "start" : 1729968793208,
-          "stop" : 1729968793347,
-          "duration" : 139
+          "start" : 1729969065917,
+          "stop" : 1729969066064,
+          "duration" : 147
         },
         "status" : "passed",
         "steps" : [ ],
@@ -190,9 +190,9 @@
       }, {
         "name" : "Fill '('xpath', \"//input[@data-validation='email']\")' with data 'lazebaoleg@gmail.com'",
         "time" : {
-          "start" : 1729968793347,
-          "stop" : 1729968793480,
-          "duration" : 133
+          "start" : 1729969066064,
+          "stop" : 1729969066203,
+          "duration" : 139
         },
         "status" : "passed",
         "steps" : [ ],
@@ -205,9 +205,9 @@
       }, {
         "name" : "Click ('xpath', \"//button[@class='auth_next']\")",
         "time" : {
-          "start" : 1729968793480,
-          "stop" : 1729968793538,
-          "duration" : 58
+          "start" : 1729969066203,
+          "stop" : 1729969066257,
+          "duration" : 54
         },
         "status" : "passed",
         "steps" : [ ],
@@ -220,9 +220,9 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"//span[@class='error_user-text']\")'",
         "time" : {
-          "start" : 1729968793538,
-          "stop" : 1729968793551,
-          "duration" : 13
+          "start" : 1729969066257,
+          "stop" : 1729969066267,
+          "duration" : 10
         },
         "status" : "passed",
         "steps" : [ ],
@@ -235,8 +235,8 @@
       }, {
         "name" : "Get WebElement of '('xpath', \"//p[@data-input-error='error_email-exists']\")'",
         "time" : {
-          "start" : 1729968793551,
-          "stop" : 1729968793562,
+          "start" : 1729969066267,
+          "stop" : 1729969066278,
           "duration" : 11
         },
         "status" : "passed",
@@ -251,7 +251,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "set_env_settings",
-        "value" : "Settings(env='qa', default_timeout=20, default_poll_frequency=1, base_url='https://m2-live-qa-001.antoshka.ua/uk', redwood_url='https://m2testredwood.antoshka.ua/graphql', redwood_token={'Authorization': 'Bearer CdOft4DKAdC2fGTOnBSuMming1c7yetqWe2qEhtQ'}, db_url='', download_dir='/usr/workspace')"
+        "value" : "Settings(env='dev', default_timeout=20, default_poll_frequency=1, base_url='https://m2-live-dev-001.antoshka.ua/uk', redwood_url='https://m2testredwood.antoshka.ua/graphql', redwood_token={'Authorization': 'Bearer CdOft4DKAdC2fGTOnBSuMming1c7yetqWe2qEhtQ'}, db_url='', download_dir='/usr/workspace')"
       } ],
       "stepsCount" : 10,
       "attachmentsCount" : 0,
@@ -259,9 +259,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "f2c9d0e056ae8d0e",
+      "uid" : "9f2ed10af973c1a7",
       "name" : "log",
-      "source" : "f2c9d0e056ae8d0e.txt",
+      "source" : "9f2ed10af973c1a7.txt",
       "type" : "text/plain",
       "size" : 92
     } ],
@@ -274,9 +274,9 @@
   "afterStages" : [ {
     "name" : "set_driver::0",
     "time" : {
-      "start" : 1729968793564,
-      "stop" : 1729968793631,
-      "duration" : 67
+      "start" : 1729969066279,
+      "stop" : 1729969066347,
+      "duration" : 68
     },
     "status" : "passed",
     "steps" : [ ],
@@ -298,7 +298,7 @@
     "value" : "TestRegistrationUser"
   }, {
     "name" : "host",
-    "value" : "fd1e56a84028"
+    "value" : "80e29c6d433a"
   }, {
     "name" : "thread",
     "value" : "7-MainThread"
@@ -325,6 +325,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f5685cf8c060878f.json",
+  "source" : "b2dc10f0163a356f.json",
   "parameterValues" : [ ]
 }
